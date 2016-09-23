@@ -7,7 +7,7 @@
     <meta name="keywords" content="benefit, company">
     <meta name="format-detection" content="telephone=no">
     
-    <title>Benefit — Главная</title>
+    <title>Benefit - Кабинет    </title>
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
@@ -52,6 +52,9 @@
 	            </div>
             	<div class="col-2">
             		<div class="top_right_selectors">
+            		    <div class="dropdown dropdown_inline logout_wrap">
+						    <a href="" class="logout"></a>
+                        </div>
 						<div class="dropdown dropdown_inline">
 							<button class="btn btn-default dropdown-toggle" type="button" id="select_language" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 								<i class="icn flag ua"></i>
@@ -62,7 +65,7 @@
 								<li><a href="#"><i class="icn flag ua"></i> РУС</a></li>
 							</ul>
 						</div>
-						<div class="dropdown dropdown_inline">
+						<div class="dropdown dropdown_inline dropdown dropdown_inline_small_margin">
 							<button class="btn btn-default mega-dropdown" type="button" id="select_place">
 								<i class="icn location"></i>
 								Оберіть місто
@@ -76,6 +79,7 @@
 								</div>
 							</ul>
 						</div>
+						
 					</div>
 					<div class="top_right_phone">
 						<div>
@@ -180,8 +184,7 @@
 	            </div>
 	            <div class="col-2">
 	            	<div class="sub_header_right_links">
-						<a href="#">Вхід</a>
-						<a href="#">Реєстрація</a>
+						<a class="sub_header_user_name" href="#">Олександра Македонська</a>
 					</div>
 	            </div>
 	        </div>
@@ -198,7 +201,7 @@
    
    
    
-    <div class="container container_padding">
+    <div class="container container_cabinet">
         <div class="row container_table">
             <div class="partner_head col-lg-2 col-md-2 col-sm-2 col-xs-2">
                 <div class="userpic">
@@ -215,7 +218,7 @@
                 <p class="bonus_available">Доступні бонуси:<br><span class="bonus_border">350,80</span></p>
                 <p class="bonus_personal">Особисті бонуси за поточний період:<br><span class="bonus_border">32,95</span></p>
                 <p class="ball_personal">Особисті бали за поточний період:<br><span class="bonus_border">199,79</span></p>
-                <div class="battery battary_low"></div>
+                <div class="battery battary_low" data-toggle="tooltip" data-placement="top" title="до виконання кваліфікації та отримання комісійної винагороди залишилось набрати 300,21 балів"></div>
             </div>
             
             
@@ -287,7 +290,7 @@
                     <div id="addition" class="addition tab-pane fade">
                         <form class="profile_addition_form">
                             <label for="profile_birthday">Дата народження</label>
-                            <input id="profile_birthday" type="text" placeholder="18.04.1994">
+                            <input onkeyup="this.value=this.value.replace(/[^\d\.]+/g,'')"  id="profile_birthday" type="text" placeholder="18.04.1994" >
                             
                             <label for="profile_sex">Стать</label>
                             <select name="profile_sex" id="profile_sex">

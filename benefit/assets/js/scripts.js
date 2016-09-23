@@ -370,3 +370,6 @@ $(window).resize(function() {
 		$('.vertical_menu ul li ul').attr('style', '');
     }
 });
+
+// tooltip
+$('.battery').tooltip();
