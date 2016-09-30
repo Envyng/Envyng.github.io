@@ -373,3 +373,9 @@ $(window).resize(function() {
 
 // tooltip
 $('.battery').tooltip();
+
+//structure table
+$('.expand').on('click', function() {
+    $(this).toggleClass('expand_close expand_open')
+    $(this).parent().parent().children('ul').toggleClass('hidden');
+});

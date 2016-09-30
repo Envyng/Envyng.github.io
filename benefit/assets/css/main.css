@@ -1987,3 +1987,353 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     border-radius: 20px;
     vertical-align: middle;
 }
+
+/*cabinet partnera structure*/
+.structure_menu {
+    margin-bottom: 5px;
+    width: 100%;
+    max-width: 945px;
+    font-size: 13px;
+}
+.structure_menu_mentor {
+    display: inline-block;
+    width: 269px;
+    vertical-align: top;
+}
+.mentor_title {
+    margin-bottom: 5px;
+}
+.mentor_name {
+    color: #990000;
+}
+.structure_menu_date {
+    display: inline-block;
+    width: 224px;
+    vertical-align: top;
+}
+.structure_menu_date_title {
+    margin-bottom: 5px;
+}
+.structure_menu_date select {
+    padding-right: 10px;
+    height: 18px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px; 
+    text-overflow: ''
+    -ms-appearance: none;
+    appearance: none!important;
+    background: url(../img/icon_dropdown.png) 100% 7px no-repeat;
+    background-size: 8px 6px;
+    color: #999999;
+    border: none;
+    cursor: pointer;
+}
+.structre_month {
+    margin-right: 5px;
+}
+.structure_search_wrap {
+    display: inline-block;
+    width: 204px;
+    vertical-align: top;
+}
+.structure_search_wrap label {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.structure_search {
+    padding: 0 0 0 10px;
+    width: 190px;
+    height: 28px;
+    border: 1px solid #cccccc;
+}
+.registration_search_wrap {
+    display: inline-block;
+    padding-left: 3px;
+    width: 234px;
+    vertical-align: top;
+    text-align: left;
+}
+.registration_search_wrap div {
+    padding-left: 0;
+}
+.registration_search_title {
+    margin-bottom: 0;
+}
+.registration_search_wrap .calendar {
+    width: 36px;
+    height: 28px;
+}
+.registration_search_wrap .orders_search {
+    padding: 0;
+    width: 119px;
+    height: 28px;
+}
+.registration_search_wrap .orders_search_btn {
+    padding: 0 5px 0 0;
+    width: 77px;
+    height: 28px;
+    background-color: #990000;
+}
+.registration_search_wrap .orders_search_btn i {
+    top: 10px;
+    left: 13px;
+}
+.structure_submenu {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 945px;
+    font-size: 13px;
+    text-align: left;
+}
+.structure_submenu_filters {
+    display: block;
+    width: 500px;
+    float: left;
+}
+.structure_submenu_filters fieldset {
+    display: inline-block;
+}
+.structure_submenu_filters .label_for_check {
+    margin-right: 10px;
+    padding-left: 20px;
+    display: inline-block;
+    position: relative;
+    color: #999999;
+    font-weight: 500;
+}
+.structure_submenu_filters input[type="checkbox"] + label::before {
+    position: absolute;
+    display: block;
+    content: '';
+    top: 4px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #cccccc;
+}
+.structure_submenu_filters input[type="checkbox"]:checked + label::before {
+    background-color: red;
+}
+.structure_submenu_filters input[type="radio"]:disabled + label::before {
+    background-color: #ffffff;
+}
+.status_select_label {
+    font-weight: 500;
+}
+.structure_submenu_filters select {
+    display: inline-block;
+    padding-right: 10px;
+    height: 18px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px; 
+    text-overflow: ''
+    -ms-appearance: none;
+    appearance: none!important;
+    background: url(../img/icon_dropdown.png) 100% 7px no-repeat;
+    background-size: 8px 6px;
+    color: #999999;
+    border: none;
+    cursor: pointer;
+}
+.structure_registration {
+    float: right;
+    height: 30px;
+    text-align: right;
+}
+.structure_registration a,
+.structure_registration a:hover,
+.structure_registration a:active,
+.structure_registration a:visited {
+    color: #990000;
+    text-decoration: underline;
+}
+.structure_table_wrap {
+    width: 100%;
+    max-width: 945px;
+    max-height: 695px;
+    overflow: scroll;
+}
+.structure_table_wrap>div {
+    width: auto;
+}
+.structure_table_head {
+    background-color: #cccccc;
+}
+.structure_table_head div {
+    line-height: 13px;
+    height: 35px;
+    vertical-align: middle;
+}
+.structure_table_head .structure_table_bonuses,
+.structure_table_head .structure_table_register_date,
+.structure_table_head .structure_table_register_ref_coder {
+    text-align: center;
+}
+.structure_table_head .structure_table_bonuses {
+    padding-left: 0;
+}
+.structure_table_head .table_content div span {
+    display: table-cell;
+    line-height: 13px;
+    height: 35px;
+    vertical-align: middle;    
+}
+.structure_table_head .structure_table_row,
+.structure_table_head .structure_table_row:before,
+.structure_table_head .table_content {
+    border-bottom: none;
+    background-color: #cccccc;
+    height: 35px;
+}
+.structure_table_head .expand {
+    border-bottom: none;
+    height: 35px;
+}
+.structure_table_name {
+    padding-left: 10px;
+    display: inline-block;
+    width: 295px;
+    text-align: left;
+    line-height: 30px;
+}
+.structure_table_status {
+    display: inline-block;
+    width: 110px;
+    text-align: left;
+    line-height: 30px;
+}
+.structure_table_balls {
+    display: inline-block;
+    width: 75px;
+    text-align: left;
+    line-height: 30px;
+}
+.structure_table_bonuses {
+    padding-left: 10px;
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+    line-height: 30px;
+}
+.structure_table_register_date {
+    display: inline-block;
+    width: 85px;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+}
+.structure_table_register_location {
+    padding-left: 15px;
+    display: inline-block;
+    width: 225px;
+    text-align: left;
+    line-height: 30px;
+}
+.structure_table_register_email {
+    display: inline-block;
+    width: 225px;
+    text-align: left;
+    line-height: 30px;
+}
+.structure_table_register_phone {
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+    line-height: 30px;
+}
+.structure_table_register_card_number {
+    display: inline-block;
+    width: 70px;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+}
+.structure_table_register_ref_code {
+    display: inline-block;
+    width: 95px;
+    text-align: left;
+    line-height: 30px;
+    text-align: center;
+}
+.structure_table {
+    margin-bottom: 0;
+    display: inline-block;
+    list-style: none;
+    padding-left: 6px;
+}
+.structure_table .structure_table {
+    display: block;
+    padding-left: 18px;
+}
+.structure_table_row {
+    position: relative;
+    text-align: right;
+    border-bottom: 1px solid #cccccc;
+}
+.structure_table_row:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    content: "";
+    left: -1000px;
+    width: 1000px;
+    height: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+.structure_table_wrap>.structure_table>li:last-child .structure_table_row,
+.structure_table_wrap>.structure_table>li:last-child .structure_table_row:before,
+.structure_table_wrap>.structure_table>li:last-child .table_content {
+    border-bottom: none;
+}
+.structure_table li.pink>.structure_table_row,
+.structure_table li.pink>.structure_table_row:before,
+.structure_table li.pink>.structure_table_row>.table_content {
+    background-color: #fbe7e7;
+}
+.table_content {
+    position: absolute;
+    top: 0;
+    right: -1415px;
+    display: inline-block;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    border-bottom: 1px solid #cccccc;
+}
+.expand {
+    /*margin-right: 1425px;*/
+    position: relative;
+    display: block;
+    width: 44px;
+    height: 29px;
+    line-height: 29px;
+    background-image: url(../img/user_plus.png);
+    background-position: -176px 0;
+    background-repeat: no-repeat;
+}
+.expand.expand_close  {
+    background-position: -44px 0;
+}
+.expand.expand_open  {
+    background-position: 0 0;
+}
+li:last-child .expand {
+    background-position: -220px 0;
+}
+li:last-child .expand.expand_close {
+    background-position: -44px 0;
+}
+li:last-child .expand.expand_open {
+    background-position: 0 0;
+}
+.table_content li li .expand.expand_close {
+    background-position: -44px 0;
+}
+.table_content li li .expand.expand_open{
+    background-position: 0 0;
+}
+.structure_table_head .expand {
+    background-image: none;
+}
