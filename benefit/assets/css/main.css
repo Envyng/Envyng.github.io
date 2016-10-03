@@ -1029,7 +1029,7 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 /*main kabinet partnera*/
 .container_cabinet {
     width: 100%;
-    max-width: 1303px;
+    max-width: 1306px;
     padding: 0;
 }
 .container_cabinet .container_table {
@@ -1992,19 +1992,27 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 .structure_menu {
     margin-bottom: 5px;
     width: 100%;
-    max-width: 945px;
+    max-width: 965px;
     font-size: 13px;
 }
 .structure_menu_mentor {
     display: inline-block;
-    width: 269px;
+    width: 290px;
     vertical-align: top;
 }
 .mentor_title {
     margin-bottom: 5px;
 }
-.mentor_name {
+.mentor_name,
+.mentor_name:visited,
+.mentor_name:active {
     color: #990000;
+    text-decoration: none;
+}
+.mentor_name:hover {
+    color: #990000;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .structure_menu_date {
     display: inline-block;
@@ -2082,7 +2090,7 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 .structure_submenu {
     margin-bottom: 10px;
     width: 100%;
-    max-width: 945px;
+    max-width: 965px;
     font-size: 13px;
     text-align: left;
 }
@@ -2113,7 +2121,7 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     border: 1px solid #cccccc;
 }
 .structure_submenu_filters input[type="checkbox"]:checked + label::before {
-    background-color: red;
+    background-color: #990000;
 }
 .structure_submenu_filters input[type="radio"]:disabled + label::before {
     background-color: #ffffff;
@@ -2143,15 +2151,18 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     text-align: right;
 }
 .structure_registration a,
-.structure_registration a:hover,
 .structure_registration a:active,
 .structure_registration a:visited {
+    color: #990000;
+    text-decoration: none;
+}
+.structure_registration a:hover {
     color: #990000;
     text-decoration: underline;
 }
 .structure_table_wrap {
     width: 100%;
-    max-width: 945px;
+    max-width: 965px;
     max-height: 695px;
     overflow: scroll;
 }
@@ -2336,4 +2347,34 @@ li:last-child .expand.expand_open {
 }
 .structure_table_head .expand {
     background-image: none;
+}
+.mentor_modal .modal-dialog {
+    
+    width: 100%;
+    max-width: 400px;
+}
+.mentor_modal .modal-content {
+    position: relative;
+    
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    box-shadow: none;
+}
+.mentor_modal .modal-body {
+    padding: 17px 10px;
+}
+.mentor_modal .history_modal_close {
+    border: none;
+}
+
+
+.mentor_modal_tile {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.mentor_modal_description {
+    margin-bottom: 10px;
+    color: #999999;
+    text-align: center;
 }
