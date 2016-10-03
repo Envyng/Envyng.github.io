@@ -1272,7 +1272,7 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 .profile_menu {
     display: table;
     width: 100%;
-    max-width: 820px;
+    /*max-width: 820px;*/
     border-bottom: 1px solid #990000;
 }
 .profile_menu > li > a,
@@ -1992,7 +1992,7 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 .structure_menu {
     margin-bottom: 5px;
     width: 100%;
-    max-width: 965px;
+    /*max-width: 965px;*/
     font-size: 13px;
 }
 .structure_menu_mentor {
@@ -2090,7 +2090,7 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 .structure_submenu {
     margin-bottom: 10px;
     width: 100%;
-    max-width: 965px;
+    /*max-width: 965px;*/
     font-size: 13px;
     text-align: left;
 }
@@ -2162,7 +2162,7 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 }
 .structure_table_wrap {
     width: 100%;
-    max-width: 965px;
+    /*max-width: 965px;*/
     max-height: 695px;
     overflow: scroll;
 }
