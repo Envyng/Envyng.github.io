@@ -1029,8 +1029,8 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 /*main kabinet partnera*/
 .container_cabinet {
     width: 100%;
-    max-width: 1306px;
-    padding: 0;
+    max-width: 1800px;
+    padding: 0 30px;
 }
 .container_cabinet .container_table {
     margin: 0;
@@ -1238,7 +1238,7 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 }
 .partner_main {
     padding: 0 0 0 10px;
-    text-align: justify;
+    text-align: left;
 }
 .banner {
     margin-bottom: 5px;
@@ -1608,7 +1608,7 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 .internet_orders,
 .benefit_cards {
     padding: 15px 0 15px 10px;
-    max-width: 820px;
+    /*max-width: 820px;*/
     font-size: 13px;
 }
 .orders_title {
@@ -2220,6 +2220,13 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     width: 75px;
     text-align: left;
     line-height: 30px;
+    color: #cc3333;
+}
+.structure_table_balls.green_color {
+    color: #66cc00;
+}
+.structure_table_head .structure_table_balls {
+    color: #000000;
 }
 .structure_table_bonuses {
     padding-left: 10px;
