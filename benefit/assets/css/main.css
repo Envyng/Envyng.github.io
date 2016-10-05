@@ -1622,9 +1622,6 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     margin-bottom: 3px;
     padding-left: 10px;
 }
-..benefit_cards .order_controls {
-    padding-left: 20px;
-}
 .benefit_cards .order_controls {
     padding-left: 20px;
 }
@@ -1633,7 +1630,8 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     content: '';
     clear: both;
 }
-.orders_date_form {
+.orders_date_form,
+.controls_block_form {
     width: 50%;
     float: left;
 }
@@ -1652,7 +1650,8 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     background-size: 13px;
     vertical-align: middle;
 }
-.orders_search {
+.orders_search,
+.controls_block_search {
     margin-right: -5px;
     display: inline-block;
     box-sizing: border-box;
@@ -1666,7 +1665,8 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     color: #333333;
     text-align: center;
 }
-.orders_search_btn {
+.orders_search_btn,
+.controls_block_search_btn {
     position: relative;
     padding-right: 14px;
     display: inline-block;
@@ -1680,7 +1680,8 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     outline: none;
     text-align: right;
 }
-.orders_search_btn i {
+.orders_search_btn i,
+.controls_block_search_btn i {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -1695,12 +1696,17 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     text-align: right;
 }
 .internet_orders label,
+.show_more label,
 .benefit_cards label {
     margin-bottom: 0;
     margin-right: 10px;
     vertical-align: bottom;
 }
+.show_more label {
+    font-weight: 500;
+}
 .internet_orders select,
+.show_more select,
 .benefit_cards select {
     padding-right: 20px;
     height: 18px;
@@ -1720,13 +1726,16 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     margin-bottom: 10px;
     width: 100%;
 }
-.orders_table tr {
+.orders_table tr,
+.main_table tr {
     background-color: #ffe1e1;
 }
-.orders_table tr:nth-child(3n) {
+.orders_table tr:nth-child(3n),
+.main_table tr:nth-child(3n) {
     background-color: #ffe5cc;
 }
-.orders_table tr:nth-child(3n+1) {
+.orders_table tr:nth-child(3n+1),
+.main_table tr:nth-child(3n+1) {
     background-color: #e5e0e0;
 }
 .orders_table td,
@@ -1739,13 +1748,19 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 .benefit_cards .orders_table th {
     padding: 0 20px;
 }
-.orders_table th {
+.orders_table th,
+.bonus_account_table th,
+.main_table th {
     height: 30px;
     background-color: #ffffff;
 }
 .orders_table td {
-    height: 25px;
     border-right: 1px solid #d2d0d0;
+}
+.orders_table td,
+.bonus_account_table td,
+.main_table td {
+    height: 25px;
     border-bottom: 1px solid #ffffff;
 }
 .orders_table td:last-child {
@@ -1799,12 +1814,14 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 }
 
 
-.show_more_orders {
+.show_more_orders,
+.show_more {
     width: 20%;
     float: right;
     text-align: right;
 }
-.show_more_orders select {
+.show_more_orders select,
+.show_more select {
     padding-right: 10px;
 }
 .history_modal .modal-dialog {
@@ -2022,7 +2039,8 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 .structure_menu_date_title {
     margin-bottom: 5px;
 }
-.structure_menu_date select {
+.structure_menu_date select,
+.controls_block select {
     padding-right: 10px;
     height: 18px;
     -webkit-appearance: none;
@@ -2356,7 +2374,6 @@ li:last-child .expand.expand_open {
     background-image: none;
 }
 .mentor_modal .modal-dialog {
-    
     width: 100%;
     max-width: 400px;
 }
@@ -2374,8 +2391,6 @@ li:last-child .expand.expand_open {
 .mentor_modal .history_modal_close {
     border: none;
 }
-
-
 .mentor_modal_tile {
     margin-bottom: 10px;
     text-align: center;
@@ -2385,3 +2400,141 @@ li:last-child .expand.expand_open {
     color: #999999;
     text-align: center;
 }
+
+
+/*kabinet partnera finance*/
+.finance_fixed_block {
+    margin-top: 5px;
+    padding: 0 20px;
+    height: 30px;
+    font-size: 13px;
+    text-align: justify;
+    vertical-align: middle;
+    background-color: #fae4e1;
+    line-height: 0;
+}
+.finance_fixed_block:after {
+    display: inline-block;
+    width: 100%;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    content: '';
+}
+.finance_fixed_block div {
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.bonus_account,
+.personal_charges,
+.bonuses_invitation,
+.bonuses_sum,
+.bonuses_used {
+    padding: 0 0 15px 0;
+    font-size: 13px;
+}
+.bonus_account_table,
+.main_table {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.bonus_account_table tr {
+    background-color: #d4ebb6;
+}
+.bonus_account_table tr.pink {
+    background-color: #ffd2d2;
+}
+.bonus_account_table th,
+.main_table th,
+.main_table td,
+.bonus_account_table td {
+    padding: 0 15px;
+    font-weight: 500;
+}
+.bonus_account_table th:last-child {
+    text-align: center;
+}
+.controls_block_title,
+.controls_block {
+    padding-left: 15px;
+}
+.personal_charges .controls_block_title {
+    margin-bottom: 0;
+}
+.formgrup_search {
+    margin-right: 20px;
+    padding-bottom: 4px;
+}
+.formgrup_search,
+.formgrup_check {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.formgrup_check .label_for_check {
+    margin-bottom: 0;
+    padding-left: 20px;
+    display: block;
+    position: relative;
+    color: #999999;
+    font-weight: 500;
+}
+.formgrup_check input[type="checkbox"] + label::before {
+    position: absolute;
+    display: block;
+    content: '';
+    top: 4px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #cccccc;
+}
+.formgrup_check input[type="checkbox"]:checked + label::before {
+    background-color: #990000;
+}
+.formgrup_check input[type="radio"]:disabled + label::before {
+    background-color: #ffffff;
+}
+.bonuses_invitation .structure_menu_date_title,
+.bonuses_invitation form {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.bonuses_invitation .bonuses_invitation_table .bonuses_invitation_sum_row,
+.bonuses_sum .bonuses_sum_table .bonuses_sum_total_row {
+    background-color: #ece3e3;
+}
+.bonuses_sum .pagination_wrap{
+    padding-left: 100px;
+}
+.bonuses_used {
+    padding: 15px 0 15px 15px;
+    font-size: 13px;
+}
+.bonuses_used_title {
+    margin-bottom: 5px;
+}
+.bonuses_used_decription {
+    margin-bottom: 20px;
+    color: #999999;
+}
+.bonuses_used_btn,
+.bonuses_used_btn:visited,
+.bonuses_used_btn:active {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 0 10px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #cccccc;
+    background-color: #336600;
+}
+.bonuses_used_btn:hover {
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #1a3300;
+}
+

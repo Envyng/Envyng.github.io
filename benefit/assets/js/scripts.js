@@ -385,9 +385,29 @@ $('.expand_open').on('click', function() {
 });
 
 var balls = $(".structure_table_balls");
-
 jQuery.each(balls, function() {
     if(parseInt($(this).html()) >= 500) {
         $(this).addClass('green_color');
     }
 });
+
+var bonusLevel = $('.bonusLevel');
+jQuery.each(bonusLevel, function() {
+    var tmp = $(this).html().split(' ');
+    if(tmp[0] === '-') {
+        $(this).parent().addClass('pink');
+    }
+});
+
+var today = new Date();
+var currentYear =  today.getFullYear();
+for(var i = 1901; i <= currentYear; i++) {
+    var tmp;
+    if(i === currentYear) {
+        var tmp = '<option selected>' + i + '</option>';
+    }else{
+        var tmp = '<option>' + i + '</option>';
+    }
+    $('.bonuses_invitation_year').append(tmp);
+    $('.structre_year').append(tmp);
+}
