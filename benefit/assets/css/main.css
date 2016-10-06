@@ -1726,16 +1726,19 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     margin-bottom: 10px;
     width: 100%;
 }
-.orders_table tr,
-.main_table tr {
+.orders_table tr {
     background-color: #ffe1e1;
 }
-.orders_table tr:nth-child(3n),
-.main_table tr:nth-child(3n) {
+.orders_table tr:nth-child(3n) {
     background-color: #ffe5cc;
 }
-.orders_table tr:nth-child(3n+1),
-.main_table tr:nth-child(3n+1) {
+.orders_table tr:nth-child(3n+1) {
+    background-color: #e5e0e0;
+}
+.personal_charges_table  tr.bg_pink {
+    background-color: #ffe1e1;
+}
+.personal_charges_table  tr.bg_grey {
     background-color: #e5e0e0;
 }
 .orders_table td,
@@ -1758,10 +1761,16 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     border-right: 1px solid #d2d0d0;
 }
 .orders_table td,
-.bonus_account_table td,
-.main_table td {
+.bonus_account_table td {
     height: 25px;
     border-bottom: 1px solid #ffffff;
+}
+.main_table th {
+    border-bottom: 1px solid #d2d0d0;
+}
+.main_table td {
+    height: 25px;
+    border-bottom: 1px solid #d2d0d0;
 }
 .orders_table td:last-child {
     border-right: none;
@@ -2408,9 +2417,10 @@ li:last-child .expand.expand_open {
     padding: 0 20px;
     height: 30px;
     font-size: 13px;
+    color: #ffffff;
     text-align: justify;
     vertical-align: middle;
-    background-color: #fae4e1;
+    background-color: #990000;
     line-height: 0;
 }
 .finance_fixed_block:after {
@@ -2500,10 +2510,15 @@ li:last-child .expand.expand_open {
     display: inline-block;
     margin-bottom: 0;
 }
+.bonuses_invitation_table,
+.bonuses_sum_table  {
+    border: 1px solid #cccccc;
+}
 .bonuses_invitation .bonuses_invitation_table .bonuses_invitation_sum_row,
 .bonuses_sum .bonuses_sum_table .bonuses_sum_total_row {
     background-color: #ece3e3;
 }
+
 .bonuses_sum .pagination_wrap{
     padding-left: 100px;
 }
