@@ -399,6 +399,15 @@ jQuery.each(bonusLevel, function() {
     }
 });
 
+var structureLine = $('.structureLine');
+jQuery.each(structureLine, function() {
+    if($(this).html() === '1' || $(this).html() === 1) {
+        $(this).parent().addClass('bg_pink');
+    }else{
+        $(this).parent().addClass('bg_grey');
+    }
+});
+
 var today = new Date();
 var currentYear =  today.getFullYear();
 for(var i = 1901; i <= currentYear; i++) {

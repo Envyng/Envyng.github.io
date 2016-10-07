@@ -1735,10 +1735,12 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 .orders_table tr:nth-child(3n+1) {
     background-color: #e5e0e0;
 }
-.personal_charges_table  tr.bg_pink {
+.personal_charges_table  tr.bg_pink,
+.bonuses_invitation_table  tr.bg_pink {
     background-color: #ffe1e1;
 }
-.personal_charges_table  tr.bg_grey {
+.personal_charges_table  tr.bg_grey,
+.bonuses_invitation_table  tr.bg_grey {
     background-color: #e5e0e0;
 }
 .orders_table td,
