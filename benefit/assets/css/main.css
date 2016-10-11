@@ -2659,7 +2659,7 @@ li:last-child .expand.expand_open {
 .provider_container {
     position: relative;
     display: inline-block;
-    width: 193px;
+    width: 250px;
     margin-bottom: 15px;
     padding-left: 7px;
     padding-right: 7px;
@@ -2860,11 +2860,11 @@ li:last-child .expand.expand_open {
     padding-right: 14px;
 }
 .right_sidebar {
-    padding: 52px 0;
+    padding: 53px 0;
 }
 .asside_banner {
     display: block;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
 }
 
 /*perelik tovariv*/
