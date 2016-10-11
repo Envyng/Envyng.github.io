@@ -2557,6 +2557,9 @@ li:last-child .expand.expand_open {
 }
 
 /*perelik postachalnikiv*/
+.container_provider {
+    padding-bottom: 50px;
+}
 .left_sidebar,
 .right_sidebar {
     display: table-cell;
@@ -2852,9 +2855,6 @@ li:last-child .expand.expand_open {
     width: 25px;
     height: 27px;
     background: url(../img/provider_sprite.png) -2px -187px no-repeat;
-}
-.full_content .bottom_control {
-    margin-bottom: 30px;
 }
 .full_content .pagination_wrap {
     padding-left: 305px;
