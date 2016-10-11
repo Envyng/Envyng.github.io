@@ -2602,11 +2602,12 @@ li:last-child .expand.expand_open {
     background-color: #ffffff;
 }
 
-.main_content {
+.full_content {
     display: table-cell;
 }
 .provider_row {
     padding: 0 7px;
+    text-align: center;
 }
 .bread_crumbs {
     margin-bottom: 5px;
@@ -2622,6 +2623,7 @@ li:last-child .expand.expand_open {
     margin-right: 5px;
     font-size: 15px;
 }
+
 .bread_crumbs ul li a,
 .bread_crumbs ul li a:hover,
 .bread_crumbs ul li a:visited,
@@ -2656,6 +2658,8 @@ li:last-child .expand.expand_open {
 }
 .provider_container {
     position: relative;
+    display: inline-block;
+    width: 193px;
     margin-bottom: 15px;
     padding-left: 7px;
     padding-right: 7px;
@@ -2846,13 +2850,13 @@ li:last-child .expand.expand_open {
     height: 27px;
     background: url(../img/provider_sprite.png) -2px -187px no-repeat;
 }
-.main_content .bottom_control {
+.full_content .bottom_control {
     margin-bottom: 30px;
 }
-.main_content .pagination_wrap {
+.full_content .pagination_wrap {
     padding-left: 305px;
 }
-.main_content .show_more {
+.full_content .show_more {
     padding-right: 14px;
 }
 .right_sidebar {
@@ -2861,4 +2865,35 @@ li:last-child .expand.expand_open {
 .asside_banner {
     display: block;
     margin-bottom: 17px;
+}
+
+/*perelik tovariv*/
+
+
+.noUi-target {
+    height: 4px;
+    background-color: #cccccc;
+    border: none;
+}
+.noUi-connect {
+    background-color: #333333;
+    box-shadow: none;
+}
+.noUi-horizontal .noUi-handle {
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #333333;
+}
+.noUi-origin:last-child .noUi-handle {
+    left: -17px;
+}
+.noUi-handle:after, 
+.noUi-handle:before {
+    display: none;
+}
+.noUi-horizontal .noUi-tooltip {
+    bottom: -33px;
+    color: #000000;
+    border: none;
 }

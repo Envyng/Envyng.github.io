@@ -420,3 +420,20 @@ for(var i = 1901; i <= currentYear; i++) {
     $('.bonuses_invitation_year').append(tmp);
     $('.structre_year').append(tmp);
 }
+
+/*price range*/
+var slider = document.getElementById('price_range');
+
+noUiSlider.create(slider, {
+	start: [20, 150],
+    connect: true,
+	tooltips: true,
+	format: wNumb({
+		decimals: 0
+	}),
+    
+	range: {
+		'min': 0,
+		'max': 400
+	}
+});
