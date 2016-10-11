@@ -1027,6 +1027,7 @@ footer > .container > .row > .col-md-2 { padding: 0; }
 }
 
 /*main kabinet partnera*/
+.container_padding,
 .container_cabinet {
     width: 100%;
     max-width: 1800px;
@@ -2504,7 +2505,7 @@ li:last-child .expand.expand_open {
 .formgrup_check input[type="checkbox"]:checked + label::before {
     background-color: #990000;
 }
-.formgrup_check input[type="radio"]:disabled + label::before {
+.formgrup_check input[type="checkbox"]:disabled + label::before {
     background-color: #ffffff;
 }
 .bonuses_invitation .structure_menu_date_title,
@@ -2555,3 +2556,309 @@ li:last-child .expand.expand_open {
     background-color: #1a3300;
 }
 
+/*perelik postachalnikiv*/
+.left_sidebar,
+.right_sidebar {
+    display: table-cell;
+    width: 226px;
+    vertical-align: top;
+}
+.left_sidebar_title {
+    margin-bottom: 23px;
+    font-size: 18px;
+}
+.left_sidebar_subtitle {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.left_sidebar fieldset {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+.left_sidebar .label_for_check {
+    margin-bottom: 0;
+    padding-left: 20px;
+    display: block;
+    position: relative;
+    font-size: 15px;
+    line-height: 31.09px;
+    font-weight: 500;
+}
+.left_sidebar input[type="checkbox"] + label::before {
+    position: absolute;
+    display: block;
+    content: '';
+    top: 10px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #cccccc;
+}
+.left_sidebar input[type="checkbox"]:checked + label::before {
+    background-color: #990000;
+}
+.left_sidebar input[type="checkbox"]:disabled + label::before {
+    background-color: #ffffff;
+}
+
+.main_content {
+    display: table-cell;
+}
+.provider_row {
+    padding: 0 7px;
+}
+.bread_crumbs {
+    margin-bottom: 5px;
+    padding-left: 7px;
+}
+.bread_crumbs ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    list-style: none;
+}
+.bread_crumbs ul li {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.bread_crumbs ul li a,
+.bread_crumbs ul li a:hover,
+.bread_crumbs ul li a:visited,
+.bread_crumbs ul li a:active {
+    color: #999999;
+    text-decoration: none;
+}
+.provider_sort {
+    padding: 0 7px;
+    text-align: right;
+}
+.provider_sort label {
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.provider_sort select {
+    padding-right: 20px;
+    height: 18px;
+    font-size: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px; 
+    text-overflow: ''
+    -ms-appearance: none;
+    appearance: none!important;
+    background: url(../img/icon_dropdown.png) 100% 9px no-repeat;
+    background-size: 11px 7px;
+    color: #999999;
+    border: none;
+    cursor: pointer;
+}
+.provider_container {
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 208px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.provider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 7px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.provider:hover {
+    padding: 0;
+    left: -7px;
+    width: 105%;
+    box-shadow: 0px 2px 18px 5px rgba( 102, 102, 102, .67 );
+    z-index: 1;
+}
+.provider_main_info {
+    position: relative;
+    height: 208px;
+    border: 1px solid #cccccc;
+    overflow: hidden;
+    z-index: -1;
+}
+.provider:hover .provider_main_info {
+    border: none;
+}
+.provider_bonus_label {
+    position: absolute;
+    top: -49px;
+    left: -53px;
+    display: inline-block;
+    padding-top: 68px;
+    width: 107px;
+    height: 100px;
+    font-size: 13px;
+    line-height: 13px;
+    color: #ffffff;
+    background-color: #ff9900;
+    transform: rotate(-45deg);
+}
+.provider_name {
+    margin-bottom: 3px;
+    font-size: 13px;
+    line-height: 16px;
+}
+.provider_img_wrap {
+    height: 111px;
+}
+.provider_type {
+    margin-bottom: 3px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #999999;
+}
+.provider_rating_wrap {
+    margin-bottom: 3px;
+}
+.provider_rating {
+    display: inline-block;
+    margin-right: 2px;
+    width: 70px;
+    height: 12px;
+}
+.provider_rating.top {
+    background: url(../img/reiting.png) 0 0 no-repeat;
+}
+.provider_rating.good {
+    background: url(../img/reiting.png) 0 -12px no-repeat;
+}
+.provider_rating.middle {
+    background: url(../img/reiting.png) 0 -24px no-repeat;
+}
+.provider_rating.bed {
+    background: url(../img/reiting.png) 0 -36px no-repeat;
+}
+.provider_rating.very_bed {
+    background: url(../img/reiting.png) 0 -48px no-repeat;
+}
+.provider_rating.none {
+    background: url(../img/reiting.png) 0 -60px no-repeat;
+}
+.provider_rating_reviews {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #999999;
+    line-height: 17px;
+}
+.reviews_menu_wrap a,
+.reviews_menu_wrap a:visited,
+.reviews_menu_wrap a:active {
+    display: inline-block;
+    width: 73px;
+    height: 24px;
+    line-height: 22px;
+    color: #990000;
+    text-decoration: none;
+    border: 1px solid #6e0d0d;
+    box-sizing: border-box;
+}
+.reviews_menu_wrap a:first-child {
+    margin-right: 20px;
+}
+.reviews_menu_wrap a:hover {
+    color: #ffffff;
+    background-color: #990000;
+    border: 1px solid #990000;
+}
+
+.provider_additional_info {
+    display: none;
+    padding-bottom: 10px;
+    font-size: 13px;
+    background-color: #fff;
+    z-index: 1;
+}
+.provider:hover .provider_additional_info {
+    display: block;
+}
+.provider_additional_info > div {
+    display: table;
+    width: 100%;
+}
+.provider_address,
+.provider_delivery,
+.provider_ball_ratio {
+    background-color: #e5e0e0;
+}
+.provider_additional_info > div > span {
+    position: relative;
+    display: table-cell;
+    padding-left: 50px;
+    height: 35px;
+    text-align: left;
+    vertical-align: middle;
+}
+.provider_additional_info > div > span:before {
+    position: absolute;
+    display: block;
+    content: "";
+}
+.provider_address span:before {
+    top: 3px;
+    left: 12px;
+    width: 20px;
+    height: 27px;
+    background: url(../img/provider_sprite.png) -2px -4px no-repeat;
+}
+.provider_benefit_card span:before {
+    top: 7px;
+    left: 12px;
+    width: 20px;
+    height: 27px;
+    background: url(../img/provider_sprite.png) -1px -43px no-repeat;
+}
+.provider_delivery span:before {
+    top: 7px;
+    left: 12px;
+    width: 24px;
+    height: 20px;
+    background: url(../img/provider_sprite.png) -2px -80px no-repeat;
+}
+.provider_order_intake span:before {
+    top: 7px;
+    left: 12px;
+    width: 22px;
+    height: 22px;
+    background: url(../img/provider_sprite.png) -2px -114px no-repeat;
+}
+.provider_ball_ratio span:before {
+    top: 13px;
+    left: 12px;
+    width: 15px;
+    height: 12px;
+    background: url(../img/provider_sprite.png) -2px -156px no-repeat;
+}
+.provider_bonus_payment span:before {
+    top: 7px;
+    left: 12px;
+    width: 25px;
+    height: 27px;
+    background: url(../img/provider_sprite.png) -2px -187px no-repeat;
+}
+.main_content .bottom_control {
+    margin-bottom: 30px;
+}
+.main_content .pagination_wrap {
+    padding-left: 305px;
+}
+.main_content .show_more {
+    padding-right: 14px;
+}
+.right_sidebar {
+    padding: 52px 0;
+}
+.asside_banner {
+    display: block;
+    margin-bottom: 17px;
+}
