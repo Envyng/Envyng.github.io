@@ -2612,6 +2612,7 @@ li:last-child .expand.expand_open {
 .bread_crumbs {
     margin-bottom: 5px;
     padding-left: 7px;
+    text-align: left;
 }
 .bread_crumbs ul {
     margin: 0 0 0 0;
@@ -2721,34 +2722,35 @@ li:last-child .expand.expand_open {
     line-height: 16px;
     color: #999999;
 }
-.provider_rating_wrap {
+.rating_wrap {
     margin-bottom: 3px;
+    text-align: center;
 }
-.provider_rating {
+.perelik_rating  {
     display: inline-block;
     margin-right: 2px;
     width: 70px;
     height: 12px;
 }
-.provider_rating.top {
+.perelik_rating.top {
     background: url(../img/reiting.png) 0 0 no-repeat;
 }
-.provider_rating.good {
+.perelik_rating.good {
     background: url(../img/reiting.png) 0 -12px no-repeat;
 }
-.provider_rating.middle {
+.perelik_rating.middle {
     background: url(../img/reiting.png) 0 -24px no-repeat;
 }
-.provider_rating.bed {
+.perelik_rating.bed {
     background: url(../img/reiting.png) 0 -36px no-repeat;
 }
-.provider_rating.very_bed {
+.perelik_rating.very_bed {
     background: url(../img/reiting.png) 0 -48px no-repeat;
 }
-.provider_rating.none {
+.perelik_rating.none {
     background: url(../img/reiting.png) 0 -60px no-repeat;
 }
-.provider_rating_reviews {
+.rating_reviews {
     display: inline-block;
     margin-bottom: 0;
     font-size: 13px;
@@ -2778,7 +2780,7 @@ li:last-child .expand.expand_open {
 
 .provider_additional_info {
     display: none;
-    padding-bottom: 10px;
+    /*padding-bottom: 10px;*/
     font-size: 13px;
     background-color: #fff;
     z-index: 1;
@@ -2787,7 +2789,7 @@ li:last-child .expand.expand_open {
     display: block;
 }
 .provider_additional_info > div {
-    display: table;
+    /*display: table;*/
     width: 100%;
 }
 .provider_address,
@@ -2797,9 +2799,10 @@ li:last-child .expand.expand_open {
 }
 .provider_additional_info > div > span {
     position: relative;
-    display: table-cell;
-    padding-left: 50px;
-    height: 35px;
+    /*display: table-cell;*/
+    display: block;
+    padding: 7px 0 7px 50px;
+    /*height: 35px;*/
     text-align: left;
     vertical-align: middle;
 }
@@ -2860,16 +2863,24 @@ li:last-child .expand.expand_open {
     padding-right: 14px;
 }
 .right_sidebar {
-    padding: 53px 0;
+    padding-top: 53px;
 }
 .asside_banner {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+.asside_banner:last-child {
+    margin-bottom: 0;
 }
 
 /*perelik tovariv*/
-
-
+.full_content_product .bottom_control {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.product_left_sidebar {
+    padding-top: 40px;
+}
 .noUi-target {
     height: 4px;
     background-color: #cccccc;
@@ -2896,4 +2907,121 @@ li:last-child .expand.expand_open {
     bottom: -33px;
     color: #000000;
     border: none;
+}
+.product_container {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 263px;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.product {
+    height: 100%;
+    border: 1px solid #cccccc;
+}
+.product_img_wrap {
+    margin-bottom: 3px;
+    height: 138px;
+    overflow: hidden;
+}
+.product_name {
+    display: table;
+    margin-bottom: 0;
+    width: 100%;
+}
+.product_name span {
+    display: table-cell;
+    height: 40px;
+    line-height: 15px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+.product_price {
+    margin-bottom: 7px;
+    color: #990000;
+}
+.old_price {
+    margin-right: 8px;
+    text-decoration: line-through;
+}
+.product_like {
+    display: inline-block;
+    margin-right: 4px;
+    width: 21px;
+    height: 19px;
+    background: url(../img/like.png) -21px 0 no-repeat;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.product_like.product_like_red {
+    background: url(../img/like.png) 0 0 no-repeat;
+}
+.product_scale {
+    display: inline-block;
+    margin-right: 15px;
+    width: 30px;
+    height: 19px;
+    background: url(../img/scale.png) 0 0 no-repeat;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.product_scale.red_scale {
+    background: url(../img/scale.png) -30px 0 no-repeat;
+}
+.product_buy,
+.product_buy:hover,
+.product_buy:active,
+.product_buy:visited {
+    display: inline-block;
+    width: 73px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #990000;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+}
+.product_stock {
+    position: absolute;
+    top: 115px;
+    left: 8px;
+    width: 65px;
+    height: 28px;
+    line-height: 26px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ff0000;
+    border: 1px solid #ffffff;
+}
+.product_hit {
+    position: absolute;
+    top: 115px;
+    left: 8px;
+    width: 113px;
+    height: 28px;
+    line-height: 26px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ff6600;
+    border: 1px solid #ffffff;
+}
+.product_new {
+    position: absolute;
+    top: 115px;
+    left: 8px;
+    width: 88px;
+    height: 28px;
+    line-height: 26px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #66cc00;
+    border: 1px solid #ffffff;
 }
