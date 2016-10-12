@@ -66,6 +66,24 @@ $('.top_slider').owlCarousel({
     smartSpeed: 1000
 });
 
+/*organization slider*/
+$('.organization_slider').owlCarousel({
+    loop: true,
+    margin: 0,
+    responsiveClass: true,
+    nav: true,
+    navText: [
+      "<i class='fa fa-angle-left' aria-hidden='true'></i>",
+      "<i class='fa fa-angle-right' aria-hidden='true'></i>"
+    ],
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 7000,
+    startPosition: '0',
+    fluidSpeed: true,
+    smartSpeed: 1000
+});
+
 /*
  * Owl Carousel products
  *
@@ -436,4 +454,23 @@ noUiSlider.create(slider, {
 		'min': 0,
 		'max': 400
 	}
+});
+
+/*organization slider*/
+$('.grr').owlCarousel({
+    loop: true,
+    margin: 0,
+    dots: true,
+    responsiveClass: true,
+    nav: true,
+    navText: [
+      "<i class='fa fa-angle-left' aria-hidden='true'></i>",
+      "<i class='fa fa-angle-right' aria-hidden='true'></i>"
+    ],
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 7000,
+    startPosition: '0',
+    fluidSpeed: true,
+    smartSpeed: 1000
 });
