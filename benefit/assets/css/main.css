@@ -90,11 +90,14 @@ header.fixed {
     top: 47px;
     left: 0;
     width: 100%;
-    padding: 0 20px 20px;
+    padding: 0 0 0 20px;
     list-style: none;
     background-color: #333333;
 }
-.header_categories_wrap:hover ul {
+.header_categories_wrap ul li {
+    position: relative;
+}
+.header_categories_wrap:hover>ul {
     display: block;
 }
 .header_categories_wrap ul li a,
@@ -108,8 +111,14 @@ header.fixed {
     color: #ffffff;
     text-decoration: none;
 }
-
-
+.header_categories_wrap ul li ul {
+    display: none;
+    top: 0;
+    left: 100%;
+}
+.header_categories_wrap ul li:hover ul {
+    display: block;
+}
 
 
 

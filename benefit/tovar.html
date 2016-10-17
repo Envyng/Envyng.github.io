@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/media.css">
 </head>
 <body>
+    <div class="darker hidden"></div>
     <header>
         <div class="container">
         	<div class="container_table topheader_content">
@@ -109,6 +110,16 @@
 						</li>
 						<li>
 							<a href="#">Заклади харчування</a>
+							<ul>
+								<li><a href="#">Ресторани</a></li>
+								<li><a href="#">Піцерії</a></li>
+								<li><a href="#">Fast food</a></li>
+								<li><a href="#">Кав’ярні</a></li>
+								<li><a href="#">Винарні</a></li>
+								<li><a href="#">Паби</a></li>
+								<li><a href="#">Домашня кухня</a></li>
+								<li><a href="#">Кондитерські</a></li>
+							</ul>
 						</li>
 						<li>
 							<a href="#">Одяг та взуття</a>
@@ -284,13 +295,18 @@
                     </div>
                     
                     <div class="product_info_wrap clearfix">
-                        <div class="product_photo_wrap">
+                        <div id="product_gallery" class="product_photo_wrap carousel slide" data-ride="carousel">
                             <div class="product_photo_smal">
-                                <img src="assets/img/pizza_small_01.jpg" alt="pizza">
-                                <img src="assets/img/pizza_small_02.jpg" alt="pizza">
+                                <img src="assets/img/pizza_small_01.jpg" alt="pizza" data-target="#product_gallery" data-slide-to="0" class="active">
+                                <img src="assets/img/pizza_small_02.jpg" alt="pizza" data-target="#product_gallery" data-slide-to="1">
                             </div>
-                            <div class="product_photo_big">
-                                <img src="assets/img/pizza_big.jpg" alt="pizza">
+                            <div class="product_photo_big carousel-inner">
+                                <div class="item active">
+                                    <img src="assets/img/pizza_big.jpg" alt="pizza">
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/fritatta-zi-sparzheu.jpg" alt="pizza">
+                                </div>
                             </div>
                         </div>
                         <div class="product_description_wrap">
@@ -752,7 +768,7 @@
                     </form>
                     <p class="product_modal_price">Сума 118,00 грн</p>
                     <div class="product_modal_kontrols clearfix">
-                        <a href="#" class="goto_back">До товару</a>
+                        <a href="#" class="goto_back" data-dismiss="modal" aria-hidden="true">До товару</a>
                         <a href="#" class="goto_ahead">Додати в кошик</a>
                     </div>
                 </div>

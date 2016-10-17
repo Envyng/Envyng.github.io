@@ -506,6 +506,10 @@ $('.product_modal_plus').on('click', function() {
     
 });
 
+$('.product_modal_amount').on('keypress', function() {
+    $(this).val().replace(/[^\d\.]+/g,'');
+});
+
 
 /*basket_modal_table delete product*/
 $('.delete_product').on('click', function () {
@@ -526,13 +530,14 @@ $('.delete_product').on('click', function () {
 });
 
 /*categories darcer background*/
-$('#categories li').on('mouseenter', function() {
+$('#categories li, .header_categories_wrap li').on('mouseenter', function() {
     $('.darker').removeClass('hidden');
 });
 
-$('#categories li').on('mouseleave', function() {
+$('.darker, header, .sub_header').on('mouseenter', function() {
     $('.darker').addClass('hidden');
 });
+
 
 /*header categorias link*/
 $('.header_categories_wrap .header_categories').on('click', function(e) {
