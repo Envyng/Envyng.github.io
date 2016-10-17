@@ -13,9 +13,15 @@
 }*/
 
 @media all and (max-width: 1610px) {
+    .provider_container{
+        width: 24.5%;
+    }
+}
+
+@media all and (max-width: 1593px) {
     .provider_container,
     .product_container {
-        width: 24.5%;
+        width: 25%;
     }
 }
 
@@ -26,9 +32,11 @@
 }
 
 @media all and (max-width: 1395px) {
-    .provider_container,
-    .product_container {
+    .provider_container {
         width: 32.5%;
+    }
+    .product_container {
+        width: 33.33333%;
     }
 }
 @media all and (max-width: 1385px) {
@@ -59,9 +67,11 @@
 }
 
 @media all and (max-width: 1180px) {
-    .provider_container,
-    .product_container {
+    .provider_container {
         width: 49.5%;
+    }
+    .product_container {
+        width: 50%;
     }
 }
 
