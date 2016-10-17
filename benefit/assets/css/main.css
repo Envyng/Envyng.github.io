@@ -2852,10 +2852,13 @@ li:last-child .expand.expand_open {
 
 .provider_additional_info {
     display: none;
-    /*padding-bottom: 10px;*/
+    padding-bottom: 10px;
     font-size: 13px;
+    text-align: left;
+    text-align-last: left;
     background-color: #fff;
     z-index: 1;
+    
 }
 .provider:hover .provider_additional_info {
     display: block;
@@ -3830,6 +3833,12 @@ basket_modal_table td:nth-child(4) {
     padding: 0;
     list-style: none;
 }
+.basket_modal_table tr td:first-child li {
+    padding-left: 10px;
+}
+.basket_modal_table td:first-child li:first-child {
+    padding-left: 0;
+}
 .basket_modal_table .modal_amount_wrap {
     display: inline-block;
 }
@@ -3869,20 +3878,20 @@ basket_modal_table td:nth-child(4) {
 }
 .arrange_content .bread_crumbs {
     margin-bottom: 0;
-    padding: 0 30px;
 }
 .arrange_content_title {
-    margin-bottom: 5px;
+    margin-bottom: -4px;
     font-size: 18px;
     text-align: center;
 }
 .delivery_facilities {
-    margin-bottom: 22px;
+    margin-bottom: 16px;
     padding-bottom: 5px;
+    padding-top: 15px;
     border-bottom: 1px solid #cccccc;
 }
 .delivery_facilities_title {
-    margin-bottom: 2px;
+    margin-bottom: 12px;
     font-size: 15px;
 }
 
@@ -3903,7 +3912,7 @@ basket_modal_table td:nth-child(4) {
     left: 0;
     width: 15px;
     height: 15px;
-    border: 1px solid #cccccc;
+    border: 1px solid #999999;
     border-radius: 50%;
 }
 .arrange_content input[type="radio"]:checked + .label_for_radio {
@@ -3920,7 +3929,7 @@ basket_modal_table td:nth-child(4) {
     font-size: 15px;
 }
 .delivery_address_item {
-    margin-bottom: 35px;
+    margin-bottom: 17px;
     padding: 20px 40px 30px;
     width: 100%;
     max-width: 284px;
@@ -3947,8 +3956,9 @@ basket_modal_table td:nth-child(4) {
 }
 .delivery_coment_title,
 .delivery_basket_title {
-    margin-bottom: 12px;
+    margin-bottom: 19px;
     font-size: 15px;
+    line-height: 19px;
     text-align: center;
 }
 .delivery_coment textarea {
@@ -4003,4 +4013,6 @@ basket_modal_table td:nth-child(4) {
 }
 .arrange_content .get_bonus {
     margin-bottom: 5px;
+    padding-right: 25px;
+    font-weight: 600;
 }
