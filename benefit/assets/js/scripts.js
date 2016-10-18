@@ -506,9 +506,16 @@ $('.product_modal_plus').on('click', function() {
     
 });
 
-$('.product_modal_amount').on('keypress', function() {
-    $(this).val().replace(/[^\d\.]+/g,'');
+$('.product_modal_amount, .product_description_amount').blur(function () {
+    var value = $(this).val();
+    if (value !== '') {
+        if (!this.value.match(/^[0-9-]+$/)) {
+            $(this).val(1);
+        }
+    }
 });
+
+
 
 
 /*basket_modal_table delete product*/
