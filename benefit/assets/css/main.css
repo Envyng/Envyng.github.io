@@ -2708,7 +2708,6 @@ li:last-child .expand.expand_open {
 }
 .full_content_provider .bread_crumbs,
 .full_content_product .bread_crumbs {
-    padding-left: 5px;
     text-align: left;
 }
 .bread_crumbs ul {
@@ -2760,7 +2759,7 @@ li:last-child .expand.expand_open {
     display: inline-block;
     width: 19.5%;
     min-width: 202px;
-    margin-bottom: 15px;
+    margin-bottom: 2px;
     /*padding-left: 7px;
     padding-right: 7px;*/
     height: 208px;
@@ -3025,7 +3024,7 @@ li:last-child .expand.expand_open {
     margin: 0 -1px -1px 0;
     width: 20%;
     min-width: 210px;
-    height: 263px;
+    height: 268px;
     text-align: center;
     text-align-last: center;
     vertical-align: top;
@@ -3043,6 +3042,7 @@ li:last-child .expand.expand_open {
 .product_name {
     display: table;
     margin-bottom: 0;
+    padding: 0 10px;
     width: 100%;
 }
 .product_name span {
