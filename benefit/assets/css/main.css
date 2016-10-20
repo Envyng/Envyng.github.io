@@ -765,7 +765,7 @@ header {
 		display: block;
 	}
 }
-.vertical_menu ul li {background: rgba(255, 255, 255, .75);height: 31px;}
+.vertical_menu ul li {background: rgba(255, 255, 255, 1);height: 31px;}
 
 li {}
 .vertical_menu ul li a {
@@ -3709,7 +3709,11 @@ li:last-child .expand.expand_open {
     margin-right: 7px;
     margin-bottom: 15px;
     padding-left: 25px;
+    max-width: 50px;
+    max-width: 215px;
+    vertical-align: top;
 }
+
 .product_modal input[type="checkbox"]:checked + .label_for_check {
     color: #333333;
 }
@@ -3754,21 +3758,19 @@ li:last-child .expand.expand_open {
     -moz-column-gap: 10px;
     column-gap: 10px;
 }
-.product_modal_addition_ingridients .product_modal_row {
+/*.product_modal_addition_ingridients .product_modal_row {
     text-align-last: justify;
 }
 .product_modal_addition_ingridients .product_modal_row:after {
     display: block;
     content: '';
     clear: both;
-}
+}*/
 .product_modal_addition_ingridients .label_for_check {
-    display: block;  
-    float: left;
+    display: inline-block;  
 }
 .product_modal .product_modal_addition_ingridients input[type="checkbox"]:checked ~ .modal_amount_wrap {
-    display: block;
-    float: right;
+    display: inline-block;
 }
 .product_modal_price,
 .basket_modal_price {
