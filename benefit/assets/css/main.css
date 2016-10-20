@@ -759,13 +759,14 @@ header {
 	display: block;
 	width: 100%;
 	position: relative;
+    background: rgba(255, 255, 255, 1);
 }
 @media all and (min-width: 1001px) {
 	.vertical_menu ul li:hover > ul {
 		display: block;
 	}
 }
-.vertical_menu ul li {background: rgba(255, 255, 255, 1);height: 31px;}
+.vertical_menu ul li {background: rgba(255, 255, 255, .75);height: 31px;}
 
 li {}
 .vertical_menu ul li a {
