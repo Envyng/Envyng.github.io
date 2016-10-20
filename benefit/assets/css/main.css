@@ -1499,23 +1499,24 @@ footer > .container > .row > .col-md-2 { padding: 0; }
     opacity: 1;
 }
 .verification_data {
-    margin-bottom: 12px;
+    margin-bottom: 17px;
     padding: 0 40px 0 20px;
     font-size: 13px;
     text-align: center;
 }
 .profile_verification {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 25px;
+    height: 30px;
     padding: 0 14px;
     font-size: 13px;
     line-height: 28px;
     color: #ffffff;
-    background-color: #009900;
+    background-color: #990000;
     border: 1px solid #cccccc;
 }
 .profile_verification:hover {
-    background-color: #007000;
+    background-color: #5b0101;
 }
 .addition label {
     font-size: 15px;
@@ -3023,7 +3024,7 @@ li:last-child .expand.expand_open {
     float: left;
     margin: 0 -1px -1px 0;
     width: 20%;
-    min-width: 210px;
+    min-width: 206px;
     height: 268px;
     text-align: center;
     text-align-last: center;
