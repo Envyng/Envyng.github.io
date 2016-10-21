@@ -111,6 +111,18 @@ header.fixed {
 .header_categories_wrap:hover>ul {
     display: block;
 }
+.header_categories_wrap ul li:hover {
+    background-color: #990000;
+}
+.header_categories_wrap ul li:hover a {
+    color: #ffffff;
+} 
+.header_categories_wrap ul li:hover ul li a {
+    color: #000000;
+} 
+.header_categories_wrap ul li:hover ul li a:hover {
+    color: #ffffff;
+} 
 .header_categories_wrap ul li a,
 .header_categories_wrap ul li a:hover,
 .header_categories_wrap ul li a:active,
@@ -122,14 +134,14 @@ header.fixed {
     line-height: 27px;
     text-decoration: none;
     color: #000000;
-    border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
+    /*border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;*/
 }
 .header_categories_wrap ul li a:hover {
     color: #ffffff;
     background-color: #990000;
-    border-left: 1px solid #990000;
-    border-right: 1px solid #990000;
+    /*border-left: 1px solid #990000;
+    border-right: 1px solid #990000;*/
 }
 .header_categories_wrap ul li ul {
     display: none;
@@ -734,6 +746,8 @@ header {
     margin-top: -55px;
     border-top: 55px solid transparent;
 	width: 100%;
+}
+.vertical_menu ul:hover {
     box-shadow: 2px 3.464px 7px 0px rgba( 35, 31, 32 ,.35);
 }
 .vertical_menu li {
@@ -766,7 +780,7 @@ header {
 		display: block;
 	}
 }
-.vertical_menu ul li {background: rgba(255, 255, 255, .75);height: 31px;}
+.vertical_menu ul li {background: rgba(255, 255, 255, 1);height: 31px;}
 
 li {}
 .vertical_menu ul li a {
