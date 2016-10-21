@@ -736,6 +736,7 @@ header {
 
 .vertical_menu {
 	position: relative;
+    margin-top: -15px;
 	padding: 0;
 	z-index: 10;
 	float: left;
@@ -743,8 +744,8 @@ header {
 }
 
 .vertical_menu ul {
-    margin-top: -55px;
-    border-top: 55px solid transparent;
+    margin-top: -47px;
+    border-top: 47px solid transparent;
 	width: 100%;
 }
 .vertical_menu ul:hover {
@@ -785,7 +786,7 @@ header {
 li {}
 .vertical_menu ul li a {
 	color: #000;
-	height: 33px;
+	height: 31px;
 	box-sizing: border-box;
 	padding: 0 0 0 19px;
 	line-height: 27px;
@@ -803,7 +804,9 @@ li {}
 	text-decoration: none;
 }
 .vertical_menu > ul > li > a:focus, .vertical_menu > ul > li > a:hover {
-	background: none;
+    /*background: none;*/
+	background: #990000;
+    border-color: #990000;
 }
 
 
