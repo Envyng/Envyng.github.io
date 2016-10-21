@@ -114,10 +114,12 @@ header.fixed {
 .header_categories_wrap ul li:hover {
     background-color: #990000;
 }
-.header_categories_wrap ul li:hover a {
+.header_categories_wrap ul li:hover a,
+.header_categories_wrap ul li:hover a:visited {
     color: #ffffff;
 } 
-.header_categories_wrap ul li:hover ul li a {
+.header_categories_wrap ul li:hover ul li a,
+.header_categories_wrap ul li:hover ul li a:visited {
     color: #000000;
 } 
 .header_categories_wrap ul li:hover ul li a:hover {
@@ -143,6 +145,7 @@ header.fixed {
     /*border-left: 1px solid #990000;
     border-right: 1px solid #990000;*/
 }
+
 .header_categories_wrap ul li ul {
     display: none;
     top: -1px;
@@ -788,7 +791,10 @@ header {
 		display: block;
 	}
 }
-.vertical_menu ul li {background: rgba(255, 255, 255, 1);height: 31px;}
+.vertical_menu ul li {
+    background: rgba(255, 255, 255, 1);
+    height: 31px;
+}
 
 li {}
 .vertical_menu ul li a {
@@ -801,16 +807,27 @@ li {}
 	width: 100%;
 	letter-spacing: 0.05em;
 }
-.vertical_menu ul li:focus, .vertical_menu ul li:hover {
+.vertical_menu ul li:focus, 
+.vertical_menu ul li:hover {
 	background: #990000;
 	border-color: #990000;
 	color: #fff;
 }
-.vertical_menu ul li:focus > a, .vertical_menu ul li:hover > a {
+.vertical_menu > ul > li > a:focus {
+    color: #fff;
+}
+.vertical_menu ul li a:focus {
+    text-decoration: none;
+}
+
+
+.vertical_menu ul li:focus > a, 
+.vertical_menu ul li:hover > a {
 	color: #fff;
 	text-decoration: none;
 }
-.vertical_menu > ul > li > a:focus, .vertical_menu > ul > li > a:hover {
+.vertical_menu > ul > li > a:focus, 
+.vertical_menu > ul > li > a:hover {
     /*background: none;*/
 	background: #990000;
     border-color: #990000;
