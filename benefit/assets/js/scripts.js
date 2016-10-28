@@ -550,3 +550,7 @@ $('.darker, header, .sub_header').on('mouseenter', function() {
 $('.header_categories_wrap .header_categories').on('click', function(e) {
     e.preventDefault();
 });
+
+
+
+
