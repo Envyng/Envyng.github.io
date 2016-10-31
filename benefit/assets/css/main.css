@@ -14,6 +14,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.darker_main,
 .darker {
     position: fixed;
     top: 0;
@@ -918,10 +919,12 @@ header {
         padding-top: 15px;
         padding-bottom: 15px;
         width: 100%;
+        transition: 0.2s 0.6s;
     }
 
         .vertical_menu ul:hover {
             box-shadow: 2px 3.464px 7px 0px rgba( 35, 31, 32,.35);
+            transition: 0s 0s;
         }
 
     .vertical_menu li {

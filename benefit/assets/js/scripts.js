@@ -538,10 +538,13 @@ $('.delete_product').on('click', function () {
 
 /*categories darcer background*/
 $('#categories li, .header_categories_wrap li').on('mouseenter', function() {
-    $('.darker').removeClass('hidden');
+    $('.darker, .darker_main').removeClass('hidden');
 });
 
-$('.darker, header, .sub_header').on('mouseenter', function() {
+$('.darker, .darker_main, header, .sub_header').on('mouseenter', function() {
+    setTimeout(function() {
+        $('.darker_main').addClass('hidden');
+    }, 650);
     $('.darker').addClass('hidden');
 });
 
