@@ -236,7 +236,7 @@
 								<i class="icn search"></i>
 							</button>
 
-							<button class="sh_btn show_on_tablet togglerightmenu">
+							<button class="sh_btn show_on_tablet togglerightmenu" data-toggle="modal" data-target="#menu_categories_modal">
 								<i class="icn rmenu"></i>
 							</button>
 							<button class="sh_btn">
@@ -346,6 +346,14 @@
                             <li>Ресторани</li>
                         </ul>
                     </div>
+                    
+                    <!--filter & sort - responsive-->
+                    <div class="list_filter_wrap show_on_tablet clearfix">
+                        <div class="list_filter" data-toggle="modal" data-target="#filter_modal">Фільтрувати</div>
+                        <div class="list_sort" data-toggle="modal" data-target="#sort_modal">Сортувати</div>
+                    </div>
+                    <!--filter & sort - responsive end-->
+                    
                     <div class="provider_sort">
                         <label for="provider_sort_title">Сортувати</label>
                         <select id="provider_sort_select" class="provider_sort_select">
@@ -363,7 +371,7 @@
                                 <p class="provider_name">Greenwich Lounge Bar</p>
                                 <p class="provider_type">Ресторан</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  good"></div>
+                                    <div class="list_rating  good"></div>
                                     <p class="rating_reviews">155 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -393,7 +401,7 @@
                                 <p class="provider_name">Ferdinand</p>
                                 <p class="provider_type">Ресторан</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating middle"></div>
+                                    <div class="list_rating middle"></div>
                                     <p class="rating_reviews">125 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -423,7 +431,7 @@
                                 <p class="provider_name">Cento Percento</p>
                                 <p class="provider_type">Траторія</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  middle"></div>
+                                    <div class="list_rating  middle"></div>
                                     <p class="rating_reviews">15 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -453,7 +461,7 @@
                                 <p class="provider_name">Koshik 24</p>
                                 <p class="provider_type">Міні-маркет</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  middle"></div>
+                                    <div class="list_rating  middle"></div>
                                     <p class="rating_reviews">15 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -483,7 +491,7 @@
                                 <p class="provider_name">Pizza Patio</p>
                                 <p class="provider_type">Піцерія</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  good"></div>
+                                    <div class="list_rating  good"></div>
                                     <p class="rating_reviews">15 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -513,7 +521,7 @@
                                 <p class="provider_name">Old cafe Apetito</p>
                                 <p class="provider_type">Ресторан</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  middle"></div>
+                                    <div class="list_rating  middle"></div>
                                     <p class="rating_reviews">101 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -543,7 +551,7 @@
                                 <p class="provider_name">Pub Chester</p>
                                 <p class="provider_type">Паб</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  good"></div>
+                                    <div class="list_rating  good"></div>
                                     <p class="rating_reviews">15 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -573,7 +581,7 @@
                                 <p class="provider_name">Viva Pizza</p>
                                 <p class="provider_type">Піцерія</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  middle"></div>
+                                    <div class="list_rating  middle"></div>
                                     <p class="rating_reviews">15 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -603,7 +611,7 @@
                                 <p class="provider_name">Greenwich Lounge Bar</p>
                                 <p class="provider_type">Ресторан</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  good"></div>
+                                    <div class="list_rating  good"></div>
                                     <p class="rating_reviews">155 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -632,7 +640,7 @@
                                 <p class="provider_name">Ferdinand</p>
                                 <p class="provider_type">Ресторан</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  middle"></div>
+                                    <div class="list_rating  middle"></div>
                                     <p class="rating_reviews">125 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -662,7 +670,7 @@
                                 <p class="provider_name">Cento Percento</p>
                                 <p class="provider_type">Траторія</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  middle"></div>
+                                    <div class="list_rating  middle"></div>
                                     <p class="rating_reviews">15 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -692,7 +700,7 @@
                                 <p class="provider_name">Koshik 24</p>
                                 <p class="provider_type">Міні-маркет</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  middle"></div>
+                                    <div class="list_rating  middle"></div>
                                     <p class="rating_reviews">15 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -722,7 +730,7 @@
                                 <p class="provider_name">Pizza Patio</p>
                                 <p class="provider_type">Піцерія</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  good"></div>
+                                    <div class="list_rating  good"></div>
                                     <p class="rating_reviews">15 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -752,7 +760,7 @@
                                 <p class="provider_name">Old cafe Apetito</p>
                                 <p class="provider_type">Ресторан</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  middle"></div>
+                                    <div class="list_rating  middle"></div>
                                     <p class="rating_reviews">101 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -782,7 +790,7 @@
                                 <p class="provider_name">Pub Chester</p>
                                 <p class="provider_type">Паб</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  good"></div>
+                                    <div class="list_rating  good"></div>
                                     <p class="rating_reviews">15 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -812,7 +820,7 @@
                                 <p class="provider_name">Viva Pizza</p>
                                 <p class="provider_type">Піцерія</p>
                                 <div class="rating_wrap">
-                                    <div class="perelik_rating  middle"></div>
+                                    <div class="list_rating  middle"></div>
                                     <p class="rating_reviews">15 відгуків</p>
                                 </div>
                                 <div class="reviews_menu_wrap">
@@ -955,6 +963,172 @@
 	        </div>
 	    </div>
     </footer>
+    
+    <!--modal responsive-->
+    <div class="filter_modal modal fade" id="filter_modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal_close" data-dismiss="modal" aria-hidden="true"></div>
+                <div class="modal-body">
+                    <form>
+                        <ul class="filter_modal_main_list">
+                            <li class="filter_modal_title">Фільтри</li>
+                            <li>Обрати фільтри:</li>
+                            <li class="filter_modal_item">
+                                
+                                Кухня <span class="filter_modal_arrow_right">&gt;</span>
+                                <ul>
+                                    <li class="filter_modal_subtitle"><span class="filter_modal_arrow_left">&lt;</span> Кухня</li>
+                                    <li class="filter_modal_item">
+                                        <input class="hidden" type="checkbox" id="filter_kitchen_01">
+                                        <label class="label_for_check" for="filter_kitchen_01">Європейська</label>
+                                    </li>
+                                    <li class="filter_modal_item">
+                                        <input class="hidden" type="checkbox" id="filter_kitchen_02">
+                                        <label class="label_for_check" for="filter_kitchen_02">Японська</label>
+                                    </li>
+                                    <li class="filter_modal_item">
+                                        <input class="hidden" type="checkbox" id="filter_kitchen_03">
+                                        <label class="label_for_check" for="filter_kitchen_03">Китайська</label>
+                                    </li>
+                                    <li class="filter_modal_item">
+                                        <input class="hidden" type="checkbox" id="filter_kitchen_04">
+                                        <label class="label_for_check" for="filter_kitchen_04">Домашня</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="filter_modal_item">
+                                Балове співвідношення <span class="filter_modal_arrow_right">&gt;</span>
+                                <ul>
+                                    <li class="filter_modal_subtitle"><span class="filter_modal_arrow_left">&lt;</span> Балове співвідношення</li>
+                                    <li class="filter_modal_item">
+                                        <input class="hidden" type="checkbox" id="filter_ball_01">
+                                        <label class="label_for_check" for="filter_ball_01">Зразок</label>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="filter_modal_item">
+                                Мінімальна сума замовлення <span class="filter_modal_arrow_right">&gt;</span>
+                                <ul>
+                                    <li class="filter_modal_subtitle"><span class="filter_modal_arrow_left">&lt;</span> Мінімальна сума замовлення</li>
+                                    <li class="filter_modal_item">
+                                        <input class="hidden" type="checkbox" id="filter_count_01">
+                                        <label class="label_for_check" for="filter_count_01">Зразок 2</label>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="filter_modal_controls">
+                            <button class="filter_modal_clean">Очистити</button>
+                            <button class="filter_modal_apply">Застосувати</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sort_modal modal fade" id="sort_modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal_close" data-dismiss="modal" aria-hidden="true"><span></span></div>
+                <div class="modal-body">
+                    <div class="sort_modal_title">Сортувати</div>
+                    <form>
+                        <input class="hidden" type="radio" id="sort_modal_01" name="sort_modal_radio" checked>
+                        <label class="label_for_radio" for="sort_modal_01">по рейтингу</label>
+                        
+                        <input class="hidden" type="radio" id="sort_modal_02" name="sort_modal_radio">
+                        <label class="label_for_radio" for="sort_modal_02">від А до Я</label>
+                        
+                        <input class="hidden" type="radio" id="sort_modal_03" name="sort_modal_radio">
+                        <label class="label_for_radio" for="sort_modal_03">зростанню ціни</label>
+                        
+                        <input class="hidden" type="radio" id="sort_modal_04" name="sort_modal_radio">
+                        <label class="label_for_radio" for="sort_modal_04">спаданню ціни</label>
+                        
+                        <button class="sort_modal_apply">Застосувати</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="menu_categories_modal modal fade" id="menu_categories_modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ul>
+						<li>
+							<a href="#">Benefit to Business</a>
+						</li>
+						<li>
+							<a href="#">Акційні пропозиції</a>
+						</li>
+						<li>
+							<a href="#">Супермаркети</a>
+						</li>
+						<li>
+							<a href="#">Заклади харчування</a>
+						</li>
+						<li>
+							<a href="#">Одяг та взуття</a>
+						</li>
+						<li>
+							<a href="#">Спорт та відпочинок</a>
+						</li>
+						<li>
+							<a href="#">Страхування</a>
+						</li>
+						<li>
+							<a href="#">Меблі</a>
+						</li>
+						<li>
+							<a href="#">Техніка</a>
+						</li>
+						<li>
+							<a href="#">Краса та здоров’я</a>
+						</li>
+						<li>
+							<a href="#">Готелі</a>
+						</li>
+						<li>
+							<a href="#">Зоотовари</a>
+						</li>
+						<li>
+							<a href="#">Зв'язок</a>
+						</li>
+						<li>
+							<a href="#">АЗС</a>
+						</li>
+						<li>
+							<a href="#">Все для авто</a>
+						</li>
+						<li>
+							<a href="#">Товари для дому</a>
+						</li>
+						<li>
+							<a href="#">Послуги</a>
+						</li>
+						<li>
+							<a href="#">Подарунки</a>
+						</li>
+						<li>
+							<a href="#">Для дітей</a>
+						</li>
+						<li>
+							<a href="#">Тренінгові центри</a>
+						</li>
+						<li>
+							<a href="#">Всі заклади</a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--modal responsive end-->
 
 	<!-- libs -->
     <script type="text/javascript" src="assets/lib/jquery-2.2.3.min.js"></script>
