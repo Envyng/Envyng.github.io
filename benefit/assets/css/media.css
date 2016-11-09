@@ -868,6 +868,7 @@
     
     .recall_item .rating_star {
         margin-bottom: 5px;
+        vertical-align: middle;
     }
     
     /*tovar*/
@@ -878,6 +879,16 @@
     .product_content .tab-content {
         margin-bottom: 0;
         min-height: 365px;
+    }
+    
+    .product_description_rating_mobile,
+    .rating_all_mobile {
+        display: inline-block;
+    }
+    
+    .rating_all_mobile {
+        line-height: 18px;
+        vertical-align: top;
     }
     
     .product_photo_wrap {
@@ -1068,6 +1079,10 @@
     }
     .delivery_address_item {
         border: 2px solid #cccccc;
+    }
+    
+    .delivery_address_item.green {
+        border: 2px solid #6ab545;
     }
     
     .delivery_address_title {
@@ -1447,6 +1462,7 @@
         height: 180px;
         float: left;
     }
+    
     .provider_bonus_label {
         top: -49px;
         left: -53px;
@@ -1457,23 +1473,38 @@
         font-size: 13px;
         line-height: 13px;
     }
+    
+    .provider:hover {
+        left: 0;
+        width: 100%;
+    }
+    
+    .provider:hover .provider_additional_info {
+        display: none;
+    }
+    
     .provider_img_wrap {
         height: 96px;
     } 
+    
     .provider_name {
         margin-bottom: 0;
         font-size: 13px;
     }
+    
     .provider_type {
         margin-bottom: 0;
         font-size: 11px;
     }
+    
     .rating_wrap {
         margin-bottom: 0;
     }
+    
     .reviews_menu_wrap a:first-child {
         margin-right: 17px;
     }
+    
     .reviews_menu_wrap a, 
     .reviews_menu_wrap a:visited, 
     .reviews_menu_wrap a:active {
@@ -1710,12 +1741,31 @@
     }
     
     .product_description_code_mobile {
+        float: left;
         margin-bottom: 10px;
         font-size: 13px;
     }
     
+    .product_description_rating_mobile {
+        float: right;
+    }
+    
+    .rating_all {
+        line-height: 18px;
+    }
+    
+    .recall_item .rating_star {
+        vertical-align: top;
+    }
+    
+    .rating_all_mobile {
+        vertical-align: top;
+        line-height: 10px;
+    }
+    
     .product_info_wrap {
         margin: 0 -18px;
+        clear: both;
     }
     
     .product_photo_wrap .carousel-indicators {
@@ -1833,7 +1883,7 @@
     
     .basket_modal .basket_modal_table th:nth-child(4),
     .basket_modal .basket_modal_table td:nth-child(4) {
-        display: none;
+        /*display: none;*/
     }
     
     .basket_modal_table th:last-child, 

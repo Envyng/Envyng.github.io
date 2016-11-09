@@ -3404,6 +3404,9 @@ li:last-child .expand {
 }
 
 /*perelik postachalnikiv modal*/
+.filter_modal {
+    position: absolute;
+}
 
 .filter_modal .modal-dialog {
     margin-left: 45px;
@@ -4398,6 +4401,11 @@ li:last-child .expand {
     vertical-align: middle;
     font-size: 13px;
     color: #999999;
+}
+
+.product_description_rating_mobile,
+.rating_all_mobile {
+    display: none;
 }
 
 .recall_item {

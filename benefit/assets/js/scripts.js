@@ -555,5 +555,30 @@ $('.header_categories_wrap .header_categories').on('click', function(e) {
 });
 
 
+/*8bootstrap carousel swipe*/
+$(document).ready(function(){
+	$(".carousel").swipe( {
+		swipeLeft: function() {
+			$(this).carousel("next");
+		},
+		swipeRight: function() {
+			$(this).carousel("prev");
+		},
+		allowPageScroll: "vertical"
+	});
+});
 
+/*filter modal*/
+$('.filter_modal_subtitle').on('click', function() {
+    $('.filter_modal_main_list li:hover ul').css({'display' : 'none'});
+});
 
+$('.filter_modal_main_list li').on('mouseenter', function() {
+    setTimeout(function() {
+        $('.filter_modal_main_list li:hover ul').css({'display' : 'block'});
+    }, 1000);
+});
+
+$('.label_for_radio').on('click', function() {
+    $('.delivery_address_item').toggleClass('green');
+});
