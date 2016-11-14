@@ -3450,8 +3450,8 @@ li:last-child .expand {
 .filter_modal_main_list li {
     padding: 0 10px 0 20px;
     font-size: 13px;
-    height: 28px;
-    line-height: 27px;
+    height: 40px;
+    line-height: 39px;
     border-bottom: 1px solid #cccccc;
 }
 
@@ -3531,7 +3531,7 @@ li:last-child .expand {
     position: absolute;
     display: block;
     content: '';
-    top: 8px;
+    top: 13px;
     left: 0;
     width: 12px;
     height: 12px;

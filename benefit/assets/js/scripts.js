@@ -578,7 +578,3 @@ $('.filter_modal_main_list li').on('mouseenter', function() {
         $('.filter_modal_main_list li:hover ul').css({'display' : 'block'});
     }, 1000);
 });
-
-$('.label_for_radio').on('click', function() {
-    $('.delivery_address_item').toggleClass('green');
-});
