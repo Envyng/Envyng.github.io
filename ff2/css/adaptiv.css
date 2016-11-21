@@ -1,0 +1,312 @@
+/* Landscape tablets and medium desktops */
+@media (max-width: 1199px) {
+    .work_item_description {
+        padding: 14px 20px 0;
+        min-height: 106px;
+    }
+    
+    .assets_description {
+        width: 100%;
+        max-width: 200px;
+        font-size: 18px;
+    }
+    .how_work video {
+        width: 455px;
+        height: auto;
+    }
+    .how_work_description {
+        height: 140px;
+        line-height: 29px;
+    }
+    
+    .blog_left {
+        width: 595px;
+    }
+    .blog_right {
+        width: 346px;
+    }
+    .blog_item_1 .blog_item_content {
+        width: 285px;
+    }
+    .blog_item_4 {
+        width: 292px;
+    }
+    .blog_item_4 .blog_bage {
+        top: 25px;
+        left: 105px;
+    }
+    .blog_item_2 .blog_item_content {
+        height: 315px;
+    }
+    .blog_item_5 .blog_bage {
+        top: 25px;
+        left: 25px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 992px) {
+    .work_img {
+        width: 128px;
+        height: 128px;
+    }
+    .work_item_1 .work_img {
+        background-size: auto 128px;
+    }
+    .work_item_2 .work_img {
+        background: url(../img/sprite-images.png) -131px 0 no-repeat;
+        background-size: auto 128px;
+    }
+    .work_item_3 .work_img {
+            background: url(../img/sprite-images.png) -262px 0 no-repeat;
+        background-size: auto 128px;
+    }
+    .work_item_4 .work_img {
+        background: url(../img/sprite-images.png) -394px 0 no-repeat;
+        background-size: auto 128px;
+    }
+    .work_item_5 .work_img {
+        background: url(../img/sprite-images.png) -525px 0 no-repeat;
+        background-size: auto 128px;
+    }
+    .work_stage_number {
+        left: 3px;
+        bottom: 3px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .work_item_description {
+        padding: 14px 10px 0;
+        font-size: 17px;
+    }
+    .plasterers_img {
+        width: 128px;
+        height: 128px;
+    }
+    .reviews_small_item .glyphicon {
+        width: 18px;
+        height: 18px;
+    }
+    .how_work_item {
+        text-align: center;
+    }
+    .how_work video {
+        margin-bottom: 30px;
+        width: 563px;
+        height: 346px;
+    }
+    .how_work_description {
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .questions_tab_menu {
+        padding: 0;
+    }
+    .questions_tab_content_wrap p:first-child {
+        width: auto;
+    }
+    .assets_item {
+        text-align: center;
+    }
+    .assets_img {
+        margin-right: 0;
+    }
+    .blog_left {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 736px;
+        float: none;
+    }
+    .blog_right {
+        width: 100%;
+        float: none;
+    }
+    .blog_item_3 {
+        width: 294px;
+    }
+    .blog_item_4 {
+        width: 423px;
+        height: 451px;
+    }
+    .blog_item_2 {
+        float: left;
+        width: 48.7%;
+    }
+    .blog_item_5 {
+        float: right;
+        width: 48.7%;
+    }
+    .blog_item_4 .blog_bage {
+        top: 36px;
+        left: 227px;
+    }
+    .blog_item_5 .blog_bage {
+        top: 34px;
+        left: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .homepage .row,
+    .plasterer_landing_page .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .work .container,
+    .plasterers .container {
+        padding: 50px 0;
+    }
+    .work h2,
+    .plasterers h2,
+    .guides h2,
+    .work_subtitle {
+        margin-bottom: 35px;
+    }
+    .plasterer_landing_page h2 {
+        font-size: 40px;
+    }
+    .work_subtitle {
+        padding: 0 20px;
+    }
+    .work_stages,
+    .plasterers_wrap {
+        text-align: center;
+    }
+    .work_item,
+    .plasterers_item {
+        display: inline-block;
+        width: 32.5%;
+        float: none;
+        vertical-align: top;
+    }
+    .work_item_description {
+        margin: 0 auto 30px;
+        width: 200px;
+        min-height: auto;
+        border: none;
+    }
+    .work_stages {
+        margin-bottom: 30px;
+    }
+    
+    .plasterers_item {
+        margin-bottom: 30px;
+    }
+    .reviews .container {
+        padding: 33px 20px 40px;
+    }
+    .reviews_subtitle {
+        margin-bottom: 30px;
+    }
+    .reviews_main_quote {
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+    .reviews_main_item .rating-container {
+        padding-left: 0;
+        text-align: center;
+    }
+    .guides .container,
+    .how_work .container {
+        padding: 40px 0;
+    }
+    .plasterer_landing_page .work .container {
+        padding: 33px 0 0 0;
+    }
+    .assets_item {
+        margin-bottom: 20px;
+    }
+    .assets .container {
+        padding: 40px 0 5px 0;
+    }
+    .assets_item:first-child, 
+    .assets_item:nth-child(2), 
+    .assets_item:nth-child(3) {
+        margin-bottom: 20px;
+    }
+    .assets_description {
+        min-height: 60px;
+    }
+    .guides_item {
+        width: 100%;
+        float: left;
+    }
+    .questions .container {
+        padding: 30px 0 0 0;
+    }
+    .questions h2 {
+        margin-bottom: 30px;
+    }
+    .questions_tab_menu > li {
+        padding-right: 30px;
+    }
+    .questions_tab_content_wrap .tab-pane {
+        padding: 30px 10px;
+    }
+    .questions_tab_content_wrap p:first-child {
+        margin-bottom: 30px;
+        min-height: auto;
+    }
+    .blog .container {
+        padding: 32px 0;
+    }
+    .blog_item_3,
+    .blog_item_4 {
+        width: 48.7%;
+    }
+    .blog_item_4 .blog_bage {
+        left: auto;
+        right: 25px;
+    }
+}
+
+@media (max-width: 620px) {
+    .work_item,
+    .plasterers_item {
+        width: 49.5%;
+    }
+    .how_work video {
+        width: 100%;
+        height: auto;
+    }
+    .blog_left {
+        margin-bottom: 0;
+    }
+    .blog .item {
+        margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .blog_item_1 .blog_item_img_wrap, 
+    .blog_item_1 .blog_item_content {
+        display: block;
+        width: 100%;
+    }
+    .questions_tab_menu > li > a, 
+    .questions_tab_menu > li > a:hover, 
+    .questions_tab_menu > li > a:active, 
+    .questions_tab_menu > li > a:visited, 
+    .questions_tab_menu > li > a:focus {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .questions_tab_menu > li {
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .work_item,
+    .plasterers_item {
+        width: 100%;
+    }
+    .assets_description {
+        font-size: 17px;
+    }
+}
