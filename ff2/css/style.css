@@ -78,7 +78,7 @@ a:focus {
 /*homepage*/
 .homepage h2 {
     margin-top: 0;
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 35px;
     color: #054a75;
     text-align: center;
@@ -132,7 +132,7 @@ a:focus {
     width: 50px;
     height: 50px;
     line-height: 50px;
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 30px;
     color: #ffffff;
     text-align: center;
@@ -144,7 +144,7 @@ a:focus {
     padding: 14px 34px 0;
     line-height: 23px;
     min-height: 85px;
-    font-family: 'HelveticaNeueMedium';
+    font-family: 'HelveticaNeueMedium', Helvetica, Arial, sans-serif;
     font-size: 20px;
     color: #4c4c4c;
     border-right: 1px solid #e2e2e2;
@@ -158,7 +158,7 @@ a:focus {
     margin: 0 auto;
     width: 293px;
     line-height: 73px;
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 20px;
     color: #ffffff;
     text-decoration: none;
@@ -196,14 +196,14 @@ a:focus {
 .plasterers_name {
     margin-bottom: 0;
     text-align: center;
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 22px;
     color: #054a75;
 }
 .plasterers_city {
     margin-bottom: 0;
     text-align: center;
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 18px;
     color: #00b2f2;
 }
@@ -252,7 +252,7 @@ a:focus {
 .reviews_main_quote {
     margin-bottom: 60px;
     padding: 0 48px;
-    font-family: 'HelveticaNeue';
+    font-family: 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size: 17px;
     line-height: 29px;
     color: #356c8f;
@@ -273,7 +273,7 @@ a:focus {
     padding-top: 20px;
 }
 .reviews_main_data {
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 24px;
     color: #054a75;
 }
@@ -316,7 +316,7 @@ a:focus {
 /*section guides*/
 .guides {
     background-color: #fbfbfb;
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     color: #ffffff;
 }
 .guides .container {
@@ -402,7 +402,7 @@ a:focus {
 /*plasterer_landing_page*/
 .plasterer_landing_page h2 {
     margin-top: 0;
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 45px;
     color: #054a75;
     text-align: center;
@@ -417,7 +417,7 @@ a:focus {
 }
 .work_subtitle {
     margin-bottom: 60px;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', Arial, sans-serif;
     font-size: 20px;
     color: #2fade2;
     text-align: center;
@@ -472,7 +472,7 @@ a:focus {
     vertical-align: middle;
 }
 .assets_description b {
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
 }
@@ -496,7 +496,7 @@ a:focus {
 .how_work_description {
     width: 410px;
     height: 207px;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', Arial, sans-serif;
     font-size: 20px;
     line-height: 35px;
     overflow: hidden;
@@ -509,7 +509,7 @@ a:focus {
     display: inline-block;
     width: 180px;
     line-height: 65px;
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
@@ -548,7 +548,7 @@ a:focus {
     margin: 0;
     padding: 0 20px;
     line-height: 65px;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', Arial, sans-serif;
     font-size: 20px;
     color: #363f41;
     border-top: none;
@@ -560,7 +560,6 @@ a:focus {
 }
 .questions_tab_menu > li > a:hover {
     color: #2fade2;
-    
 }
 .questions_tab_menu > li.active > a,
 .questions_tab_menu > li.active > a:hover,
@@ -577,7 +576,7 @@ a:focus {
 }
 .questions_tab_content_wrap .tab-pane {
     padding-top: 164px;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', Arial, sans-serif;
 }
 .questions_tab_content_wrap p:first-child {
     width: 480px;
@@ -592,7 +591,7 @@ a:focus {
     color: #8c8c8c;
 }
 .questions_call_us {
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 23px;
     color: #37baec;
 }
@@ -665,7 +664,7 @@ a:focus {
     display: inline-block;
     padding: 0 18px;
     line-height: 30px;
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 20px;
     color: #ffffff;
     background-color: #2eade2;
@@ -685,22 +684,14 @@ a:focus {
 }
 .blog_date {
     display: inline-block;
-    font-family: 'Helvetica';
+    font-family: 'Helvetica', Arial, sans-serif;
     font-size: 20px;
     color: #5f5f5f;
 }
 .blog_title {
     width: 100%;
-    font-family: 'HelveticaNeueBold';
+    font-family: 'HelveticaNeueBold', Helvetica, Arial, sans-serif;
     font-size: 36px;
     line-height: 40px;
     color: #054a74;
 }
-
-
-
-
-
-
-
-

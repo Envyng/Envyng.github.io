@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../fonts/proxima_nova_semibold-webfont.eot');
+    src: url('../fonts/proxima_nova_semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proxima_nova_semibold-webfont.woff2') format('woff2'), url('../fonts/proxima_nova_semibold-webfont.woff') format('woff'), url('../fonts/proxima_nova_semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proxima_nova_regular-webfont.eot');
+    src: url('../fonts/proxima_nova_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proxima_nova_regular-webfont.woff2') format('woff2'), url('../fonts/proxima_nova_regular-webfont.woff') format('woff'), url('../fonts/proxima_nova_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/proxima_nova_bold-webfont.eot');
+    src: url('../fonts/proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'), url('../fonts/proxima_nova_bold-webfont.woff') format('woff'), url('../fonts/proxima_nova_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Regular.otf') format('otf'), url('../fonts/MyriadPro-Regulart.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    outline: none;
+    border: none;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'proxima_nova_rgbold';
+}
+
+
+.view_profile {
+    font-family: 'proxima_nova_rgregular';
+    color: #424242;
+}
+.view_profile .max-block {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bread_crumbs {
+    margin-bottom: 12px;
+    padding: 0;
+    list-style: none;
+}
+.bread_crumbs li {
+    display: inline-block;
+    font-size: 15px;
+}
+.bread_crumbs li a,
+.bread_crumbs li a:hover,
+.bread_crumbs li a:visited,
+.bread_crumbs li a:active,
+.bread_crumbs li a:focus {
+    color: #054975;
+    text-decoration: none;
+}
+.profile_go_back,
+.profile_go_back:hover,
+.profile_go_back:visited,
+.profile_go_back:active,
+.profile_go_back:focus {
+    position: relative;
+    padding-left: 10px;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 14px;
+    color: #424242;
+    text-decoration: none;
+}
+.profile_go_back:before {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: block;
+    content: "";
+    width: 5px;
+    height: 9px;
+    background-image: url(../img/back.png);
+}
+.view_profile_main .view_profile_title {
+    margin-bottom: 16px;
+    font-family: 'proxima_nova_rgbold';
+    line-height: 38px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #054975;
+}
+.view_profile_avatar_wrap {
+    display: inline-block;
+    padding-left: 19px;
+    text-align: right;
+    vertical-align: top;
+}
+.view_profile_userpic {
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    background-color: #707070;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user_data {
+    display: inline-block;
+    padding: 8px 0 16px 0;
+    width: 300px;
+    vertical-align: top;
+}
+.view_profile_main p {
+    padding: 0 20px;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+.view_profile_main p span {
+    font-family: 'proxima_nova_rgbold';
+}
+.user_data_name {
+    font-family: 'proxima_nova_rgbold';
+    font-size: 18px;
+}
+.view_profile .rating-container {
+    display: inline-block;
+    padding: 0 0 0 20px;
+}
+.view_profile .rating-container .clear-rating,
+.view_profile .rating-container .caption {
+    display: none;
+}
+.view_profile .rating-container {
+    margin-right: 6px;
+    font-size: 15px;
+    vertical-align: baseline;
+}
+.view_profile .rating-container .star {
+    margin: 0 2px;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+}
+.view_profile .rating-container .rating {
+    line-height: 15px;
+}
+.view_profile .rating-container .filled-stars {
+    color: #424242;
+}
+.view_profile .user_rating_review {
+    padding: 0;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 14px;
+    vertical-align: baseline;
+    border-bottom: 1px solid #d0d0d0;
+}
+.view_profile .user_website {
+    margin-bottom: 12px;
+    line-height: 48px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    -webkit-border-image: url(../img/border.png) 1 round;
+    -moz-border-image: url(../img/border.png) 1 round;
+    border-image: url(../img/border.png) 1 round;
+}
+.view_profile .user_skill {
+    padding-left: 60px;
+    text-indent: -40px;
+}
+.view_profile .user_qualifications {
+    margin-bottom: 15px;
+}
+.view_profile_message {
+    padding: 20px;
+    border-top: 1px solid #e5e5e5;
+}
+.view_profile_message a,
+.view_profile_message a:hover,
+.view_profile_message a:visited,
+.view_profile_message a:active,
+.view_profile_message a:focus {
+    margin-bottom: 30px;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 14px;
+    line-height: 16px;
+    color: #424242;
+    text-decoration: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+.view_profile h2 {
+    margin: 0 0 18px 0;
+    line-height: 40px;
+    font-size: 18px;
+    color: #054a75;
+    border-bottom: 1px solid #e1e1e1;
+}
+.view_profile_right a,
+.view_profile_right a:hover,
+.view_profile_right a:visited,
+.view_profile_right a:active,
+.view_profile_right a:focus {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 14px;
+    color: #888888;
+    text-decoration: none;
+}
+
+
+@media (min-width: 1200px) {
+    .max-block {
+        max-width: 1210px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1199px) {
+    .max-block {
+        max-width: 970px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .max-block {
+        max-width: 750px;
+    }
+    .user_data {
+        width: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .max-block {
+        max-width: auto;
+    }
+    .user_data {
+        display: block;
+        width: 100%;
+    }
+    .view_profile_right a, 
+    .view_profile_right a:hover, 
+    .view_profile_right a:visited, 
+    .view_profile_right a:active, 
+    .view_profile_right a:focus {
+        padding: 0;
+    }
+}

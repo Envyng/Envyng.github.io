@@ -1,0 +1,692 @@
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../fonts/proxima_nova_semibold-webfont.eot');
+    src: url('../fonts/proxima_nova_semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proxima_nova_semibold-webfont.woff2') format('woff2'), url('../fonts/proxima_nova_semibold-webfont.woff') format('woff'), url('../fonts/proxima_nova_semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proxima_nova_regular-webfont.eot');
+    src: url('../fonts/proxima_nova_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proxima_nova_regular-webfont.woff2') format('woff2'), url('../fonts/proxima_nova_regular-webfont.woff') format('woff'), url('../fonts/proxima_nova_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/proxima_nova_bold-webfont.eot');
+    src: url('../fonts/proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'), url('../fonts/proxima_nova_bold-webfont.woff') format('woff'), url('../fonts/proxima_nova_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Regular.otf') format('otf'), url('../fonts/MyriadPro-Regulart.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    outline: none;
+    border: none;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'proxima_nova_rgbold';
+}
+
+
+/*how_it_works_contractor*/
+.how_it_works_contractor,
+.how_it_works_homeowner,
+.how_it_works_plasterer {
+    font-family: 'proxima_nova_rgregular';
+}
+.how_it_works_contractor h2,
+.how_it_works_contractor h3,
+.how_it_works_homeowner h2,
+.how_it_works_plasterer h2,
+.how_it_works_plasterer h3 {
+    margin-top: 0;
+    color: #054a75;
+}
+/*section contractor*/
+.contractor .max-block {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.contractor h2 {
+    margin-bottom: 17px;
+    font-size: 35px;
+    text-align: center;
+}
+.contractor_subtitle {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 76px;
+    max-width: 485px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #2fade2;
+}
+.contractor_subtitle:before,
+.contractor_subtitle:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 94px;
+    height: 63px;
+}
+.contractor_subtitle:before {
+    bottom: 0;
+    left: -86px;
+    background: url(../img/sprite-icons.png) -479px 0 no-repeat;
+}
+.contractor_subtitle:after {
+    bottom: 0;
+    right: -80px;
+    background: url(../img/sprite-icons.png) -579px 0 no-repeat;
+}
+.contractor h3 {
+    margin-bottom: 7px;
+    font-size: 30px;
+}
+.contractor_description {
+    font-size: 17px;
+    line-height: 29px;
+    color: #356c8f;
+}
+
+
+/*section how_you_can_work*/
+.how_you_can_work {
+    background-color: #f8f7f7;
+}
+.how_you_can_work .max-block {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.how_you_can_work_item:first-child {
+    margin-bottom: 85px;
+}
+.how_you_can_work_item video {
+    width: 563px;
+    height: 346px;
+    box-shadow: 0px 4px 20.46px 1.54px rgba(0, 0, 0, 0.2);
+}
+.how_you_can_work_wrap {
+    position: relative;
+    padding-bottom: 80px;
+    min-height: 346px;
+}
+.how_you_can_work_wrap h2 {
+    margin-bottom: 0;
+    font-size: 44px;
+    line-height: 44px;
+}
+.how_you_can_work_subtitle {
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #2fade2;
+}
+.how_you_can_work_wrap ul {
+    padding: 0;
+    list-style: none;
+}
+.how_you_can_work_wrap ul li {
+    position: relative;
+    padding-left: 36px;
+    line-height: 32px;
+    font-size: 19px;
+    color: #2fade2;
+}
+.how_you_can_work_wrap ul li:before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: -3px;
+    left: 0;
+    width: 26px;
+    height: 24px;
+    background: url(../img/sprite-icons.png) -479px -67px no-repeat;
+}
+.how_you_can_work_more,
+.how_you_can_work_more:hover,
+.how_you_can_work_more:visited,
+.how_you_can_work_more:active,
+.how_you_can_work_more:focus {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    display: block;
+    width: 180px;
+    line-height: 65px;
+    font-family: 'proxima_nova_rgbold';
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    background-color: #054a75;
+}
+
+
+
+/*how_it_works_homeowner*/
+/*section how_you_can_work*/
+.how_it_works_homeowner .how_you_can_work {
+    background-color: #ffffff;
+}
+.how_it_works_homeowner .how_you_can_work .max-block {
+    padding-bottom: 62px;
+}
+.how_it_works_homeowner .how_you_can_work_wrap {
+    padding-bottom: 20px;
+}
+.how_it_works_homeowner .how_you_can_work_item:first-child {
+    margin-bottom: 0;
+}
+.how_it_works_homeowner .how_you_can_work h2 {
+    margin-bottom: 15px;
+}
+.how_it_works_homeowner ul {
+    max-width: 410px;
+}
+.how_it_works_homeowner ul li:last-child {
+    margin-bottom: 45px;
+}
+.how_you_can_work_phone {
+    font-family: 'proxima_nova_rgbold';
+    font-size: 26px;
+    color: #054a75;
+}
+
+
+/*section assets*/
+.assets {
+    background-color: #f8f7f7;
+}
+.how_it_works_homeowner .assets .max-block {
+    padding-top: 53px;
+    padding-bottom: 50px;
+}
+.how_it_works_homeowner .assets_item {
+    min-height: 100px;
+}
+.how_it_works_homeowner .assets_item:first-child,
+.how_it_works_homeowner .assets_item:nth-child(2),
+.how_it_works_homeowner .assets_item:nth-child(3) {
+    margin-bottom: 50px;
+}
+.how_it_works_homeowner .assets_img {
+    margin-right: 15px;
+    display: inline-block;
+    width: 76px;
+    height: 76px;
+    vertical-align: top;
+    background-image: url(../img/assets.png);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.assets_img.assets_1 {
+    background-position: 0 0;
+}
+.assets_img.assets_2 {
+    background-position: -77px 0;
+}
+.assets_img.assets_3 {
+    background-position: -153px 0;
+}
+.assets_img.assets_4 {
+    background-position: -229px 0;
+}
+.assets_img.assets_5 {
+    background-position: -305px 0;
+}
+.assets_img.assets_6 {
+    background-position: -381px 0;
+}
+.how_it_works_homeowner .assets_description {
+    display: inline-block;
+    padding-top: 15px;
+    max-width: 225px;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 20px;
+    line-height: 25px;
+    vertical-align: top;
+}
+.assets_description b {
+    font-family: 'proxima_nova_rgregular';
+}
+
+
+/*how_it_works_plasterer*/
+/*section work*/
+.how_it_works_plasterer .work .max-block {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.how_it_works_plasterer .work h2 {
+    margin-bottom: 13px;
+    font-size: 35px;
+    color: #054a75;
+    text-align: center;
+}
+.work_subtitle {
+    margin-bottom: 60px;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 20px;
+    color: #2fade2;
+    text-align: center;
+}
+.how_it_works_plasterer .work_stages {
+    margin-bottom: 0;
+}
+.work_item {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.work_item:last-child .work_item_description {
+    border-right: none;
+}
+.work_img {
+    position: relative;
+    margin: 0 auto;
+    width: 183px;
+    height: 183px;
+    border-radius: 50%;
+}
+.work_item_1 .work_img {
+    background: url('../img/sprite-images.png') 0 0 no-repeat;
+}
+.work_item_2 .work_img {
+    background: url('../img/sprite-images.png') -188px 0 no-repeat;
+}
+.work_item_3 .work_img {
+    background: url('../img/sprite-images.png') -376px 0 no-repeat;
+}
+.work_item_4 .work_img {
+    background: url('../img/sprite-images.png') -564px 0 no-repeat;
+}
+.work_item_5 .work_img {
+    background: url('../img/sprite-images.png') -752px 0 no-repeat;
+}
+.work_stage_number {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-family: 'proxima_nova_rgbold';
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #2fade2;
+    border-radius: 50%;
+}
+.work_item_description {
+    margin: 0 auto;
+    padding: 14px 34px 0;
+    line-height: 23px;
+    min-height: 85px;
+    font-family: 'proxima_nova_ltsemibold';
+    font-size: 20px;
+    color: #4c4c4c;
+    border-right: 1px solid #e2e2e2;
+}
+.project_start,
+.project_start:hover,
+.project_start:visited,
+.project_start:active,
+.project_start:focus {
+    display: block;
+    margin: 0 auto;
+    width: 293px;
+    line-height: 73px;
+    font-family: 'proxima_nova_rgbold';
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #054a75;
+    text-align: center;
+}
+
+
+/*section how_you_can_work*/
+.how_it_works_plasterer .how_you_can_work_item:first-child {
+    margin-bottom: 0;
+}
+.how_it_works_plasterer .how_you_can_work_wrap h2 {
+    margin-bottom: 18px;
+}
+.how_it_works_plasterer .how_you_can_work_subtitle {
+    width: 350px;
+    font-size: 20px;
+}
+.how_it_works_plasterer .how_you_can_work_item video {
+    box-shadow: none;
+}
+
+
+/*section assets*/
+.how_it_works_plasterer .assets {
+    background-color: #ffffff;
+}
+.how_it_works_plasterer .assets .max-block {
+    padding-top: 70px;
+    padding-bottom: 67px;
+}
+.how_it_works_plasterer .assets_item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.how_it_works_plasterer .assets_item:first-child, 
+.how_it_works_plasterer .assets_item:nth-child(2), 
+.how_it_works_plasterer .assets_item:nth-child(3) {
+    margin-bottom: 0;
+}
+.how_it_works_plasterer .assets_img {
+    margin-right: 12px;
+    display: inline-block;
+    width: 76px;
+    height: 76px;
+    vertical-align: middle;
+    background: #28aae0;
+    border-radius: 50%;
+    text-align: center;
+}
+.how_it_works_plasterer .assets_img span {
+    display: block;
+}
+.how_it_works_plasterer .assets_7 span {
+    margin-left: 11px;
+    margin-top: 16px;
+    width: 40px;
+    height: 43px;
+    background: url(../img/sprite-icons.png) -390px 0 no-repeat;
+}
+.how_it_works_plasterer .assets_8 span {
+    margin-left: 24px;
+    margin-top: 16px;
+    width: 27px;
+    height: 41px;
+    background: url(../img/sprite-icons.png) -435px 0 no-repeat;
+}
+.how_it_works_plasterer .assets_9 span {
+    margin-left: 20px;
+    margin-top: 17px;
+    width: 36px;
+    height: 36px;
+    background: url(../img/sprite-icons.png) -390px -48px no-repeat;
+}
+.how_it_works_plasterer .assets_10 span {
+    margin-left: 16px;
+    margin-top: 23px;
+    width: 43px;
+    height: 28px;
+    background: url(../img/sprite-icons.png) -430px -49px no-repeat;
+}
+.how_it_works_plasterer .assets_description {
+    padding-top: 15px;
+    display: inline-block;
+    max-width: 200px;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 19px;
+    line-height: 25px;
+    vertical-align: top;
+}
+
+
+/*section contractor*/
+.how_it_works_plasterer .contractor {
+    background-color: #f8f7f7;
+}
+.how_it_works_plasterer .contractor_subtitle {
+    padding-bottom: 60px;
+}
+.how_it_works_plasterer .contractor_subtitle:before, 
+.how_it_works_plasterer .contractor_subtitle:after {
+    display: none;
+}
+
+
+@media (min-width: 1200px) {
+    .max-block {
+        max-width: 1210px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1199px) {
+    .max-block {
+        max-width: 970px;
+        margin: 0 auto;
+    }
+    .how_you_can_work_item video {
+        width: 455px;
+        height: auto;
+    }
+    .how_it_works_homeowner .assets_description {
+        width: 100%;
+        max-width: 200px;
+        font-size: 18px;
+    }
+    .how_it_works_plasterer .how_you_can_work_wrap {
+        min-height: 280px;
+    }
+    .how_it_works_plasterer .assets_item {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .how_it_works_plasterer .assets_description {
+        min-width: 250px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 992px) {
+    .max-block {
+        max-width: 750px;
+    }
+    .user_data {
+        width: 250px;
+    }
+    .how_you_can_work_item {
+        text-align: center;
+    }
+    .how_you_can_work_item video {
+        margin-bottom: 30px;
+        width: 563px;
+        height: 346px;
+    }
+    .how_you_can_work_wrap ul {
+        display: inline-block;
+        text-align: left;
+    }
+    .how_you_can_work_more,
+    .how_you_can_work_more:hover,
+    .how_you_can_work_more:visited,
+    .how_you_can_work_more:active,
+    .how_you_can_work_more:focus {
+        left: 50%;
+        margin-left: -90px;
+    }
+    .how_it_works_homeowner .assets_item {
+        text-align: center;
+        min-height: 176px;
+    }
+    .assets_img {
+        margin-right: 0;
+    }
+    .work_img {
+        width: 128px;
+        height: 128px;
+    }
+    .work_item_1 .work_img {
+        background-size: auto 128px;
+    }
+    .work_item_2 .work_img {
+        background: url(../img/sprite-images.png) -131px 0 no-repeat;
+        background-size: auto 128px;
+    }
+    .work_item_3 .work_img {
+            background: url(../img/sprite-images.png) -262px 0 no-repeat;
+        background-size: auto 128px;
+    }
+    .work_item_4 .work_img {
+        background: url(../img/sprite-images.png) -394px 0 no-repeat;
+        background-size: auto 128px;
+    }
+    .work_item_5 .work_img {
+        background: url(../img/sprite-images.png) -525px 0 no-repeat;
+        background-size: auto 128px;
+    }
+    .work_stage_number {
+        left: 3px;
+        bottom: 3px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .work_item_description {
+        padding: 14px 10px 0;
+        font-size: 17px;
+    }
+    .how_it_works_plasterer .how_you_can_work_subtitle {
+        margin: 0 auto;
+    }
+    .how_it_works_plasterer .how_you_can_work_wrap {
+        min-height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .max-block {
+        max-width: auto;
+    }
+    .contractor .max-block,
+    .how_you_can_work .max-block,
+    .how_it_works_plasterer .assets .max-block,
+    .how_it_works_plasterer .work .max-block {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .contractor h2,
+    .how_you_can_work_wrap h2,
+    .how_you_can_work_subtitle,
+    .how_it_works_plasterer .work h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .contractor_subtitle {
+        padding-bottom: 30px;
+    }
+    .contractor_subtitle:before, 
+    .contractor_subtitle:after {
+        display: none;
+    }
+    .contractor h3,
+    .contractor_description {
+        text-align: center;
+    } 
+    .how_you_can_work_item:first-child {
+        margin-bottom: 30px;
+    }
+    .how_you_can_work_item video {
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 563px;
+        height: auto;
+    }
+    .how_you_can_work_wrap {
+        min-height: auto;
+    }
+    .how_it_works_homeowner .how_you_can_work .max-block {
+        padding-bottom: 0px;
+    }
+    .how_it_works_homeowner .assets_item {
+        margin-bottom: 20px;
+    }
+    .how_it_works_homeowner .assets .max-block {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .how_it_works_homeowner .assets_description {
+        font-size: 16px;
+    }
+    .how_it_works_homeowner .assets_item {
+        min-height: 110px;
+    }
+    .how_it_works_homeowner .assets_item:first-child, 
+    .how_it_works_homeowner .assets_item:nth-child(2), 
+    .how_it_works_homeowner .assets_item:nth-child(3) {
+        margin-bottom: 20px;
+    }
+    .how_it_works_plasterer .assets_description {
+        min-height: 60px;
+        min-width: 100%;
+        text-align: center;
+    }
+    .how_it_works_plasterer .work_subtitle {
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+    .how_it_works_plasterer .work_item_description {
+        margin-bottom: 30px;
+        min-height: auto;
+        border: none;
+    }
+    .work_stages {
+        text-align: center;
+    }
+    .work_item {
+        display: inline-block;
+        width: 32.5%;
+        float: none;
+        vertical-align: top;
+    }
+}
+
+@media (max-width: 620px) {
+    .work_item {
+        width: 49.5%;
+    }
+}
+
+@media (max-width: 380px) {
+    .how_it_works_homeowner .assets_item {
+        min-height: 176px;
+    }
+    .how_it_works_plasterer .how_you_can_work_subtitle {
+        width: 100%;
+    }
+}
