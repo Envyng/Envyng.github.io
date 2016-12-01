@@ -270,14 +270,8 @@
 <!-- overlay -->
 <div class="login_box_over hidden"></div>
 <div class="empty_over hidden"></div>
-
    
-   
-   
-   
-   
-   
-    <div class="container container_cabinet">
+    <div class="container container_cabinet kabinet_profile">
         <div class="row container_table">
             <div class="partner_head col-lg-2 col-md-2 col-sm-2 col-xs-2">
                 <div class="userpic">
@@ -298,42 +292,43 @@
             </div>
             
             
-            <div class="partner_menu ol-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <div class="partner_menu col-lg-1 col-md-1 col-sm-12 col-xs-12">
                 <ul>
-                    <li>
-                        <a class="partner_menu_main" href="#">Головна</a>
+                    <li class="partner_menu_main">
+                        <a href="#">Головна</a>
                     </li>
-                    <li>
-                        <a class="partner_menu_profile active" href="#">Профіль</a>
+                    <li class="partner_menu_profile active">
+                        <a href="" class="partner_menu_back"></a>
+                        <a href="#">Профіль</a>
                     </li>
-                    <li>
-                        <a class="partner_menu_network" href="#">Структура</a>
+                    <li class="partner_menu_network">
+                        <a href="#">Структура</a>
                     </li>
-                    <li>
-                        <a class="partner_menu_reward" href="#">План винагород</a>
+                    <li class="partner_menu_reward">
+                        <a href="#">План винагород</a>
                     </li>
-                    <li>
-                        <a class="partner_menu_study" href="#">Бізнес навчання</a>
+                    <li class="partner_menu_study">
+                        <a href="#">Бізнес навчання</a>
                     </li>
-                    <li>
-                        <a class="partner_menu_finance" href="#">Фінансовий облік</a>
+                    <li class="partner_menu_finance">
+                        <a href="#">Фінансовий облік</a>
                     </li>
-                    <li>
-                        <a class="partner_menu_history" href="#">Історія замовлень</a>
+                    <li class="partner_menu_history">
+                        <a href="#">Історія замовлень</a>
                     </li>
-                    <li>
-                        <a class="partner_menu_chosen" href="#">Обране</a>
+                    <li class="partner_menu_chosen">
+                        <a href="#">Обране</a>
                     </li>
-                    <li>
-                        <a class="partner_menu_write_us" href="#">Написати <br>нам</a>
+                    <li class="partner_menu_write_us">
+                        <a href="#">Написати <br>нам</a>
                     </li>
                 </ul>
             </div>
             
-            <div class="partner_main col-lg-9 col-md-9 col-sm-9 col-xs-9">
+            <div class="partner_main col-lg-9 col-md-9 col-sm-12 col-xs-12">
                 <ul class="profile_menu nav nav-tabs">
                     <li class="active"><a  data-toggle="tab" href="#base">Основна</a></li>
-                    <li><a  data-toggle="tab" href="#addition">Додатково</a></li>
+                    <li class="tablet_hidden"><a  data-toggle="tab" href="#addition">Додатково</a></li>
                     <li><a  data-toggle="tab" href="#address">Адреси</a></li>
                     <li><a  data-toggle="tab" href="#security">Безпека</a></li>
                     <li><a  data-toggle="tab" href="#change_data">Зміна даних</a></li>
@@ -349,6 +344,8 @@
                         <p class="profile_title_description">+38 091 123 45 67</p>
                         <p class="profile_title">Номер картки</p>
                         <p class="profile_title_description">007792</p>
+                        <p class="profile_title desktop_hidden">Реферальний код</p>
+                        <p class="profile_title_description desktop_hidden">8740</p>
                         
                         <form class="profile_base_form">
                             <label for="profile_name">Місто / Населений пункт</label>
@@ -421,7 +418,7 @@
                     
                     <div id="change_data" class="change_data tab-pane fade">
                         <form class="profile_change_data_form">
-                            <textarea placeholder="Введіть дані, які необхідно змінити.     
+                            <textarea placeholder="Введіть дані, які необхідно змінити.    
 Та вкажіть причину зміни."></textarea>
                             <button class="request_change_data">Подати запит на зміну персональних даних</button>
                         </form>

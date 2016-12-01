@@ -578,3 +578,15 @@ $('.filter_modal_main_list li').on('mouseenter', function() {
         $('.filter_modal_main_list li:hover ul').css({'display' : 'block'});
     }, 1000);
 });
+
+
+/*kabinet partnera finance mobile*/
+$('.finance .profile_menu').on('click', function() {
+    $('.partner_menu, .profile_menu, .finance_bonuses_mobile').addClass('finance_mobile_hidden');
+    $('.tab-content').removeClass('finance_mobile_hidden');
+});
+
+$('.finance_tab_title').on('click', function() {
+    $('.partner_menu, .profile_menu, .finance_bonuses_mobile').removeClass('finance_mobile_hidden');
+    $('.tab-content').addClass('finance_mobile_hidden');
+});
