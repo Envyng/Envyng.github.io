@@ -716,133 +716,153 @@
                 <div class="history_modal_close" data-dismiss="modal" aria-hidden="true"><span></span></div>
                 <div class="modal-body">
                     <p class="history_modal_title">Інформація про замовлення</p>
-                    <table class="order_ifo_table">
-                        <tr>
-                            <th>Номер</th>
-                            <th>Дата</th>
-                            <th>Сума (грн)</th>
-                            <th>Спосіб оплати</th>
-                            <th>Спосіб доставки</th>
-                            <th>Адреса доставки</th>
-                        </tr>
-                        <tr>
-                            <td>243300</td>
-                            <td>18 02 2016</td>
-                            <td>312,36</td>
-                            <td>Готівка</td>
-                            <td>Доставка по м. Мукачево</td>
-                            <td>м. Мукачево, вул. Ф. Достоєвського, 34/11</td>
-                        </tr>
-                    </table>
-                    <p class="history_modal_title">Товари в кошику</p>
-                    <table class="order_in_table">
-                        <thead>
+                    <div class="history_modal_table_wrap">
+                        <table class="order_info_table">
                             <tr>
-                                <th>Назва</th>
-                                <th>Кількість</th>
-                                <th>Ціна</th>
-                                <th>Сума</th>
+                                <th>Номер</th>
+                                <th>Дата</th>
+                                <th>Сума (грн)</th>
+                                <th>Спосіб оплати</th>
+                                <th>Спосіб доставки</th>
+                                <th>Адреса доставки</th>
+                            </tr>
+                            <tr>
+                                <td>243300</td>
+                                <td>18 02 2016</td>
+                                <td>312,36</td>
+                                <td>Готівка</td>
+                                <td>Доставка по м. Мукачево</td>
+                                <td>м. Мукачево, вул. Ф. Достоєвського, 34/11</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p class="history_modal_title">Товари в кошику</p>
+                    <div class="history_modal_table_wrap history_modal_table_wrap_02">
+                        <table class="order_in_table">
+                            <thead>
+                                <tr>
+                                    <th>Назва</th>
+                                    <th>Кількість</th>
+                                    <th>Ціна</th>
+                                    <th>Сума</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                    <tr>
+                                        <td>
+                                            <ul>
+                                                <li>Середземноморська</li>
+                                                <li>маленька 28 см</li>
+                                                <li>пармезан</li>
+                                                <li>яйце</li>
+                                                <li>упаковка</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li></li>
+                                                <li>1</li>
+                                                <li>1</li>
+                                                <li>1</li>
+                                                <li>1</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li></li>
+                                                <li>65,00</li>
+                                                <li>15,00</li>
+                                                <li>4,00</li>
+                                                <li>4,00</li>
+                                            </ul>
+                                        </td>
+                                        <td>88,00</td>
+                                        <td><a class="basket" href=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Філе куряче</td>
+                                        <td>0,5</td>
+                                        <td>64,90</td>
+                                        <td>32,50</td>
+                                        <td><a class="basket" href=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Банани</td>
+                                        <td>0,328</td>
+                                        <td>34,40</td>
+                                        <td>13,76</td>
+                                        <td><a class="basket" href=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Сир серпц. королівський 45%</td>
+                                        <td>0,4</td>
+                                        <td>120,50</td>
+                                        <td>48,10</td>
+                                        <td><a class="basket" href=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Капуста брокколі ТМ Шеф Кухар 400 гр</td>
+                                        <td>1</td>
+                                        <td>34,50</td>
+                                        <td>34,50</td>
+                                        <td><a class="basket" href=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цукерка Konafetto крем-згущене молоко</td>
+                                        <td>0,5</td>
+                                        <td>131,05</td>
+                                        <td>65,50</td>
+                                        <td><a class="basket" href=""></a></td>
+                                    </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="order_status_left">
+                        <table class="order_status_table">
+                            <tr>
+                                <th colspan="3">Статус замовлення</th>
+                            </tr>
+                            <tr>
+                                <td>18/02/2016</td>
+                                <td>13:05:21</td>
+                                <td>Очікування</td>
+                            </tr>
+                            <tr>
+                                <td>18/02/2016</td>
+                                <td>13:06:40</td>
+                                <td>В обробці</td>
+                            </tr>
+                            <tr>
+                                <td>18/02/2016</td>
+                                <td>13:35:21</td>
+                                <td>Завершено</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="order_status_right">
+                        <table class="order_status_table">
+                            <tr>
+                                <th></th>
                                 <th></th>
                             </tr>
-                        </thead>
-                        <tbody>
-                            
-                                <tr>
-                                    <td>
-                                        <ul>
-                                            <li>Середземноморська</li>
-                                            <li>маленька 28 см</li>
-                                            <li>пармезан</li>
-                                            <li>яйце</li>
-                                            <li>упаковка</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li></li>
-                                            <li>1</li>
-                                            <li>1</li>
-                                            <li>1</li>
-                                            <li>1</li>
-                                        </ul>
-                                    </td>
-                                    <td>
-                                        <ul>
-                                            <li></li>
-                                            <li>65,00</li>
-                                            <li>15,00</li>
-                                            <li>4,00</li>
-                                            <li>4,00</li>
-                                        </ul>
-                                    </td>
-                                    <td>88,00</td>
-                                    <td><a class="basket" href=""></a></td>
-                                </tr>
-                                <tr>
-                                    <td>Філе куряче</td>
-                                    <td>0,5</td>
-                                    <td>64,90</td>
-                                    <td>32,50</td>
-                                    <td><a class="basket" href=""></a></td>
-                                </tr>
-                                <tr>
-                                    <td>Банани</td>
-                                    <td>0,328</td>
-                                    <td>34,40</td>
-                                    <td>13,76</td>
-                                    <td><a class="basket" href=""></a></td>
-                                </tr>
-                                <tr>
-                                    <td>Сир серпц. королівський 45%</td>
-                                    <td>0,4</td>
-                                    <td>120,50</td>
-                                    <td>48,10</td>
-                                    <td><a class="basket" href=""></a></td>
-                                </tr>
-                                <tr>
-                                    <td>Капуста брокколі ТМ Шеф Кухар 400 гр</td>
-                                    <td>1</td>
-                                    <td>34,50</td>
-                                    <td>34,50</td>
-                                    <td><a class="basket" href=""></a></td>
-                                </tr>
-                                <tr>
-                                    <td>Цукерка Konafetto крем-згущене молоко</td>
-                                    <td>0,5</td>
-                                    <td>131,05</td>
-                                    <td>65,50</td>
-                                    <td><a class="basket" href=""></a></td>
-                                </tr>
-                        </tbody>
-                    </table>
-                    <table class="order_status_table">
-                        <tr>
-                            <th colspan="3">Статус замовлення</th>
-                            <th></th>
-                            <th></th>
-                        </tr>
-                        <tr>
-                            <td>18/02/2016</td>
-                            <td>13:05:21</td>
-                            <td>Очікування</td>
-                            <td>Сума </td>
-                            <td>282,36</td>
-                        </tr>
-                        <tr>
-                            <td>18/02/2016</td>
-                            <td>13:06:40</td>
-                            <td>В обробці</td>
-                            <td>Доставка</td>
-                            <td>30,00</td>
-                        </tr>
-                        <tr>
-                            <td>18/02/2016</td>
-                            <td>13:35:21</td>
-                            <td>Завершено</td>
-                            <td>Сума до сплати</td>
-                            <td>312,36</td>
-                        </tr>
-                    </table>
+                            <tr>
+                                <td>Сума </td>
+                                <td>282,36</td>
+                            </tr>
+                            <tr>
+                                <td>Доставка</td>
+                                <td>30,00</td>
+                            </tr>
+                            <tr>
+                                <td>Сума до сплати</td>
+                                <td>312,36</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    
                     <div class="order_repeat_wrap">
                         <button class="order_repeat">Повторити замовлення</button>
                         <div class="order_question">?</div>

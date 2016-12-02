@@ -2428,6 +2428,61 @@
         margin-left: -17px;
     }
     
+    .history_modal .modal-dialog {
+        margin-top: 28px;
+        width: 100%;
+    }
+    
+    .history_modal_table_wrap {
+        overflow: scroll;
+    }
+    
+    .history_modal_table_wrap_02 {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    
+    .history_modal table {
+        width: 718px;
+    }
+    
+    .order_info_table th {
+        border-bottom: 1px solid #999999;
+    }
+    
+    .order_info_table td {
+        background-color: #ffffff;
+    }
+    
+    .history_modal .order_status_table {
+        width: 100%;
+    }
+    
+    .order_status_left,
+    .order_status_right {
+        display: block;
+        width: 100%;
+    }
+    
+    .order_status_left {
+        margin: 0;
+        padding: 0 35px;
+    }
+    
+    .order_status_right {
+        padding: 0 65px;
+    }
+    
+    .order_status_table {
+        margin-bottom: 13px;
+    }
+    
+    .order_repeat_wrap {
+        margin-bottom: 5px;
+    }
+
+    
+    
     /*kabinet partnera structure*/
     .structure_menu {
         margin-top: 0;
@@ -2461,6 +2516,14 @@
     .registration_partner:active,
     .registration_partner:focus {
         display: block;
+    }
+    
+    .mentor_modal .modal-dialog {
+        width: auto;
+        max-width: 282px;
+    }
+    .modal-dialog {
+        margin: 170px auto;
     }
     
     /*kabinet profile finance*/
