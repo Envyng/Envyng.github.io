@@ -22,14 +22,14 @@ var removeLiclass = function() {
 var mapPopup = document.querySelector(".map_popup");
 
 
-var iconMain = 'https://e1d08877052c495ff8c308a100ba21aac1155aac.googledrive.com/host/0B_bGrkC7tJNKUWxRNUM5SmtFZnM/images/main_marker.png';
+var iconMain = 'images/main_marker.png';
 
-var scl = 'https://e1d08877052c495ff8c308a100ba21aac1155aac.googledrive.com/host/0B_bGrkC7tJNKUWxRNUM5SmtFZnM/images/ikon_scl.png';
-var sclActive = 'https://e1d08877052c495ff8c308a100ba21aac1155aac.googledrive.com/host/0B_bGrkC7tJNKUWxRNUM5SmtFZnM/images/ikon_scl_active.png';
-var park = 'https://e1d08877052c495ff8c308a100ba21aac1155aac.googledrive.com/host/0B_bGrkC7tJNKUWxRNUM5SmtFZnM/images/ikon_park.png';
-var parkActive = 'https://e1d08877052c495ff8c308a100ba21aac1155aac.googledrive.com/host/0B_bGrkC7tJNKUWxRNUM5SmtFZnM/images/ikon_park_aktive.png';
-var ship = 'https://e1d08877052c495ff8c308a100ba21aac1155aac.googledrive.com/host/0B_bGrkC7tJNKUWxRNUM5SmtFZnM/images/ikon_ship.png';
-var shipActive = 'https://e1d08877052c495ff8c308a100ba21aac1155aac.googledrive.com/host/0B_bGrkC7tJNKUWxRNUM5SmtFZnM/images/ikon_ship_active.png';
+var scl = 'images/ikon_scl.png';
+var sclActive = 'images/ikon_scl_active.png';
+var park = 'images/ikon_park.png';
+var parkActive = 'images/ikon_park_aktive.png';
+var ship = 'images/ikon_ship.png';
+var shipActive = 'images/ikon_ship_active.png';
 
 function initMap() {
     /*Инициализация карт*/
