@@ -31,7 +31,7 @@ var parkActive = 'images/ikon_park_aktive.png';
 var ship = 'images/ikon_ship.png';
 var shipActive = 'images/ikon_ship_active.png';
 
-window.initMap = function() {
+function initMap() {
     /*Инициализация карт*/
     /*Основная карта*/
     map = new google.maps.Map(document.getElementById('googlemap'), {
