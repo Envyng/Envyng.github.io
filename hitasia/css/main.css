@@ -1,0 +1,321 @@
+@font-face
+{
+    font-family: 'MyriadPro-Cond';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/MyriadPro-Cond.otf);
+}
+@font-face
+{
+    font-family: 'MyriadPro-BoldCond';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/MyriadPro-BoldCond.otf);
+}
+@font-face
+{
+    font-family: 'MyriadPro-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+html
+{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after
+{
+    box-sizing: inherit;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    background-color: #fff;
+    margin-bottom: 24px;
+}
+p, h2, h3, a {
+    font-weight: normal;
+}
+.main_header {
+    position: relative;
+    height: 360px;
+    background-image: url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-top: 10px solid #30303d;
+}
+.container {
+    position: relative;
+    width: 1200px;
+    padding: 1px 10px;
+    margin: 0 auto;
+    height: 100%;
+   
+}
+.main_header .container{
+    padding-top: 7px;
+    background-image: url(../img/logo_img.png);
+    background-repeat: no-repeat;
+    background-position: 278px 70px;
+    -webkit-background-size:auto;
+    background-size: auto;
+}
+.main_header:after {
+    position: absolute;
+    bottom: -3px;
+    left:0;
+    content: " ";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-image: url(../img/header_border_bottom.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: cover;
+}
+.logo_name {
+    position: absolute;
+    left: 278px;
+    top: 168px;
+}
+.main_menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main_menu a {
+    width: 100px;
+    height: 35px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'MyriadPro-Cond', Arial, sans-serif;
+    font-size: 20px;
+    color: #346733;
+    cursor: url(../img/cursor.png), pointer;
+}
+.main_menu .menu_active {
+    background-color: #356734;
+    color: #fff;
+}
+.main_menu a:hover {
+    color: #fff;
+    background-color: #30303d;
+}
+.main_menu .menu_active:hover {
+    background-color: #356734;
+}
+.main_content {
+    padding-top: 70px;
+}
+.column_left {
+    width: 810px;
+    float: left;
+}
+.publication {
+    margin-bottom: 98px;
+}
+
+.publication img {
+    width: 220px;
+    height: 190px;
+    margin-right: 20px;
+    display: inline-block;
+    float: left;
+}
+.content_wrap {
+    position: relative;
+    max-width: 780px;
+    min-height: 190px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px;
+}
+.content_wrap:after, .aside_item:after {
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-image: url(../img/dott.png);
+    background-repeat: repeat-x;
+    z-index: -1;
+}
+.content_wrap:after {
+    max-width: 635px;
+}
+.aside_item:after {
+    z-index: 0;
+}
+h2 {
+    text-align: center;
+    padding: 0;
+    margin-top: 13px;
+    margin-bottom: -12px;
+}
+.title {
+    font-family: 'MyriadPro-BoldCond', 'Arial Bold', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: black;
+    cursor: url(../img/cursor.png), pointer;
+}
+.title:hover {
+    text-decoration: underline;
+    color: #346733;
+}
+.content_wrap p {
+    font-family: 'MyriadPro-Regular', Arial, sans-serif;
+    font-size: 14px;
+    text-indent: 10px;
+}
+.content_wrap p:last-of-type {
+    margin-bottom: 40px;
+}
+.publication_read {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 140px;
+    height: 23px;
+    display: block;
+    background-color: #c0c0c4;
+    font-family: 'MyriadPro-Cond';
+    color: #346733;
+    font-size: 18px;
+    padding-left: 20px;
+    text-decoration: none;
+    line-height: 26px;
+    cursor: url(../img/cursor.png), pointer;
+    background-image: url(../img/figura.png);
+    background-repeat: no-repeat;
+    background-position: 113px 50%;
+}
+.publication_read:hover {
+    text-decoration: underline;
+}
+.column_right {
+    width: 300px;
+    min-height: 567px;
+    float: right;
+    background-color: #eeeeee;
+    border: 1px solid #bfbfbf;
+    padding: 0 10px;
+}
+.aside_item {
+    position: relative;
+    min-height: 69px;
+    font-family: 'MyriadPro-BoldCond';
+    padding-bottom: 1px;
+}
+.aside_item h3 {
+    margin: 18px 0 3px 0;
+}
+.aside_item h3 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #346733;
+}
+.aside_item h3 a:visited {
+    color: #457596;
+}
+.aside_info {
+    font-family: 'MyriadPro-Regular';
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 3px;
+}
+.date {
+    font-size: 14px;
+    margin: 0 0 5px 190px;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 24px;
+    width: 100%;
+    background-color: #eeeeee;
+    border-top: 1px solid #c1c1c1;
+}
+.footer_menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+    
+}
+.footer_menu li {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 20px;
+}
+.footer_menu a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'MyriadPro-Cond', Arial, sans-serif;
+    font-size: 14px;
+    cursor: url(../img/cursor.png), pointer;
+}
+.copyright {
+    position: absolute;
+    left: 50%; 
+    bottom:0;
+    margin-left: -45px;
+    text-decoration: none;
+    color: black;
+    font-family: 'MyriadPro-Regular';
+    font-size: 14px;
+}
+.social_icon {
+    position: fixed;
+    top: 435px;
+    left: 8px;
+    width:32px;
+    height: 202px;
+}
+.social_icon a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+    background-image: url(../img/social_icon.png);
+    background-repeat: no-repeat;
+    cursor: url(../img/cursor.png), pointer;
+}
+.twitter {
+    background-position: 0 0;
+}
+.facebook {
+    background-position: 0 -34px;
+}
+.google {
+    background-position: 0 -68px;
+}
+.linkedin {
+    background-position: 0 -102px;
+}
+.skype {
+    background-position: 0 -136px;
+}
+.youtube {
+    background-position: 0 -170px;
+}

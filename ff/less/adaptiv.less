@@ -1,0 +1,207 @@
+@img-url: "../img/";
+@font-url: "../fonts/";
+
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .b-phone,.b-mail{white-space: nowrap;}
+  .b-contact{
+    .b--block3{
+      padding-right: 15px;
+    }
+  }
+  .carousel-control.b--slider-left, .carousel-control.b--slider-right{
+    top:auto;
+    bottom: 30px;
+  }
+  .b-step{padding: 0 15px 0 0;}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 800px) and (max-width: 991px) {
+  .b-phone,.b-mail{white-space: nowrap;}
+  .b-contact{
+    .b--block3{
+      padding-right: 15px;
+    }
+  }
+  .b--nav-style{
+    .navbar{
+      margin: 0;
+    }
+  }
+  .b--blue-button{margin: 0;}
+  .b--doc-block{
+    width: 110%;
+  }
+  .carousel-control.b--slider-left, .carousel-control.b--slider-right{
+    top:auto;
+    bottom: 30px;
+  }
+  .b-step{
+    text-indent: 0;
+    text-align: center;
+    padding: 0 15px 0 0;
+  }
+  .b-doc-text{
+    width: 180px;
+  }
+}
+
+  .show_on_tablet { display: none!important; }
+  .nav-menu_on_tablet {
+
+  }
+  .nav-menu_on_tablet .navbar-nav {
+    text-align: center;
+  }
+  .nav-menu_on_tablet .navbar-nav > li {
+    display: inline-block;
+  }
+  .nav-menu_on_tablet .navbar-nav > li > a {
+    color: #054a74 !important;
+  }
+/* Landscape phones and portrait tablets */
+@media (max-width: 800px) {
+  .b__header { padding: 14px 0 10px; }
+  .nav-menu_on_tablet { margin-bottom: 0; }
+  .hide_on_tablet { display: none!important; }
+  .show_on_tablet { display: block!important; }
+  .b--doc-block{
+
+  }
+  .b--logo-header,.b-footer-logo{
+    width: 82px;
+    height: 82px;
+    background: url("@{img-url}logo-mobil.png") no-repeat;
+  }
+  .b--nav-style{
+    .navbar{
+      position: static;
+      float: right;
+    }
+    .navbar-collapse{
+      position: absolute;
+      width: 100%;
+      background: #ffffff;
+      right: 15px;
+      top:61px;
+    }
+  }
+  .navbar-nav{
+
+  }
+  .navbar-default .navbar-collapse{
+    border: solid 1px #8e8e8e;
+  }
+  .b-contact{
+    .b--table{display: block;}
+    .b--block1,.b--block2,.b--block3{
+      display: block;
+      padding: 10px 15px;
+    }
+  }
+  .navbar-nav > li > a{text-align: left;}
+  .b-step-block{height: auto;
+    .b--table,.b--table-cell{
+      display: block;
+      width: 100%;
+      margin: auto;
+      padding: 0;
+    }
+
+    .b-step{
+      text-indent: 12%;
+      padding: 0;
+      border-bottom: solid 1px #ffffff;
+      &:after{
+        left: 0;
+        top: 36px;
+        right: 0;
+        margin: auto;
+        display: block;
+        width: 40px;
+        height: 15px;
+        background: url("@{img-url}angle-mobil.png") no-repeat 0 0;
+      }
+    }
+    .b-step-active{
+      &:after{
+        background-position: -40px 0;
+      }
+    }
+  }
+  .b-popup-help{
+    display: none;
+  }
+  .b-form{
+    max-width: 100%;
+  }
+  .b--doc-block{
+    display: block;
+    position: relative;
+    padding: 0 55px 0 0;
+    .b--table-cell{
+      display: block;
+      padding: 0 0 15px;
+    }
+    .b-delete-photo{
+      position: absolute;
+      right: 0;
+      top:0;
+    }
+  }
+  .b--slider-body{
+    height: 540px;
+    .carousel-caption{
+      padding: 0 15px;
+      height: 540px;
+      strong{
+        padding: 100px 0 15px;
+      }
+      p{
+        font-size: 18px;
+        line-height: normal;
+      }
+    }
+  }
+  .carousel-control.b--slider-right{
+    right: 15px;
+  }
+  .carousel-control.b--slider-left{
+    left: 15px;
+  }
+
+  .carousel-control.b--slider-left, .carousel-control.b--slider-right{
+    top:20px;
+  }
+  .b-doc-text{
+    width: 100%;
+  }
+  .b-popup-help{
+    position: relative;
+    display: block;
+    top:auto;
+    max-width: 100%;
+    margin: 20px 0;
+    &:before{
+      border: 20px solid transparent;
+      border-bottom: 20px solid #e6edf1;
+      left: 0;
+      top: -35px;
+      right: 0;
+      width: 20px;
+      margin: auto;
+      bottom: auto;
+    }
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .b-photo-block{width: 100%;}
+
+}

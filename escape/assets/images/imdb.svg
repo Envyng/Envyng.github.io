@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137.75" height="2" viewBox="0 0 137.75 2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #c9c9c9;
+        stroke-linecap: round;
+        stroke-width: 1px;
+        stroke-dasharray: 0.001 4;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="imdb.svg" class="cls-1" d="M1095.5,5789H1235" transform="translate(-1094.5 -5788.5)"/>
+</svg>
