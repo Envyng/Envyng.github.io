@@ -39,7 +39,7 @@ a:focus {
 
 /*header*/
 .main_header .container {
-    padding: 20px 5px;
+    padding: 20px 15px;
 }
 .logo_container {
     padding-left: 15px;
@@ -215,13 +215,12 @@ h2 {
 }
 .main_detail {
     padding-top: 15px;
-    padding-left: 10px;
 }
 .main_big_img {
     margin-bottom: 15px;
     width: 100%;
-    max-width: 335px;
-    max-height: 210px;
+    max-width: 360px;
+    max-height: 220px;
     overflow: hidden;
     text-align: center;
     border: 2px solid #121212;
@@ -252,8 +251,12 @@ h2 {
 .main_content_time {
     color: #8d8d8d;
 }
+.main_news {
+    padding-left: 0;
+    padding-right: 0;
+}
 .main_news_left_column {
-    padding: 15px 15px 0 5px;
+    padding-top: 15px;
 }
 .main_news_right_column {
     padding: 15px 15px 25px 15px;
@@ -285,7 +288,6 @@ h2 {
 }
 .main_ad {
     padding-top: 15px;
-    padding-right: 10px;
 }
 .banner_wrap {
     margin: 0 auto;
@@ -325,6 +327,9 @@ h2 {
 
 
 /*persona*/
+.persona {
+    margin-bottom: 7px;
+}
 .persona_content {
     padding: 20px 5px;
     background-color: #f7f7f7;
@@ -366,7 +371,7 @@ h2 {
     border-bottom: 2px solid #cbcbcb;
 }
 .rubrics_item {
-    padding: 22px 5px 0 5px;
+    padding-top: 22px;
     font-size: 15px;
     line-height: 20px;
 }

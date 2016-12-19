@@ -7,13 +7,7 @@
         font-size: 20px;
     }
     
-    .main_news_left_column {
-        padding: 15px 5px 0 5px;
-    }
-    .main_news_right_column {
-        min-height: auto;
-        padding: 15px 5px 25px 5px;
-    }
+    
     
     
     .persona_descr_wrap {
@@ -64,6 +58,9 @@
     }
     .main_content_details p {
         font-size: 13px;
+    }
+    .main_news_right_column {
+        min-height: auto;
     }
     .persona_descr_wrap {
         width: 100%;
@@ -121,6 +118,7 @@
     }
     .main_news_right_column {
         padding-bottom: 0;
+        min-height: auto;
     }
     .banner_wrap {
         margin-bottom: 15px;
