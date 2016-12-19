@@ -337,8 +337,8 @@ h2 {
 .persona_img {
     display: inline-block;
     margin-right: 10px;
-    width: 93px;
-    height: 93px;
+    width: 70px;
+    height: 70px;
     border: 2px solid #121212;
     vertical-align: top;
 }
@@ -353,13 +353,13 @@ h2 {
 }
 .persona_name {
     margin-bottom: 2px;
-    font-size: 20px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 19px;
     font-weight: 600;
 }
 .persona_descr {
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 13px;
     line-height: 21px;
     color: #999999;
 }
