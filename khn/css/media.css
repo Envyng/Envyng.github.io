@@ -1,0 +1,136 @@
+@media (max-width: 1199px) {
+    .main_menu li a, 
+    .main_menu li a:hover,
+    .main_menu li a:active, 
+    .main_menu li a:visited,
+    .main_menu li a:focus {
+        font-size: 20px;
+    }
+    
+    .main_news_left_column {
+        padding: 0 5px;
+    }
+    .main_news_right_column {
+        padding-right: 5px;
+    }
+    
+    .persona_descr_wrap {
+        max-width: 195px;
+    }
+}
+
+@media (max-width: 991px) {
+    .currency,
+    .fuel {
+        padding: 5px 10px;
+    }
+    .weather {
+        padding: 15px 10px;
+    }
+    .bread_crumbs .container {
+        padding: 10px 0;
+    }
+    h2 {
+        line-height: 40px;
+        font-size: 25px;
+    }
+    .main_menu li a, 
+    .main_menu li a:hover, 
+    .main_menu li a:active, 
+    .main_menu li a:visited, 
+    .main_menu li a:focus {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .bread_crumbs ul li, 
+    .bread_crumbs ul li a, 
+    .bread_crumbs ul li a:hover, 
+    .bread_crumbs ul li a:active, 
+    .bread_crumbs ul li a:visited, 
+    .bread_crumbs ul li a:focus {
+        font-size: 15px;
+    }
+    .main h3 {
+        font-size: 16px;
+    }
+    .main_content_descr {
+        font-size: 13px;
+    }
+    .main_news_title,
+    .main_news_time {
+        font-size: 12px;
+    }
+    .main_content_details p {
+        font-size: 13px;
+    }
+    .persona_descr_wrap {
+        width: 100%;
+    }
+    .persona_name,
+    .persona_descr {
+        font-size: 16px;
+    }
+    .rubrics_item {
+        padding: 10px 10px 0 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bread_crumbs .container {
+        padding: 10px;
+    }
+    .bread_crumbs ul li, 
+    .bread_crumbs ul li a, 
+    .bread_crumbs ul li a:hover, 
+    .bread_crumbs ul li a:active,
+    .bread_crumbs ul li a:visited,
+    .bread_crumbs ul li a:focus {
+        font-size: 13px;
+    }
+    .main_detail {
+        padding: 0 10px;
+    }
+    h2.col-xs-12 {
+        padding: 0 10px;
+    }
+    .main h3 {
+        line-height: 20px;
+    }    
+    .main_content_descr {
+        height: auto;
+        max-height: 60px;
+    }
+    .main_news_title {
+        
+        height: auto;
+        max-height: 51px;
+    }
+    .main_news_time {
+        margin-bottom: 20px;
+    }
+    .news_menu {
+        padding: 0 10px;
+        text-align: left;
+    }
+    .news_menu li {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .persona_name, 
+    .persona_descr {
+        font-size: 14px;
+    }
+    .persona_img {
+        margin-bottom: 15px;
+    }
+    .persona_descr_wrap {
+        width: 190px;
+    }
+    .rubrics .col-lg-4 {
+        padding: 0 10px;
+    }
+    .rubrics_item {
+        padding: 10px 0;
+    }
+}
