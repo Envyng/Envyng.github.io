@@ -6,12 +6,20 @@
     .main_menu li a:focus {
         font-size: 20px;
     }
-    
-    
-    
-    
     .persona_descr_wrap {
         max-width: 195px;
+    }
+    .news_social {
+        margin-bottom: 15px;
+    }
+    .news_statistic p {
+        text-align: left;
+    }
+    .news_statistic {
+        margin-bottom: 20px;
+    }
+    .main_news_map {
+        margin-top: 15px;
     }
 }
 
@@ -36,7 +44,6 @@
     .main_menu li a:visited, 
     .main_menu li a:focus {
         font-size: 14px;
-        line-height: 20px;
     }
     .bread_crumbs ul li, 
     .bread_crumbs ul li a, 
@@ -46,13 +53,21 @@
     .bread_crumbs ul li a:focus {
         font-size: 15px;
     }
-    .main h3 {
+    .main_detail_title,
+    .main_detail_title:hover,
+    .main_detail_title:active,
+    .main_detail_title:visited
+    .main_detail_title:focus {
         font-size: 16px;
     }
     .main_content_descr {
         font-size: 13px;
     }
     .main_news_title,
+    .main_news_title:hover,
+    .main_news_title:active,
+    .main_news_title:visited,
+    .main_news_title:focus,
     .main_news_time {
         font-size: 12px;
     }
@@ -73,9 +88,27 @@
         padding: 10px 10px 0 10px;
         font-size: 15px;
     }
+    .footer_menu ul li a, 
+    .footer_menu ul li a:hover, 
+    .footer_menu ul li a:active, 
+    .footer_menu ul li a:visited,
+    .footer_menu ul li a:focus {
+        padding: 0 5px;
+        font-size: 13px;
+    }
+    .similar_news_title, 
+    .similar_news_title:hover, 
+    .similar_news_title:active, 
+    .similar_news_title:visited, 
+    .similar_news_title:focus {
+        height: 50px;
+    }
 }
 
 @media (max-width: 767px) {
+    .main_menu li {
+        height: auto;
+    }
     .bread_crumbs .container {
         padding: 10px;
     }
@@ -88,20 +121,27 @@
         font-size: 13px;
     }
     .main_detail {
-        padding: 0 10px;
+        padding: 15px 10px 0 10px;
     }
     h2.col-xs-12 {
         padding: 0 10px;
     }
-    .main h3 {
+    .main_detail_title,
+    .main_detail_title:hover,
+    .main_detail_title:active,
+    .main_detail_title:visited
+    .main_detail_title:focus {
         line-height: 20px;
     }    
     .main_content_descr {
         height: auto;
         max-height: 60px;
     }
-    .main_news_title {
-        
+    .main_news_title,
+    .main_news_title:hover,
+    .main_news_title:active,
+    .main_news_title:visited,
+    .main_news_title:focus {
         height: auto;
         max-height: 51px;
     }
@@ -133,10 +173,85 @@
     .persona_descr_wrap {
         width: 190px;
     }
+    .rubrics .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .rubrics .col-lg-4 {
         padding: 0 10px;
     }
     .rubrics_item {
         padding: 10px 0;
+    }
+    .main_footer .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .footer_menu_left,
+    .footer_menu_right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer_menu_left ul {
+        border: none;
+    }
+    .footer_menu ul {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer_menu ul li a, 
+    .footer_menu ul li a:hover, 
+    .footer_menu ul li a:active, 
+    .footer_menu ul li a:visited,
+    .footer_menu ul li a:focus {
+        line-height: 30px;
+    }
+    .footer_menu_left ul li:first-child a, 
+    .footer_menu_left ul li:first-child a:hover, 
+    .footer_menu_left ul li:first-child a:active, 
+    .footer_menu_left ul li:first-child a:visited, 
+    .footer_menu_left ul li:first-child a:focus {
+        padding-left: 5px;
+    }
+    .copyright_wrap {
+        padding: 15px 10px;
+    }
+    .error_wrap {
+        padding: 0 10px;
+    }
+    .title_wrap,
+    .main_rubrics_content,
+    .main_news_title_wrap,
+    .news_statistic {
+        padding: 0 10px;
+    }
+    .main_rubrics_news,
+    .main_rubrics_detail {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .rubrics_item_img_wrap, 
+    .rubrics_item_img_wrap:hover, 
+    .rubrics_item_img_wrap:active, 
+    .rubrics_item_img_wrap:visited, 
+    .rubrics_item_img_wrap:focus {
+        margin: 0 15px 0 0;
+    }
+    .main_news_title_wrap h2 {
+        line-height: 30px;
+        font-size: 23px;
+    }
+    .news_source {
+        margin-bottom: 15px; 
+        padding: 0 10px;
+    }
+    .main_news_content_wrap .col-lg-9 {
+        padding-left: 15px;
+    }
+    .news_more {
+        float: none;
+    }
+    .main_rubrics_news_more {
+        margin: 10px 0 40px 0;
     }
 }
