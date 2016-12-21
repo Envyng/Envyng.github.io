@@ -639,6 +639,9 @@ h2 {
     height: 35px;
     float: left;
 }
+.news_author_wrap {
+    padding-left: 55px;
+}
 .news_author {
     margin-bottom: 0;
     font-weight: 600;
