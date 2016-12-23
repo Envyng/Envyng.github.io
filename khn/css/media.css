@@ -9,7 +9,9 @@
     .persona_descr_wrap {
         max-width: 195px;
     }
-    
+    .main_organization .persona_descr_wrap {
+        max-width: 155px;
+    }
     .social {
         margin-bottom: 15px;
     }
@@ -144,8 +146,65 @@
 }
 
 @media (max-width: 767px) {
+    .main_header {
+        position: relative;
+    }
+    .burger {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        margin-top: -9px;
+        width: 20px;
+        height: 18px;
+        background-image: url(../images/burger.png);
+        cursor: pointer;
+    }
+    .subheader {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    .subheader .container {
+        height: 100%;
+    }
+    .main_menu {
+        padding: 30px 20px 0;
+        height: 100%;
+        background-color: #ffffff;
+    }
     .main_menu li {
+        display: block;
+        margin: 0;
         height: auto;
+        border-bottom: 1px solid #1e4570;
+    }
+    .main_menu li a, 
+    .main_menu li a:hover, 
+    .main_menu li a:active, 
+    .main_menu li a:visited, 
+    .main_menu li a:focus {
+        margin: 0;
+        line-height: 35px;
+        font-size: 17px;
+        color: #1e4570;
+        background-color: #ffffff;
+    }
+    .main_menu li:hover ul {
+        display: none;
+    }
+    .menu_close {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 13px;
+        height: 13px;
+        background-image: url(../images/close.png);
+        cursor: pointer;
     }
     .bread_crumbs .container {
         padding: 10px;
@@ -327,6 +386,7 @@
     .organization_statistic p {
         width: 33%;
     }
+    .main_organization_adress_wrap,
     .main_news_detail,
     .main_news_content,
     .main_news_info,
@@ -337,21 +397,8 @@
         margin-left: -5px;
         margin-right: -5px;
     }
-    .main_organization_persone {
+    .main_organization .persona {
         margin-left: -15px;
         margin-right: -15px;
-        padding: 10px;
-    }
-    .main_organization_persone .row {
-        margin-left: -10px;
-        margin-right: -10px;
-    }
-    .organization_persone_upic {
-        float: none;
-        margin: 0 auto 10px;
-    }
-    .organization_persone_item p {
-        line-height: 18px;
-        text-align: center;
     }
 }
