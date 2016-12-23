@@ -1,5 +1,8 @@
 $(document).ready(function() {
-    $('.subheader').hide();   
+    var width = $(document).width();
+    if(width < 768) {
+        $('.subheader').hide(); 
+    } 
     $('.burger').on('click', function() {
         $('.subheader').slideDown();
     });
