@@ -26,7 +26,15 @@
         margin-top: 15px;
     }
     .main_rubrics_small_img:first-child {
-        margin-bottom: 25px;
+        margin-bottom: 27px;
+    }
+    .main_news_title, 
+    .main_news_title:hover, 
+    .main_news_title:active,
+    .main_news_title:visited,
+    .main_news_title:focus,
+    .main_rubrics_small_wrap .main_news_time {
+        font-size: 12px;
     }
     
     .organization_map, 
@@ -103,6 +111,9 @@
         padding: 10px 10px 0 10px;
         font-size: 15px;
     }
+    .sidebar {
+        max-width: 320px;
+    }
     .footer_menu ul li a, 
     .footer_menu ul li a:hover, 
     .footer_menu ul li a:active, 
@@ -110,6 +121,13 @@
     .footer_menu ul li a:focus {
         padding: 0 5px;
         font-size: 13px;
+    }
+    .footer_logo {
+        width: 110px;
+        height: 34px;
+        background-image: url(../images/footer_logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .similar_news_title, 
     .similar_news_title:hover, 
@@ -149,6 +167,13 @@
     .main_header {
         position: relative;
     }
+    .header_logo {
+        width: 145px;
+        height: 45px;
+        background-image: url(../images/main_logo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+}
     .burger {
         display: block;
         position: absolute;
@@ -192,6 +217,10 @@
         font-size: 17px;
         color: #1e4570;
         background-color: #ffffff;
+    }
+    .main_menu li a:hover {
+        color: #701e1e;
+        font-weight: 500;
     }
     .main_menu li:hover ul {
         display: none;
@@ -282,6 +311,10 @@
     .rubrics_item {
         padding: 10px 0;
     }
+    .sidebar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .main_footer .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -331,16 +364,14 @@
         padding: 15px 10px 0 10px;
     } 
     .social {
-        padding-left: 0;
+        padding: 0 10px;
+    }
+    .main_news_share .social {
+        padding: 0;
     }
     .main_rubrics_item {
         padding: 22px 10px;
         border-top: 3px solid #c9c9c9;
-    }
-    .main_rubrics .main_advt, 
-    .main_news .main_advt, 
-    .main_organization_content_wrap .main_advt {
-        padding-right: 15px;
     }
     .main_rubrics_small_wrap .main_news_title, 
     .main_rubrics_small_wrap .main_news_title:hover, 
