@@ -341,7 +341,7 @@ h1 span {
     text-transform: uppercase;
 }
 .problem_subtitle {
-    margin-bottom: 50px;
+    margin-bottom: 57px;
     font-size: 22px;
     text-align: center;
 }
@@ -492,18 +492,26 @@ h1 span {
     padding-left: 20px;
     padding-right: 20px;
 }
-.promotion video {
+/*.promotion video {
     margin-bottom: 24px;
+    border: 1px solid #bcbcbc;
+  
+}*/
+.promotion_video {
+    width: 598px;
+    height: 335px;
+    margin-bottom: 28px;
     border: 1px solid #bcbcbc;
 }
 .stream_title {
-    margin-bottom: 0;
+    margin-bottom: 2px;
     line-height: 26px;
     font-family: 'proxima_nova_bold', sans-serif;
     font-size: 26px;
 }
 .stream_date {
-    margin-bottom: 10px;
+    margin-bottom: 11px;
+    line-height: 18px;
     font-size: 18px;
     color: #d2d2d2;
 }
@@ -527,9 +535,9 @@ h1 span {
 }
 .advertising_img {
     position: relative;
-    margin-bottom: 47px;
+    margin-bottom: 44px;
     width: 100%;
-    max-width: 223px;
+    max-width: 234px;
     height: 234px;
 }
 .advertising_img_wrap {
@@ -543,12 +551,12 @@ h1 span {
 }
 .advertising_img_description {
     position: absolute;
-    top: 155px;
+    top: 153px;
     right: -228px;
     width: 315px;
 }
 .advertising_name {
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     height: 33px;
     line-height: 33px;
 }
@@ -604,7 +612,7 @@ h1 span {
     position: absolute;
     top: -18px;
     right: 60px;
-    padding-top: 16px;
+    padding-top: 21px;
     width: 140px;
     height: 193px;
     color: #ffffff;
@@ -622,13 +630,21 @@ h1 span {
     background-image: url(../images/triangle.png);
 }
 .how_old_title {
+    margin-bottom: 3px;
+    line-height: 36px;
+    font-family: 'proxima_nova_bold', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.how_old_year {
     margin-bottom: 0;
     line-height: 36px;
     font-family: 'proxima_nova_bold', sans-serif;
     font-size: 35px;
+    text-transform: uppercase;
 }
 .how_old_line {
-    margin: 3px auto 10px;
+    margin: 3px auto 8px;
     width: 35px;
     height: 4px;
     background-color: #ffffff;
@@ -715,7 +731,7 @@ h1 span {
 .treatment_read_more:focus {
     display: block;
     margin: 0 auto;
-    width: 180px;
+    width: 160px;
     line-height: 45px;
     font-family: 'proxima_nova_semibold', sans-serif;
     font-size: 14px;
@@ -737,7 +753,7 @@ h1 span {
     color: #ffffff;
 }
 .stories .container {
-    padding: 43px 15px 31px;
+    padding: 43px 0 31px;
 }
 .stories_red {
     margin-bottom: 15px;
@@ -751,8 +767,12 @@ h1 span {
     font-family: 'proxima_nova_bold', sans-serif;
     font-size: 21px;
 }
+.stories_carousel_wrap {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 29px;
+}
 .stories_carousel {
-    margin-bottom: 30px;
     padding-top: 35px;
 }
 .stories_content,
@@ -761,6 +781,7 @@ h1 span {
 .stories_content:visited,
 .stories_content:focus {
     position: relative;
+    margin: 0 auto;
     display: block;
     width: 420px;
     height: 236px;
@@ -779,7 +800,7 @@ h1 span {
     left: 0;
     bottom: 0;
     right: 0;
-    padding: 22px;
+    padding: 24px 19px;
     height: 118px;
     background-color: rgba(0,0,0,.5);
 }
@@ -788,18 +809,18 @@ h1 span {
 }
 .stories_content_title,
 .tories_content_rmore {
-    margin-bottom: 1px;
+    margin-bottom: 3px;
     font-family: 'proxima_nova_bold', sans-serif;
 }
 .stories_content_value {
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
 .stories .owl-theme .owl-nav {
     position: absolute;
     margin: 0;
     padding: 0;
     top: -33px;
-    right: 5px;
+    right: 12px;
 }
 .stories .owl-theme .owl-nav > div,
 .stories .owl-theme .owl-nav > div:hover {
@@ -862,13 +883,13 @@ h1 span {
     text-align: center;
 }
 .contacts_subtitle {
-    margin-bottom: 63px;
+    margin-bottom: 64px;
     font-size: 20px;
     text-align: center;
 }
 .contacts_item_title {
     margin-bottom: 8px;
-    padding-left: 110px;
+    padding-left: 145px;
     line-height: 25px;
     font-family: 'proxima_nova_bold', sans-serif;
     font-size: 25px;
@@ -876,18 +897,19 @@ h1 span {
 }
 .contacts_item_description {
     margin-bottom: 34px;
-    padding-left: 110px;
+    padding-left: 145px;
     line-height: 22px;
     font-family: 'proxima_nova_bold', sans-serif;
     font-size: 22px;
     color: #393939;
 }
 .contacts form {
-    padding-left: 40px;
+    padding-left: 37px;
+    padding-top: 3px;
 }
 .contacts input {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 35px;
     margin-bottom: 40px;
     padding: 0 25px;
     width: 320px;
@@ -925,7 +947,7 @@ h1 span {
     opacity: 1;
 }
 .contacts_submit {
-    margin-left: 523px;
+    margin-left: 522px;
     width: 160px;
     line-height: 45px;
     font-family: 'proxima_nova_semibold', sans-serif;
