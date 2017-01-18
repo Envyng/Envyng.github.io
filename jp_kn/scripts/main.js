@@ -31,4 +31,9 @@ $(document).ready(function() {
     });
     
     
+    /*stories slider*/
+    $('.stories_carousel').owlCarousel({
+        nav: true,
+        dots: false
+    });
 });

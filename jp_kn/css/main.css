@@ -33,6 +33,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'proxima_nova_extrabold';
+    src: url('../fonts/ProximaNova-Extrabold.otf');
+    
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 html {
     -webkit-box-sizing: border-box; 
@@ -63,82 +71,66 @@ body {
     clear: both;
 }
 
-
-/*main_header*/
-.main_header {
-    height: 107px;
-    background-color: #292929;
-    background-image: url(../images/header_bg.jpg);
+/*header*/
+header {
+    background: url(../images/header-background.jpg) no-repeat top left;
+    border-bottom: 2px solid #fff;
+    height: 130px;
 }
-.header_logo_wrap {
-    padding-left: 0;
-}
-.header_text {
-    padding-top: 50px;
-    font-size: 16px;
-    color: #ffffff;
-}
-.header_text strong {
-    font-family: 'proxima_nova_bold', sans-serif;
-    font-weight: normal;
-}
-.header_contacts {
-    padding-right: 0;
-    text-align: right;
-}
-.header_contacts_title {
-    position: relative;
+header .navbar-default {
     margin-bottom: 0;
-    font-family: 'proxima_nova_semibold', sans-serif;
-    font-size: 22px;
-    color: #ffffff;
-    text-transform: uppercase;
+	background: none;
+	border: none;
 }
-.header_contacts_title:before {
-    position: absolute;
-    top: 3px;
-    right: 168px;
-    content: '';
-    width: 21px;
-    height: 21px;
-    background-image: url(../images/header_phone.png);
+header .navbar-default .navbar-brand img {
+	padding-top: 20px;
+	margin-left: -15px;
 }
-.header_phone {
-    font-family: 'proxima_nova_bold', sans-serif;
-    font-size: 30px;
-    color: #ff0000;
+header .navbar-default .navbar-collapse {
+	vertical-align: top;
 }
-
-
-/*main_menu*/
-.main_menu {
-    background-color: #ffffff;
+header .navbar-default .navbar-nav {
+	vertical-align: top;
+	margin-right: -35px;
+	padding: 0;
+	margin-top: 60px;
+    margin-bottom: 0;
 }
-.main_menu .container {
-    padding: 0;
+header .navbar-default .navbar-nav li {
+	text-align: center;
+	padding: 0;
 }
-.main_menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align-last: justify;
+header .navbar-default .navbar-nav li a {
+	color: #ffffff;
+	font-family: 'proxima_nova_bold', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	max-width: 115px;
+	min-height: 70px;
 }
-.main_menu ul li {
-    display: inline-block;
-    text-align-last: left;
+header .navbar-default .navbar-nav li a.-blog {
+	max-width: 100px;
 }
-.main_menu ul li a,
-.main_menu ul li a:hover,
-.main_menu ul li a:active,
-.main_menu ul li a:visited,
-.main_menu ul li a:focus {
-    display: block;
-    line-height: 60px;
-    font-family: 'proxima_nova_bold', sans-serif;
+header .navbar-default .navbar-nav li.current a {
+	background-color: white;
+	color: #e5332a;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+h1 {
+    margin-bottom: 0;
+    background: #ffffff;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 16px;
-    color: #212121;
+    font-family: 'proxima_nova_bold', sans-serif;
     text-transform: uppercase;
-    text-decoration: none;
+}
+h1 span {
+    color: #e5332a;
 }
 
 
@@ -653,28 +645,26 @@ body {
     font-size: 18px;
 }
 .treatment_red {
-    margin: 0 auto 20px;
+    margin: 0 auto 31px;
     width: 63px;
     height: 6px;
     background-color: #ff0000;
 }
 .treatment h2 {
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     font-family: 'proxima_nova_bold', sans-serif;
     font-size: 25px;
     text-align: center;
     text-transform: uppercase;
 }
 .treatment_subtitle {
-    margin: 0 auto 10px;
+    margin: 0 auto 83px;
     max-width: 445px;
     line-height: 30px;
     font-size: 20px;
     text-align: center;
 }
 .treatment_item {
-    padding-left: 20px;
-    padding-right: 20px;
     min-height: 333px;
 }
 .treatment_item:nth-child(1) {
@@ -684,7 +674,7 @@ body {
     padding-right: 0;
 }
 .treatment_icon {
-    margin-bottom: 10px;
+    margin-bottom: 57px;
     width: 68px;
     height: 48px;
     background-image: url(../images/icons_sprite.png);
@@ -709,7 +699,7 @@ body {
     background-position: -331px 0;
 }
 .treatment_item_title {
-    margin-bottom: 10px;
+    margin-bottom: 19px;
     min-height: 50px;
     font-family: 'proxima_nova_bold', sans-serif;
     font-size: 18px;
@@ -738,45 +728,251 @@ body {
 }
 
 
+/*stories*/
+.stories {
+    margin-bottom: 40px;
+    background-image: url(../images/pattern_01.jpg);
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    color: #ffffff;
+}
+.stories .container {
+    padding: 43px 15px 31px;
+}
+.stories_red {
+    margin-bottom: 15px;
+    width: 61px;
+    height: 6px;
+    background-color: #ff0000;
+}
+.stories h2 {
+    margin: 0;
+    line-height: 21px;
+    font-family: 'proxima_nova_bold', sans-serif;
+    font-size: 21px;
+}
+.stories_carousel {
+    margin-bottom: 30px;
+    padding-top: 35px;
+}
+.stories_content,
+.stories_content:hover,
+.stories_content:active,
+.stories_content:visited,
+.stories_content:focus {
+    position: relative;
+    display: block;
+    width: 420px;
+    height: 236px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #bcbcbc;
+    overflow: hidden;
+}
+.stories .owl-carousel .owl-item img {
+    width: auto;
+}
+.stories_content_description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 22px;
+    height: 118px;
+    background-color: rgba(0,0,0,.5);
+}
+.stories_content:hover .stories_content_description {
+    background-color: rgba(255,0,0,.7);
+}
+.stories_content_title,
+.tories_content_rmore {
+    margin-bottom: 1px;
+    font-family: 'proxima_nova_bold', sans-serif;
+}
+.stories_content_value {
+    margin-bottom: 2px;
+}
+.stories .owl-theme .owl-nav {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: -33px;
+    right: 5px;
+}
+.stories .owl-theme .owl-nav > div,
+.stories .owl-theme .owl-nav > div:hover {
+    margin: 0 5px 0 0;
+    width: 40px;
+    height: 30px;
+    border-radius: 0;
+    color: rgba(0,0,0,0);
+    background: #4c4c4c url(../images/controls.png) 0 0;
+    opacity: 1;
+    border: 1px solid #333333;
+}
+.stories .owl-theme .owl-nav > .owl-next,
+.stories .owl-theme .owl-nav > .owl-next:hover {
+    background: #4c4c4c url(../images/controls.png) -38px 0;
+}
+.stories_read_more,
+.stories_read_more:hover,
+.stories_read_more:active,
+.stories_read_more:visited,
+.stories_read_more:focus {
+    margin: 0 auto;
+    display: block;
+    width: 160px;
+    height: 45px;
+    line-height: 43px;
+    font-family: 'proxima_nova_semibold', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    background-color: #393939;
+}
 
 
+/*contacts*/
+.contacts {
+    margin-bottom: 39px;
+    background-color: #ffffff;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+.contacts .container {
+    padding: 54px 15px 42px;
+}
+.contacts_red {
+    margin: 0 auto 30px;
+    width: 63px;
+    height: 6px;
+    background-color: #ff0000;
+}
+.contacts h2 {
+    margin-bottom: 28px;
+    font-family: 'proxima_nova_bold', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.contacts_subtitle {
+    margin-bottom: 63px;
+    font-size: 20px;
+    text-align: center;
+}
+.contacts_item_title {
+    margin-bottom: 8px;
+    padding-left: 110px;
+    line-height: 25px;
+    font-family: 'proxima_nova_bold', sans-serif;
+    font-size: 25px;
+    color: #ff0000;
+}
+.contacts_item_description {
+    margin-bottom: 34px;
+    padding-left: 110px;
+    line-height: 22px;
+    font-family: 'proxima_nova_bold', sans-serif;
+    font-size: 22px;
+    color: #393939;
+}
+.contacts form {
+    padding-left: 40px;
+}
+.contacts input {
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding: 0 25px;
+    width: 320px;
+    height: 55px;
+    background-color: #f9f9f9;
+    border: 1px solid #ebebeb;
+}
+.contacts input::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #393939;
+    opacity: 1;
+}
+
+.contacts input::-moz-placeholder {
+    font-size: 15px;
+    color: #393939;
+    opacity: 1;
+}
+
+.contacts input:-moz-placeholder {
+    font-size: 15px;
+    color: #393939;
+    opacity: 1;
+}
+
+.contacts input:-ms-input-placeholder {
+    font-size: 15px;
+    color: #393939;
+    opacity: 1;
+}
+
+.contacts input input[placeholder] {
+    font-size: 15px;
+    color: #393939;
+    opacity: 1;
+}
+.contacts_submit {
+    margin-left: 523px;
+    width: 160px;
+    line-height: 45px;
+    font-family: 'proxima_nova_semibold', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ff0000;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*footer*/
+.main_footer {
+    background: #755738 url(../images/page-background.jpg);
+    background-blend-mode: multiply;
+}
+.footer {
+    color: white;
+    font-size: 13px;
+    padding-top: 20px;
+}
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer ul li {
+    padding: 15px 20px 15px 0;
+    display: inline;
+    font-weight: bold;
+}
+.footer a {
+    color: white;
+    font-family: 'proxima_nova_bold', sans-serif;
+    font-size: 13px;
+}
+.footer strong {
+    font-family: 'proxima_nova_extrabold';
+    font-weight: normal;
+    font-size: 16px;
+}
+.footer .contact {
+    text-align: right;
+}
+.footer .trade-logos img {
+    margin-left: 10px;
+    margin-bottom: 7px;
+    max-height: 70px;
+}
