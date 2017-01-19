@@ -32,8 +32,28 @@ $(document).ready(function() {
     
     
     /*stories slider*/
-    $('.stories_carousel').owlCarousel({
-        nav: true,
-        dots: false
-    });
+    var width = $(document).width();
+    
+    /*скрытие меню при открытии страницы на мобильном устройстве*/
+    if(width > 1199) {
+        $('.stories_carousel').owlCarousel({
+            nav: true,
+            dots: false,
+            items: 3
+        });
+    } 
+    if(width < 1200 && width > 767) {
+        $('.stories_carousel').owlCarousel({
+            nav: true,
+            dots: false,
+            items: 2
+        });
+    }
+    if(width < 768) {
+        $('.stories_carousel').owlCarousel({
+            nav: true,
+            dots: false,
+            items: 1
+        });
+    }
 });

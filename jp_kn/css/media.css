@@ -59,6 +59,11 @@
     .contacts_submit {
         margin-left: 520px;
     }
+    
+    .main_footer .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 
@@ -127,7 +132,7 @@
     .clients_list .miller {
         margin-right: 40px;
     }
-    
+
     
     /*problem*/
     .problem .container {
@@ -146,6 +151,7 @@
     .process_item_title {
         min-height: 54px;
     }
+    
     
     /*stories*/
     .stories_carousel_wrap {
@@ -201,6 +207,7 @@
         font-size: 16px;
     }
     
+    
     /*contacts*/
     .contacts_item_title {
         padding-left: 0;
@@ -212,6 +219,7 @@
     .contacts_submit {
         margin-left: 518px;
     }
+    
     
     /*footer*/
 	.footer .trade-logos img {
@@ -449,8 +457,6 @@
     }
     
     
-    
-    
     /*problem*/
     .problem .container {
         padding: 39px 15px 0;
@@ -473,13 +479,7 @@
     .call_wrap:before {
         display: none;
     }
-    
-    /*promotion*/
-    
-    
-    /*treatment*/
-    
-    
+
     
     /*stories*/
     .stories_red {
