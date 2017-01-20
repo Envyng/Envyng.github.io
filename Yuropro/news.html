@@ -17,12 +17,12 @@
     <header class="main_header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="logo_wrap col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <a class="main_logo" href="/"></a>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <p class="foter_phone">+7 (861) 242-24-42</p>
-                    <a href="#">заказать обратный звонок</a>
+                <div class="header_phone_wrap col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <p class="header_phone">+7 (861) 242-24-42</p>
+                    <a class="header_callback" href="#">заказать обратный звонок</a>
                 </div>
             </div>
         </div>
@@ -31,21 +31,36 @@
     
     <div class="main_menu">
         <div class="container">
-            <div class="row">
+            <div class="main_menu_wrap hidden-xs">
+                <div class="menu_close hidden-lg hidden-md hidden-sm"></div>
                 <ul>
-                    <li class="active"><a href="#">О компании</a></li>
+                    <li><a class="active" href="#">О компании</a></li>
                     <li><a href="#">Физическим лицам</a></li>
                     <li><a href="#">Юридическим лицам</a></li>
                     <li><a href="#">Стоимость услуг</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
+                
+                <ul class="menu_social hidden-lg hidden-md hidden-sm">
+                    <li><a class="fb" href="#"></a></li>
+                    <li><a class="twitter" href="#"></a></li>
+                    <li><a class="google" href="#"></a></li>
+                </ul>
+            </div>            
+            
+            <div class="mobile_menu_controls hidden-lg hidden-md hidden-sm clearfix">
+                <div class="burger"></div>
+                <div class="menu_phone_wrap ">
+                    <p class="header_phone">+7 (861) 242-24-42</p>
+                    <a class="header_callback" href="#">заказать обратный звонок</a>
+                </div>
             </div>
         </div>
     </div>
     
     
     <section class="news_slider">
-        <div class="container">
+        <div class="container-fluide">
             <div id="newsCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
                 <!-- Слайды карусели -->
                 <div class="carousel-inner">
@@ -62,11 +77,11 @@
                 </div>
                 <!-- Навигация для карусели -->
                 <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
-                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <a class="carousel-control left" href="#newsCarousel" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                 </a>
                 <!-- Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next" -->
-                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <a class="carousel-control right" href="#newsCarousel" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </div>
@@ -86,12 +101,13 @@
                 </p>
                 <h3>Пассивный доход</h3>
                 <p>
-                    Хотя авторы понимают, что целевая аудитория данной статьи профессиональные инвесторы, тем не менее, предлагаем определиться, что есть пассивный доход и чем отличается от других видов заработка.
+                    Хотя авторы понимают, что целевая аудитория данной статьи профессиональные инвесторы, тем не менее, предлагаем определиться, что есть пассивный доход и чем отличается от других видов заработка.<br>
 Роберт Кийосаки (автор бестселлера “Богатый папа, бедный папа”) во второй своей книге “Квадрант денежного потока” выделил четыре типа получения дохода и популярным языком показал разницу.
                 </p>
                 <p>
                     Роберт утверждает, что в руках 20% людей на планете сосредоточено 80% всех денег мира. И наоборот, в руках большинства людей (80%) сосредоточено лишь 20% всех денег - Правило Парето. В реальности, согласно статистики за 2014 год, эта разница еще более асимметрична в пользу состоятельных людей. Так кто же эти 20% и чем отличаются от большинства?
                 </p>
+                <div class="news_blue"></div>
                 <blockquote>
                     Основные деньги сосредоточены в руках Инвесторов и Бизнесменов. Именно эта категория людей успешно освоила понятие пассивного дохода: либо капитал работает на тебя,  либо другие люди работают на тебя - только так зарабатывают
                 </blockquote>

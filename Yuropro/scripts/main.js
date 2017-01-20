@@ -42,5 +42,10 @@ $(document).ready(function() {
     
     $('.menu_close').on('click', function() {
         $('.main_menu_wrap').addClass('hidden-xs');
-    });   
+    }); 
+    
+    /*Управление страницей услуг*/
+    $('.services_list_controls').on('click', function() {
+        $(this).parent('.services_list_item').toggleClass('active');
+    }); 
 });
