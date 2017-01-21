@@ -1,8 +1,8 @@
 $(document).ready(function() {
     
     /*Управление блоком услуг*/
-    $('.services_block_jur, .services_block_fiz').on('click', function() {
-        $('.services_block_jur, .services_block_fiz').toggleClass('active');
+    $('.services_block_jur, .services_block_fiz, .services_block_type').on('click', function() {
+        $('.services_block_jur, .services_block_fiz, .services_block_type').toggleClass('active');
     });
     
     $('.services_block_item').on('click', function() {

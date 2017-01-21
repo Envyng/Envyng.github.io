@@ -1,3 +1,9 @@
+@media (min-width: 1445px) {
+    .page_up {
+        right: -5px;
+    }
+}
+
 @media (min-width: 1200px) {
     
     /*main page*/
@@ -65,7 +71,11 @@
     .services_block_left {
         padding: 60px 15px 0 15px;
     }
-    .services_block_type {
+    .services_block_type,
+    .services_block_type:hover,
+    .services_block_type:active,
+    .services_block_type:visited,
+    .services_block_type:focus {
         display: none;
     }
     .services_block_cdescription {

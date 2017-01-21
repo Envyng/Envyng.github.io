@@ -388,13 +388,24 @@ body {
     text-transform: uppercase;
     border-left: 3px solid #de5e37;
 }
-.services_block_type {
+.services_block_type,
+.services_block_type:hover,
+.services_block_type:active,
+.services_block_type:visited,
+.services_block_type:focus {
     position: relative;
+    display: block;
     padding-left: 15px;
     margin-bottom: 12px;
     font-size: 18px;
+    text-decoration: none;
+    color: #000000;
 }
-.services_block_type.active {
+.services_block_type.active,
+.services_block_type.active:hover,
+.services_block_type.active:active,
+.services_block_type.active:visited,
+.services_block_type.active:focus {
     color: #f26549;
     text-decoration: underline;
 }
@@ -414,8 +425,8 @@ body {
     background-repeat: no-repeat;
     background-position: 0 -6px;
 }
-.services_block_type:before {
-    background-position: 0 0;
+.services_block_type.active:before {
+    background-position: 0 1px;
 }
 .services_block_cdescription {
     font-size: 16px;
