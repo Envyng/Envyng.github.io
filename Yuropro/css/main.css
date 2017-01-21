@@ -311,14 +311,38 @@ body {
     height: 124px;
     line-height: 124px;
     font-size: 24px;
-    color: #cccccc;
     background-color: #f2f2f2;
     z-index: 1;
 }
+.services_block_jur a,
+.services_block_jur a:hover,
+.services_block_jur a:active,
+.services_block_jur a:visited,
+.services_block_jur a:focus,
+.services_block_fiz a,
+.services_block_fiz a:hover,
+.services_block_fiz a:active,
+.services_block_fiz a:visited,
+.services_block_fiz a:focus {
+    color: #cccccc;
+    text-decoration: none;
+}
 .services_block_jur.active,
 .services_block_fiz.active {
-    color: #ffffff;
     background-color: #ff3737;
+    text-decoration: underline;
+}
+.services_block_jur.active a,
+.services_block_jur.active a:hover,
+.services_block_jur.active a:active,
+.services_block_jur.active a:visited,
+.services_block_jur.active a:focus,
+.services_block_fiz.active a,
+.services_block_fiz.active a:hover,
+.services_block_fiz.active a:active,
+.services_block_fiz.active a:visited,
+.services_block_fiz.active a:focus {
+    color: #ffffff;
     text-decoration: underline;
 }
 .services_block_jur {
@@ -1035,97 +1059,3 @@ body {
     text-align: center;
     background-color: #292929;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

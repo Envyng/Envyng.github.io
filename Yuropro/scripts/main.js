@@ -1,6 +1,10 @@
 $(document).ready(function() {
     
     /*Управление блоком услуг*/
+    $('.services_block_jur, .services_block_fiz').on('click', function() {
+        $('.services_block_jur, .services_block_fiz').toggleClass('active');
+    });
+    
     $('.services_block_item').on('click', function() {
         $('.services_block_content').removeClass('hidden');
         if($(this).hasClass('cort')) {
@@ -23,9 +27,9 @@ $(document).ready(function() {
         }
     });
     
-    $('.services_block_content_close').on('click', function() {
+    $('.services_block_content_close, .services_block_jur, .services_block_fiz').on('click', function() {
         $('.services_block_content').addClass('hidden');
-        if($('.services_block_content_item') !== true) {
+        if($('.services_block_content_item.hidden') !== true) {
             $('.services_block_content_item').addClass('hidden');
         }
     });
