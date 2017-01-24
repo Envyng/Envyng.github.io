@@ -464,7 +464,7 @@
     .footer_contacts p:last-child {
         margin: 0 auto 27px;
         display: block;
-        padding-left: 20px;
+        padding-left: 35px;
         width: 200px;
     }
     .footer_contacts p:before, 
@@ -525,6 +525,13 @@
     .services_consultation:visited, 
     .services_consultation:focus {
         margin: 0 auto;
+    }
+    
+    .company_img_wrap {
+        height: auto;
+    }
+    .company_img_wrap img {
+        width: 100%;
     }
 }
 

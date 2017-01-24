@@ -27,7 +27,7 @@ $(document).ready(function() {
         }
     });
     
-    $('.services_block_content_close, .services_block_jur, .services_block_fiz').on('click', function() {
+    $('.services_block_content_close, .services_block_jur, .services_block_fiz, .services_block_type').on('click', function() {
         $('.services_block_content').addClass('hidden');
         if($('.services_block_content_item.hidden') !== true) {
             $('.services_block_content_item').addClass('hidden');
@@ -50,6 +50,7 @@ $(document).ready(function() {
     
     /*Управление страницей услуг*/
     $('.services_list_controls').on('click', function() {
-        $(this).parent('.services_list_item').toggleClass('active');
+        $('.services_list_item').removeClass('active');
+        $(this).parent('.services_list_item').addClass('active');
     }); 
 });

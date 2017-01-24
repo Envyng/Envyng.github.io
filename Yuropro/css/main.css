@@ -473,34 +473,34 @@ body {
     background-position: -55px 0;
 }
 .dealings .services_block_icon {
-    background-position: 0 -35px;
+    background-position: 0 -37px;
 }
 .dealings:hover .services_block_icon {
-    background-position: -55px -35px;
+    background-position: -55px -37px;
 }
 .issuance .services_block_icon {
-    background-position: 0 -70px;
+    background-position: 0 -72px;
 }
 .issuance:hover .services_block_icon {
-    background-position: -55px -70px;
+    background-position: -55px -72px;
 }
 .consultation .services_block_icon {
-    background-position: 0 -105px;
+    background-position: 0 -109px;
 }
 .consultation:hover .services_block_icon {
-    background-position: -55px -105px;
+    background-position: -55px -109px;
 }
 .serv .services_block_icon {
-    background-position: 0 -140px;
+    background-position: 0 -144px;
 }
 .serv:hover .services_block_icon {
-    background-position: -55px -140px;
+    background-position: -55px -144px;
 }
 .audit .services_block_icon {
-    background-position: 0 -175px;
+    background-position: 0 -180px;
 }
 .audit:hover .services_block_icon {
-    background-position: -55px -175px;
+    background-position: -55px -180px;
 }
 .services_block_item_title {
     margin: 0 auto;
@@ -619,8 +619,9 @@ body {
 .news_item_title:active,
 .news_item_title:visited,
 .news_item_title:focus {
+    display: block;
     margin-bottom: 10px;
-    height: 48px;
+    height: 51px;
     line-height: 24px;
     font-size: 18px;
     color: #202020;
@@ -941,6 +942,7 @@ body {
     line-height: 36px;
     font-size: 24px;
     color: #358ed7;
+    border: none;
 }
 
 
@@ -1006,6 +1008,7 @@ body {
     vertical-align: middle;
 }
 .services_list_item.active .services_list_number,
+.services_list_item:hover .services_list_title,
 .services_list_item.active .services_list_title {
     color: #d25556;
 }
