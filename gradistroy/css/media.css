@@ -1,25 +1,396 @@
-@media (max-width: 1349px) {
+@media (max-width: 1250px) and (min-width: 1230px) {
     
 }
 
-@media (min-width: 1230px) {
+@media (min-width: 1260px) {
+    /*header*/
     
+    
+    /*top_block*/
+    
+    
+    /*main_slider*/
+    
+    
+    /*articles*/
+    
+    
+    /*main_sidebar*/
+    
+    
+    /*gallery*/
+    
+    
+    /*questions*/
+    
+	
+    /*about*/
+    
+    
+    /*map*/
+    
+    
+    /*main footer*/
 	
 }
 
 
-@media (max-width: 1229px) {
+@media (max-width: 1259px) {
     
     /*header*/
+    .header_logo_wrap {
+        padding: 19px 5px 0 5px;
+        width: 185px;
+    }
+    .works {
+        top: 17px;
+        right: 9px;
+    }
+    .city {
+        bottom: 22px;
+        right: 9px;
+    }
+    .header_contacts_wrap {
+        padding: 15px 10px 13px 10px;
+    }
+    .contacts_descrition {
+        width: 105px;
+        font-size: 12px;
+    }
+    .header_phone_wrap {
+        padding: 16px 0 0 0;
+    }
+    .header_phone {
+        font-size: 39px;
+    }
+    .main_menu li a, 
+    .main_menu li a:hover, 
+    .main_menu li a:active, 
+    .main_menu li a:visited, 
+    .main_menu li a:focus {
+        padding: 0 12px;
+        font-size: 16px;
+    }
+    
+    
+    /*top_block*/
+    
+    
+    /*main_slider*/
+    
+    
+    /*articles*/
+    .articles_img_title {
+        padding: 0 15px;
+        text-align: center;
+    }
+    
+    /*main_sidebar*/
+    
+    
+    /*gallery*/
+    .gallery_title {
+        width: 288px;
+    }
+    .gallery_menu ul li:nth-child(1) {
+        width: 90px;
+    }
+    .gallery_menu ul li:nth-child(3) {
+        width: 232px;
+    }
+    
+    /*questions*/
+    
+	
+    /*about*/
+    .about_text {
+        max-width: 585px;
+    }
+    
+    /*map*/
+    
+    
+    /*main footer*/
+    .footer_logo_wrap {
+        padding: 19px 5px 0 5px;
+        width: 185px;
+    }
+    .main_footer .works {
+        top: 17px;
+        right: 9px;
+    }
+    .main_footer .city {
+        bottom: 22px;
+        right: 9px;
+    }
+    .footer_contacts_wrap {
+        padding: 15px 10px 12px 10px;
+    }
+    .main_footer .contacts_descrition {
+        width: 105px;
+        font-size: 12px;
+    }
+    .footer_phone_wrap {
+        padding: 16px 0 0 0;
+    }
+    .footer_phone_title {
+        font-size: 12px;
+    }
+    .footer_phone {
+        font-size: 30px;
+    }
+    .main_footer .main_menu li a, 
+    .main_footer .main_menu li a:hover, 
+    .main_footer .main_menu li a:active, 
+    .main_footer .main_menu li a:visited, 
+    .main_footer .main_menu li a:focus {
+        padding: 0 12px;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 1110px) {
+
+    /*header*/
+    .header_rombs {
+        display: none;
+    }
+    
+    /*top_block*/
+    
+    
+    /*main_slider*/
+    #mainSlider {
+        max-width: 670px;
+        height: auto;
+    }
+    
+    /*articles*/
+    
+    
+    /*main_sidebar*/
+    
+    
+    /*gallery*/
+    .gallery_rombs {
+        display: none;
+    }
+    
+    /*questions*/
+    .questions_left {
+        padding-left: 80px;
+    }
+    .questions_left p {
+        font-size: 23px;
+    }
+	
+    /*about*/
+    
+    
+    /*map*/
+    
+    
+    /*main footer*/
 	
 }
 
 
+@media (max-width: 1085px) {
+    
+}
 
-@media (max-width: 991px) {
+
+
+
+@media (max-width: 1040px) {
+    .articles_item_title {
+        min-height: 67px;
+    }
+}
+
+
+
+@media (max-width: 1029px) {
 
     /*header*/
+    
+    .header_right {
+        margin-left: -5px;
+        transform: skewX(0);
+    }
+    .header_contacts_wrap {
+        padding: 15px 10px 13px 19px;
+    }
+    .contacts_item span {
+        transform: skewX(0);
+    }
+    .contacts_icon {
+        transform: skewX(-16deg);
+    }
+    .contacts_item span {
+        transform: skewX(16deg);
+    }
+    
+    .main_menu ul {
+        transform: skewX(0);
+    }
+    .main_menu li:before {
+        display: none;
+    }
+    .main_menu li a, 
+    .main_menu li a:hover, 
+    .main_menu li a:active, 
+    .main_menu li a:visited,
+    .main_menu li a:focus {
+        padding: 0 7px;
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    /*top_block*/
+    
+    
+    /*main_slider*/
+    
+    
+    /*articles*/
+    
+    
+    /*main_sidebar*/
+    .main_sidebar {
+        width: 280px;
+    }
+    .articles h2 {
+        margin: 0 0 30px 0px;
+    }
+    .articles_more,
+    .articles_more:hover,
+    .articles_more:active,
+    .articles_more:visited,
+    .articles_more:focus {
+        top: 60px;
+    }
+    
+    /*gallery*/
+    .gallery_head {
+        margin-right: 0;
+    }
+    .gallery_title {
+        margin-left: 10px;
+        width: 240px;
+        height: 50px;
+    }
+    .gallery_title h2 {
+        padding: 0;
+        line-height: 50px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .gallery_menu ul li {
+        height: 35px;
+    }
+    .gallery_menu .nav-tabs > li > a, 
+    .gallery_menu .nav-tabs > li > a:hover, 
+    .gallery_menu .nav-tabs > li > a:focus 
+    .gallery_menu .nav-tabs > li.active > a, 
+    .gallery_menu .nav-tabs > li.active > a:hover, 
+    .gallery_menu .nav-tabs > li.active > a:focus {
+        line-height: 35px;
+        font-size: 14px;
+    }
+    .gallery_menu ul li:nth-child(1) {
+        width: 55px;
+    }
+    .gallery_menu ul li:nth-child(2) {
+        width: 200px;
+    }
+    .gallery_menu ul li:nth-child(3) {
+        width: 175px;
+    }
+    .gallery_menu ul li:nth-child(4) {
+        width: 85px;
+        z-index: 1;
+    }
+    .gallery_menu ul li:hover {
+        height: 39px;
+
+    }
+
+
+    /*questions*/
+    .questions_left p {
+        font-size: 17px;
+    }
+    .questions_left p span {
+        font-size: 25px;
+    }
+    .questions_vk_ikon {
+        margin-right: 10px;
+    }
+    .questions_vk p {
+        font-size: 18px;
+    }
 	
+    /*about*/
+    .about_text {
+        max-width: 480px;
+    }
+    .about_numbers_wrap {
+        margin-left: 0px;
+    }
+    
+    .about_numbers_title {
+       
+    }
+    .about_numbers_title img {
+        height: 47px;
+    }
+    
+    /*map*/
+    .map_office {
+        top: 0;
+        left: 0; 
+        right: 0;
+        bottom: auto;
+        height: auto;
+        width: 100%;
+    }
+    
+    
+    .map_office {
+        top: 0;
+        left: 0; 
+        right: 0;
+        bottom: auto;
+        height: auto;
+        width: 100%;
+    }
+    
+    
+    /*main footer*/
+	.footer_right {
+        transform: skewX(0);
+    }
+    .footer_right .contacts_wrap {
+        padding-left: 30px;
+    }
+    .main_footer .main_menu ul {
+        transform: skewX(0);
+    }
+    .main_footer .main_menu li:before {
+        display: none;
+    }
+    .main_footer .main_menu li a, 
+    .main_footer .main_menu li a:hover, 
+    .main_footer .main_menu li a:active, 
+    .main_footer .main_menu li a:visited,
+    .main_footer .main_menu li a:focus {
+        padding: 0 5px;
+        font-size: 12px;
+    }
 }
 
 
@@ -27,5 +398,32 @@
 @media (max-width: 767px) {
     
     /*header*/
+    
+    
+    /*top_block*/
+    
+    
+    /*main_slider*/
+    
+    
+    /*articles*/
+    
+    
+    /*main_sidebar*/
+    
+    
+    /*gallery*/
+    
+    
+    /*questions*/
+    
+	
+    /*about*/
+    
+    
+    /*map*/
+    
+    
+    /*main footer*/
 	
 }
