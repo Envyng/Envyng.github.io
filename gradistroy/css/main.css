@@ -625,6 +625,9 @@ body {
     background-color: #ffdd4e;
     border-radius: 3px;
 }
+.sidebar_button:hover {
+    background-color: #ffc548;
+}
 .write_wrap {
     background-color: #0db79c;
 }
