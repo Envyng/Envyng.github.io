@@ -340,6 +340,9 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
+.main_menu li a:hover {
+    text-decoration: underline;
+}
 
 
 /*top_block*/
@@ -926,6 +929,9 @@ body {
     background-color: #507299;
     border-radius: 3px;
 }
+.questions_vk:hover {
+    background-color: #32475f;
+}
 .questions_vk_ikon {
     display: inline-block;
     margin-right: 25px;
@@ -1301,6 +1307,9 @@ body {
     font-size: 18px;
     color: #ffffff;
     text-decoration: none;
+}
+.main_footer .main_menu li a:hover {
+    text-decoration: underline;
 }
 .footer_contacts_wrap {
     padding: 15px 15px 12px 31px;

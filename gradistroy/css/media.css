@@ -719,7 +719,7 @@
         padding: 12px 10px 0 0;
     }
     .footer_copyright p {
-        font-size: 10px;
+        font-size: 9px;
     }
     .footer_copyright a, 
     .footer_copyright a:hover, 
@@ -767,7 +767,7 @@
         font-size: 13px;
     }
     .header_phone {
-        font-size: 22px;
+        font-size: 21px;
     }
     .header_phone_title {
         font-size: 13px;
@@ -790,7 +790,7 @@
     }
     .main_menu {
         padding: 60px 35px 0 0;
-        width: 54%;
+        width: 53%;
     }
     
     .main_menu li a, 
