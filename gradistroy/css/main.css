@@ -545,6 +545,9 @@ body {
     background-color: #2ca7d4;
     border-radius: 3px;
 }
+.articles_item_read_more:hover {
+    background-color: #2c7fd4;
+}
 
 
 /*main_sidebar*/
