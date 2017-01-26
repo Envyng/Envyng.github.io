@@ -7,7 +7,6 @@ $(document).ready(function() {
         $("a.fancyimage").fancybox(); 
     
     
-    $('.header_right').slideUp();
     $('.burger').on('click', function() {
         $('.header_right').slideToggle();
     })

@@ -78,8 +78,6 @@
                     </ul>
                 </nav>
             </div>
-            
-            
         </div>
     </header>
     
@@ -89,12 +87,12 @@
             <div class="top_block_content">
                
                 <section class="main_slider">
-                    <div id="mainSlider" class="carousel slide" data-ride="carouse">
+                    <div id="mainSlider" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
                             <li data-target="#mainSlider" data-slide-to="1"></li>
                             <li data-target="#mainSlider" data-slide-to="2"></li>
-                            <li data-target="#mainSlider" data-slide-to="4"></li>
+                            <li data-target="#mainSlider" data-slide-to="3"></li>
                         </ol>
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
@@ -110,7 +108,6 @@
                                 <img src="images/balkony+yar.png" alt="fifth slide">
                             </div>
                         </div>
-
                     </div>
                 </section>
                 
@@ -214,8 +211,8 @@
             </div>
             
             
-            <aside class="main_sidebar hidden-xs">
-                <div class="sidebar_block order_wrap clearfix">
+            <aside class="main_sidebar">
+                <div class="sidebar_block order_wrap clearfix hidden-xs">
                     <div class="order">
                         <div>
                             <div class="sidebar_block_icon order_icon"></div>
@@ -231,7 +228,7 @@
                 
                 <div class="sidebar_block write_wrap clearfix">
                     <div class="write">
-                        <div>
+                        <div class="hidden-xs">
                             <div class="sidebar_block_icon write_icon"></div>
                             <div class="sidebar_block_top">
                                 <p>Запись на</p>
@@ -247,12 +244,18 @@
                             </form>
                             
                         </div>
+                        <div class="hidden-sm hidden-md hidden-lg">
+                            <div class="sidebar_block_icon write_icon"></div>
+                            <p class="sidebar_block_title">ЗАкажите <br>расчет</p>
+                            <p class="sidebar_block_subtitle">по вашим размерам</p>
+                            <a class="sidebar_button" href="#">Записаться</a>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="sidebar_block client_wrap clearfix hidden-xs">
+                <div class="sidebar_block client_wrap clearfix">
                     <div class="client">
-                        <div>
+                        <div class="hidden-xs">
                             <div class="sidebar_block_icon client_icon"></div>
                             <div class="sidebar_block_top">
                                 <p><span>Имя клиента</span></p>
@@ -263,10 +266,14 @@
                             </p>
                             <a class="sidebar_button" href="#">ВСЕ ОТЗЫВЫ</a>
                         </div>
+                        <div class="hidden-sm hidden-md hidden-lg">
+                            <p class="sidebar_block_title">посмотрите отзывы<br> наших клиентов</p>
+                            <a class="sidebar_button" href="#">ВСЕ ОТЗЫВЫ</a>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="sidebar_banner">
+                <div class="sidebar_banner hidden-xs">
                     <a href="#">
                         <img src="images/banner.png" alt="banner">
                     </a>
@@ -776,13 +783,18 @@
                         <div class="footer_phone header_phone">30-16-11</div>
                     </div>
                     
-                    <div class="footer_copyright">
+                    <div class="footer_copyright hidden-xs">
                         <div class="footer_copyright_icon"></div>
                         <p>Сайт разработан</p>
                         <a href="#">Web-service</a>
                     </div>
                 </div>
                 
+            </div>
+            <div class="footer_copyright hidden-sm hidden-md hidden-lg">
+                <div class="footer_copyright_icon"></div>
+                <p>Сайт разработан</p>
+                <a href="#">Web-service</a>
             </div>
         </div>
     </footer>

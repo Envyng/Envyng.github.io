@@ -235,36 +235,38 @@ body {
     display: block;
     width: 100%;
     height: 100%;
+    background-image: url(../images/contacts_sprite.png);
+    background-repeat: no-repeat;
 }
 .repair span {
-    background: url(../images/btools.png) center no-repeat;
+    background-position: 36px 5px;
 }
 .repair:hover span {
-    background: url(../images/wtools.png) center no-repeat;
+    background-position: 36px -33px;
 }
 .mails span {
-    background: url(../images/bmail.png) center no-repeat;
+    background-position: -64px 5px;
 }
 .mails:hover span {
-    background: url(../images/wmail.png) center no-repeat;
+    background-position: -64px -33px;
 }
 .vk span {
-    background: url(../images/bvk.png) center no-repeat;
+    background-position: -164px 5px;;
 }
 .vk:hover span {
-    background: url(../images/wvk.png) center no-repeat;
+    background-position: -164px -33px;
 }
 .callback span {
-    background: url(../images/btel.png) center no-repeat;
+    background-position: -264px 5px;
 }
 .callback:hover span {
-    background: url(../images/wtel.png) center no-repeat;
+    background-position: -264px -33px;
 }
 .offices_i span {
-    background: url(../images/bmap.png) center no-repeat;
+    background-position: -364px 5px;
 }
 .offices_i:hover span {
-    background: url(../images/wmap.png) center no-repeat;
+    background-position: -364px -33px;
 }
 .contacts_descrition {
     font-family: 'PFSquareSansPro-Italic';
@@ -1261,7 +1263,6 @@ body {
 .footer_right {
     margin-left: -12px;
     float: left;
-    
 }
 .footer_menu ul {
     padding: 0 0 0 30px;
@@ -1355,28 +1356,3 @@ body {
     color: #ffffff;
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
