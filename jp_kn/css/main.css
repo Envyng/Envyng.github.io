@@ -73,67 +73,93 @@ body {
 }
 
 /*header*/
-header {
-    background: url(../images/header-background.jpg) no-repeat top left;
-    border-bottom: 2px solid #fff;
-    height: 130px;
+.main_header {
+    height: 107px;
+    background: url(../images/header_bg.jpg) top center repeat;
+    border-bottom: 1px solid #555555;
 }
-header .navbar-default {
+.main_header .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.header_logo {
+    display: inline-block;
+    margin-right: 40px;
+    padding-bottom: 6px;
+    vertical-align: bottom;
+}
+.header_descr {
+    display: inline-block;
     margin-bottom: 0;
-	background: none;
-	border: none;
-}
-header .navbar-default .navbar-brand img {
-	padding-top: 20px;
-	margin-left: -15px;
-}
-header .navbar-default .navbar-collapse {
-	vertical-align: top;
-}
-header .navbar-default .navbar-nav {
-	vertical-align: top;
-	margin-right: -35px;
-	padding: 0;
-	margin-top: 60px;
-    margin-bottom: 0;
-}
-header .navbar-default .navbar-nav li {
-	text-align: center;
-	padding: 0;
-}
-header .navbar-default .navbar-nav li a {
-	color: #ffffff;
-	font-family: 'proxima_nova_extrabold';
-	font-size: 16px;
-	text-transform: uppercase;
-	max-width: 115px;
-	min-height: 70px;
-    font-weight: normal;
-}
-header .navbar-default .navbar-nav li a.-blog {
-	max-width: 100px;
-}
-header .navbar-default .navbar-nav li.current a {
-	background-color: white;
-	color: #e5332a;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
-}
-h1 {
-    margin-bottom: 0;
-    background: #ffffff;
-    margin-top: 0px;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    line-height: 16px;
     font-size: 16px;
-    font-family: 'proxima_nova_extrabold';
-    font-weight: normal;
+    color: #ffffff;
+}
+.header_descr span {
+    font-family: 'proxima_nova_bold';
+}
+.header_right_block {
+    text-align: right;
+}
+.heder_call {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: 'proxima_nova_semibold';
+    line-height: 29px;
+    font-size: 22px;
+    color: #ffffff;
     text-transform: uppercase;
 }
-h1 span {
-    color: #e5332a;
+.heder_call:before {
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -33px;
+    content: '';
+    width: 21px;
+    height: 21px;
+    background-image: url(../images/header_phone.png);
+}
+.heder_phone {
+    font-family: 'proxima_nova_bold';
+    line-height: 30px;
+    font-size: 30px;
+    color: #ff0000;
+}
+
+
+/*main menu*/
+.main_menu .container {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+.main_menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align-last: justify; 
+}
+.main_menu ul li {
+    display: inline-block;
+    text-align-last: auto;
+}
+.main_menu ul li a,
+.main_menu ul li a:hover,
+.main_menu ul li a:active,
+.main_menu ul li a:visited,
+.main_menu ul li a:focus {
+    display: block;
+    font-family: 'proxima_nova_bold';
+    line-height: 60px;
+    font-size: 16px;
+    color: #212121;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main_menu ul li a:hover {
+    color: #ff0000;
 }
 
 
@@ -223,6 +249,7 @@ h1 span {
     left: 0;
     display: block;
     content: '';
+    background-color: rgba(0,0,0,.4);
 }
 .services_img_wrap:hover:before {
     background-color: rgba(255,0,0,.75);
@@ -268,55 +295,40 @@ h1 span {
     padding: 0;
     margin: 0;
     list-style: none;
+    width: 970px;
+    text-align-last: justify;
 }
 .clients_list li {
     display: inline-block;
 }
-.clients_list .amec {
-    margin-right: 63px;
-}
-.clients_list .uu {
-    margin-right: 59px;
-}
-.clients_list .berkeley {
-    margin-right: 50px;
-}
-.clients_list .bb {
-    margin-right: 63px;
-}
-.clients_list .s_water {
-    margin-right: 50px;
-}
-.clients_list .miller {
-    margin-right: 50px;
-}
-.clients_list li a {
+
+.clients_list li span {
     display: block;
     height: 41px;
     background-image: url(../images/logo_sprite.png);
     background-repeat: no-repeat;
 }
-.clients_list .amec a {
+.clients_list .amec span {
     width: 108px;
     background-position: -32px 0;
 }
-.clients_list .uu a {
+.clients_list .uu span {
     width: 108px;
     background-position: -207px 0;
 }
-.clients_list .berkeley a {
+.clients_list .berkeley span {
     width: 84px;
     background-position: -378px 0;
 }
-.clients_list .bb a {
+.clients_list .bb span {
     width: 135px;
     background-position: -516px 0;
 }
-.clients_list .s_water a {
+.clients_list .s_water span {
     width: 86px;
     background-position: -720px 0;
 }
-.clients_list .miller a {
+.clients_list .miller span {
     width: 122px;
     background-position: -859px 0;
 }
@@ -353,8 +365,11 @@ h1 span {
 .problem_item {
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
 }
 .problem_icon {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 35px;
     width: 122px;
     height: 82px;
@@ -365,12 +380,15 @@ h1 span {
     background-position: 0 0;
 }
 .problem_item .handcuffs {
+    width: 80px;
     background-position: -122px 0;
 }
 .problem_item .money {
+    width: 110px;
     background-position: -244px 0;
 }
 .problem_item .building {
+    width: 90px;
     background-position: -366px 0;
 }
 .problem_item_title {
@@ -380,6 +398,8 @@ h1 span {
     color: #ff0000;
 }
 .problem_gray {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 22px;
     width: 150px;
     height: 2px;
@@ -450,18 +470,19 @@ h1 span {
     margin-bottom: 40px;
     padding-top: 32px;
     height: 140px;
-    background: url(../images/call_bg.jpg) no-repeat top center;
+    background: url(../images/call_bg.jpg) top center;
 }
 .call_wrap {
+    padding-left: 98px;
     position: relative;
     margin: 0 auto;
-    width: 250px;
+    width: 340px;
 }
 .call_wrap:before {
     display: block;
     position: absolute;
     top: 0;
-    left: -96px;
+    left: 0;
     content: '';
     width: 72px;
     height: 73px;
@@ -747,6 +768,9 @@ h1 span {
     background-color: #393939;
     border-radius: 2px;
 }
+.treatment_read_more:hover {
+    background-color: #ff0000;
+}
 
 
 /*stories*/
@@ -862,6 +886,9 @@ h1 span {
     border-radius: 2px;
     background-color: #393939;
 }
+.stories_read_more:hover {
+    background-color: #ff0000;
+}
 
 
 /*contacts*/
@@ -872,6 +899,7 @@ h1 span {
     border-bottom: 1px solid #e1e1e1;
 }
 .contacts .container {
+    position: relative;
     padding: 54px 15px 42px;
 }
 .contacts_red {
@@ -922,6 +950,13 @@ h1 span {
     background-color: #f9f9f9;
     border: 1px solid #ebebeb;
 }
+.contacts input::-webkit-outer-spin-button,
+.contacts input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.contacts input[type='number'] {
+    -moz-appearance: textfield;
+}
 .contacts input::-webkit-input-placeholder {
     font-size: 15px;
     color: #393939;
@@ -963,6 +998,16 @@ h1 span {
     border-radius: 2px;
     border: none;
     outline: none;
+}
+.contacts_submit:hover {
+    background-color: #393939;
+}
+.contacts_message div {
+    position: absolute;
+    bottom: 20px;
+    left: 480px;
+    font-size: 18px;
+
 }
 
 

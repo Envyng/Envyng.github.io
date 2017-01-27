@@ -1,8 +1,21 @@
+@media (min-width: 1879px) {
+    .banner {
+        height: auto;
+    }
+    .main_slider .item {
+        width: 100%;
+        max-width: none;
+    }
+    .main_slider .carousel-inner > .item > img {
+        max-width: none;
+        width: 100%;
+    }
+}
 @media (min-width: 1350px) {
     .container {
         width: 1320px;
     }
-    header .container,
+    
     .main_footer .container {
         width: 1170px;
     }
@@ -33,13 +46,8 @@
     .services_clients {
         margin-right: 50px;
     }
-    .clients_list .amec,
-    .clients_list .uu,
-    .clients_list .berkeley,
-    .clients_list .bb,
-    .clients_list .s_water,
-    .clients_list .miller {
-        margin-right: 45px;
+    .clients_list {
+        width: 920px;
     }
     
     /*process*/
@@ -70,36 +78,11 @@
 @media (max-width: 1199px) {
     
     /*header*/
-	header {
-		height: 110px;
-	}
-	header .navbar-default .navbar-brand img {
-		width: 200px;
-	}
-	header .navbar-default .navbar-nav {
-		margin-top: 40px;
-	}
-	header .navbar-default .navbar-nav li a {
-		padding: 15px 10px;
-	}
-	header .navbar-default .navbar-nav li a.-about-jksl {
-		max-width: 76px;
-	}
-	header .navbar-default .navbar-nav li a.-blog {
-		max-width: 65px;
-	}
-	header .navbar-default .navbar-nav li a.-what-is-japanese-knotweed {
-		max-width: 110px;
-	}
-	header .navbar-default .navbar-nav li a.-the-jksl-solution-japanese-knotweed-removal {
-		max-width: 100px;
-	}
-	header .navbar-default .navbar-nav li a.-jksl-clients {
-		max-width: 85px;
-	}
-	header .navbar-default .navbar-nav li a.-contact-jksl {
-		max-width: 100px;
-	}
+	/*header*/
+
+
+
+    /*main menu*/
     
     
     /*banner*/
@@ -124,13 +107,8 @@
     .services_clients {
         margin-right: 30px;
     }
-    .clients_list .amec,
-    .clients_list .uu,
-    .clients_list .berkeley,
-    .clients_list .bb,
-    .clients_list .s_water,
-    .clients_list .miller {
-        margin-right: 40px;
+    .clients_list {
+        width: 750px;
     }
 
     
@@ -219,6 +197,9 @@
     .contacts_submit {
         margin-left: 518px;
     }
+    .contacts_message div {
+        left: 200px;
+    }
     
     
     /*footer*/
@@ -228,43 +209,33 @@
 }
 
 
+@media (max-width: 1100px) {
+    .clients_list {
+        width: 100%;
+    }
+}
+
 
 @media (max-width: 991px) {
 
     /*header*/
-	header {
-		height: 152px;
-	}
-	header .navbar-default .navbar-brand img {
-		padding-top: 0;
-	}
-	header .navbar-default .navbar-collapse {
-		margin: 0 0 0 -40px;
-	}
-	header .navbar-default .navbar-nav {
-		margin-top: 30px;
-	}
-	header .navbar-default .navbar-nav li a {
-		padding: 15px 10px;
-	}
-	header .navbar-default .navbar-nav li a.-about-jksl {
-		max-width: 76px;
-	}
-	header .navbar-default .navbar-nav li a.-blog {
-		max-width: 65px;
-	}
-	header .navbar-default .navbar-nav li a.-what-is-japanese-knotweed {
-		max-width: 110px;
-	}
-	header .navbar-default .navbar-nav li a.-the-jksl-solution-japanese-knotweed-removal {
-		max-width: 100px;
-	}
-	header .navbar-default .navbar-nav li a.-jksl-clients {
-		max-width: 85px;
-	}
-	header .navbar-default .navbar-nav li a.-contact-jksl {
-		max-width: 100px;
-	}
+    .header_logo {
+        margin-right: 30px;
+    }
+    .header_descr {
+        font-size: 12px;
+    }
+
+
+    /*main menu*/   
+    .main_menu ul li a,
+    .main_menu ul li a:hover,
+    .main_menu ul li a:active, 
+    .main_menu ul li a:visited,
+    .main_menu ul li a:focus {
+        line-height: 50px;
+        font-size: 13px;
+    }
 
     
     /*banner*/
@@ -298,16 +269,14 @@
     .services_clients p {
         margin-bottom: 10px;
     }
-    .clients_list .amec, 
-    .clients_list .uu, 
-    .clients_list .berkeley, 
-    .clients_list .bb,
-    .clients_list .s_water,
-    .clients_list .miller {
-        margin-right: 33px;
+    .clients_list {
+        text-align: justify;
+    }
+    .clients_list li {
+        margin-right: 30px;
         margin-bottom: 15px;
     }
-    
+
     
     /*problem*/
     .problem_item_title {
@@ -361,6 +330,9 @@
     .contacts_submit {
         margin-left: 150px;
     }
+    .contacts_message div {
+        left: 140px;
+    }
     
     /*footer*/
 	.footer .trade-logos img {
@@ -374,73 +346,77 @@
 
     
     /*header*/
-	header {
-		height: 70px;
-	}
-	header .navbar-default {
-		z-index: 500;
-	}
-	header .navbar-default .navbar-toggle {
-		background: #d02e26;
-		border: 1px solid #e5332a;
-		margin-right: 0;
-		margin-top: 15px;
-	}
-	header .navbar-default .navbar-toggle .icon-bar {
-		background-color: #fff;
-	}
-	header .navbar-default .navbar-toggle:hover,
-    header .navbar-default .navbar-toggle:focus,
-    header .navbar-default .navbar-toggle:active {
-		background: #d02e26;
-	}
-	header .navbar-default .navbar-collapse {
-		background: #e5332a;
-		float: right;
-		width: 210px;
-	}
-	header .navbar-default .navbar-collapse .navbar-nav {
-		margin: 0 -15px;
-	}
-	header .navbar-default .navbar-collapse .navbar-nav > li > a {
-		border-radius: 0;
-		border-bottom: 1px solid #d02e26;
-		min-height: 0;
-		max-width: 210px;
-		text-align: left;
-	}
-	header .navbar-default .navbar-collapse .navbar-nav > li > a:hover {
-		background: #fff;
-		color: #e5332a;
-	}
-	header .navbar-default .navbar-brand {
-		display: inline-block;
-		padding: 15px 0;
-	}
-	header .navbar-default .navbar-brand img {
-		margin: 0;
-		padding: 0;
-		width: 175px;
-	}
-	.sub-nav {
-		padding: 0;
-	}
-	.sub-nav li {
-		margin: 0;
-		padding: 0;
-	}
-	.sub-nav li a {
-		border-bottom: 1px solid #e5332a;
-		display: block;
-		padding: 8px 25px;
-		text-align: left;
-	}
+    .main_header {
+        height: 80px;
+    }
+    .main_header .container {
+        padding: 15px 20px 0 20px;
+    }
+    .header_logo {
+        width: 200px;
+        margin-right: 0;
+    }
+    .header_logo img {
+        width: 100%;
+    }
+    .burger {
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        border: 1px solid #ffffff;
+        margin-right: 0;
+        margin-top: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .icon-bar {
+        display: block;
+        margin-bottom: 3px;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #fff;
+    }
+    .icon-bar:last-child {
+        margin-bottom: 0;
+    }
+
+
+    /*main menu*/
+    .main_menu ul {
+        position: absolute;
+        top: -10px;
+        right: 30px;
+        width: 210px;
+        background-color: #e5332a;
+        z-index: 1;
+    }
+    .main_menu ul li {
+        display: block;
+        width: 100%;
+    }
+    .main_menu ul li a,
+    .main_menu ul li a:hover,
+    .main_menu ul li a:active,
+    .main_menu ul li a:visited,
+    .main_menu ul li a:focus {
+        padding-left: 10px;
+        line-height: 50px;
+        color: #ffffff;
+        border-bottom: 3px solid #d02e26;
+    }
+    .main_menu ul li a.active,
+    .main_menu ul li a:hover {
+        color: #e5332a;
+        background-color: #ffffff;
+    }
 
     
     /*banner*/
     .banner {
         height: auto;
     }
+    
     
     /*services*/
     .commercial_services {
@@ -479,6 +455,11 @@
     .call_wrap:before {
         display: none;
     }
+    .call_wrap {
+        text-align: center;
+        padding: 0;
+        width: 320px;
+    }
 
     
     /*stories*/
@@ -515,6 +496,10 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .contacts_message div {
+        left: 15px;
+        font-size: 14px;
     }
     
     

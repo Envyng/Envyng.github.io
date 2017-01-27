@@ -1,5 +1,11 @@
 $(document).ready(function() {
     
+    /*main menu mobile*/
+    $('.burger').on('click', function() {
+        $('.main_menu ul').toggleClass('hidden-xs');
+        
+    });
+    
     /*Управление блоком услуг*/
     $('.services_block_item').on('click', function() {
         $('.services_block_content').removeClass('hidden');
