@@ -50,7 +50,38 @@ $(document).ready(function() {
     
     /*Управление страницей услуг*/
     $('.services_list_controls').on('click', function() {
-        $('.services_list_item').removeClass('active');
-        $(this).parent('.services_list_item').addClass('active');
+        if($(this).parent('.services_list_item').hasClass('active')) {
+            $('.services_list_item').removeClass('active');
+        }else{
+            $('.services_list_item').removeClass('active');
+            $(this).parent('.services_list_item').addClass('active');
+        }
+        
     }); 
+    
+    /*анимации*/
+    
+    
+    $(".services_block_item").hover(
+        function() {
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "-200px"}, 0);
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 1000);
+    },
+        function() {
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "-200px"}, 0);
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 1000);
+
+    });
+    
+    /*$(".services_block_item").mouseover(function() {
+        $(this).children('.services_block_icon').animate({top: "-200px"}, 0);
+        $(this).children('.services_block_icon').animate({top: "0"}, 1000);
+    });
+    $(".services_block_item").mouseover(function() {
+        $(this).children('.services_block_icon').animate({top: "-200px"}, 0);
+        $(this).children('.services_block_icon').animate({top: "0"}, 1000);
+    });*/
+    
+    
+    
 });
