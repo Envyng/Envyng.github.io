@@ -15,7 +15,7 @@
     .container {
         width: 1320px;
     }
-    
+    header .container,
     .main_footer .container {
         width: 1170px;
     }
@@ -76,14 +76,7 @@
 
 
 @media (max-width: 1199px) {
-    
-    /*header*/
-	/*header*/
 
-
-
-    /*main menu*/
-    
     
     /*banner*/
     .banner_item:nth-child(1) {
@@ -417,7 +410,6 @@
         height: auto;
     }
     
-    
     /*services*/
     .commercial_services {
         margin-bottom: 15px;
@@ -458,7 +450,6 @@
     .call_wrap {
         text-align: center;
         padding: 0;
-        width: 320px;
     }
 
     

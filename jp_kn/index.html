@@ -1,3 +1,9 @@
+<?php
+require_once ('mail.php');
+?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -276,9 +282,10 @@
     <section class="promotion">
         <div class="container">
             <div class="row">
-                <div class="stream_wrap col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <div class="stream_wrap col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="promotion_video">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0nyCTeV6S58" frameborder="0" allowfullscreen></iframe>
+                        <div class="youtube-launcher"></div>
+                        <iframe id="iframe" width="100%" height="100%" src="https://www.youtube.com/embed/6Nvqoi0afvE?enablejsapi&rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <!--<video src="https://youtu.be/0nyCTeV6S58" width="598" height="335" poster="images/video_cover.jpg"></video>-->
                     <p class="stream_title">JKSL on BBC Radio Coventry &amp; Warwickshire</p>
@@ -463,21 +470,21 @@
                     </div>
                 </div>
                 
-                <form action="/form/submit" class="col-lg-8 col-md-10 col-sm-7 col-xs-12" method="POST" enctype="multipart/form-data">
+                <form class="col-lg-8 col-md-10 col-sm-7 col-xs-12" method="POST" id="contactForm">
                     <fieldset>
-                        <input id="element-first_name" name="first_name" type="text" required="" value="" placeholder="Name:">
-                        <input id="element-last_name" name="last_name" type="text" required="" value="" placeholder="Surname:">
-                        <input id="element-phone" name="phone" type="number" pattern="([0-9 ]+)" required="" value="" placeholder="Phone:">
-                        <input id="element-email" name="email" type="email" required="" value="" placeholder="Email:">
+                        <input id="element-first_name" name="first_name" type="text" placeholder="Name:">
+                        <input id="element-last_name" name="last_name" type="text" placeholder="Surname:">
+                        <input id="element-phone" name="phone" type="tel" data-mask="true" data-inputmask="'mask': '9999999999999'" required="" value="" placeholder="Phone:">
+                        <input id="element-email" name="email" type="email" required placeholder="Email:">
                     </fieldset>
                     <button class="contacts_submit" type="submit">SEND</button>
                 </form>
+                <div class="contacts_message">
+                    <?php if (isset($message)) { echo $message; } ?>
+                </div>
+
             </div>
-            <div class="contacts_message">
-                <p>Thank you!</p>
-<p>You message has been successfully sent.</p>
-<p>We will contact you very soon. </p>
-            </div>
+            
         </div>
     </section>
     
@@ -509,9 +516,24 @@
         </div>
     </footer>
 
+
+    <div class="modal fade" id="thanksModal" tabindex="-1" role="dialog" aria-labelledby="thanksModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Thank you!</h4>
+          </div>
+          <div class="modal-body">
+            You message has been successfully sent.<br> We will contact you very soon.
+          </div>
+        </div>
+      </div>
+    </div>
     
     <script src="scripts/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="scripts/jquery.inputmask.bundle.min.js"></script>
     <script src="scripts/main.js"></script>
     <script src="assets/OwlCarousel/owl.carousel.min.js"></script>
 </body>
