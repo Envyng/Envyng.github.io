@@ -65,11 +65,11 @@ $(document).ready(function() {
     $(".services_block_item").hover(
         function() {
             $(this).children('.services_block_icon, .services_block_item_title').animate({top: "-200px"}, 0);
-            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 1000);
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 300);
     },
         function() {
             $(this).children('.services_block_icon, .services_block_item_title').animate({top: "-200px"}, 0);
-            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 1000);
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 300);
 
     });
     

@@ -260,11 +260,6 @@ body {
 }
 
 
-
-
-
-
-
 /*main_menu*/
 .main_menu .container {
     padding: 35px 0;
@@ -572,16 +567,16 @@ body {
     color: #333333;
     border-right: 1px solid #e6e6e6;
     overflow: hidden;
-    -webkit-transition: all 0.20s ease 0.6s;
-    transition: all 0.20s ease 0.6s;
+    /*-webkit-transition: all 0.20s ease 0.6s;
+    transition: all 0.20s ease 0.6s;*/
     
 }
 .services_block_item:hover {
     color: #ffffff;
     background-color: #4d4d4d;
     cursor: pointer;
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s
+    /*-webkit-transition-delay: 0s;
+    transition-delay: 0s;*/
 }
 .services_block_item:nth-child(1),
 .services_block_item:nth-child(2),
@@ -666,15 +661,21 @@ body {
     height: 52px;
     background: #ff3737 url(../images/extend.png) 50% no-repeat;
     
+    
     transform: translateY(52px);
-    -webkit-transition: all 0.20s ease 0.6s;
-    transition: all 0.20s ease 0.6s;
+    /*-webkit-transition: all 0.20s ease 0.6s;
+    transition: all 0.20s ease 0.6s;*/
+    
 }
 .services_block_item:hover .services_block_item_up {
     /*display: block;*/
     transform: translateY(0);
+    /*-webkit-transition-delay: 0s;
+    transition-delay: 0s;*/
+    -webkit-transition: all 0.20s ease 0.6s;
+    transition: all 0.20s ease 0.6s;
     -webkit-transition-delay: 0s;
-    transition-delay: 0s
+    transition-delay: 0s;
 }
 .services_block_content {
     position: absolute;
