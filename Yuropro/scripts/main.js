@@ -65,23 +65,11 @@ $(document).ready(function() {
     $(".services_block_item").hover(
         function() {
             $(this).children('.services_block_icon, .services_block_item_title').animate({top: "-200px"}, 0);
-            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 300);
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 800);
     },
         function() {
-            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "-200px"}, 0);
-            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 300);
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "-200px"}, 800);
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 0);
 
     });
-    
-    /*$(".services_block_item").mouseover(function() {
-        $(this).children('.services_block_icon').animate({top: "-200px"}, 0);
-        $(this).children('.services_block_icon').animate({top: "0"}, 1000);
-    });
-    $(".services_block_item").mouseover(function() {
-        $(this).children('.services_block_icon').animate({top: "-200px"}, 0);
-        $(this).children('.services_block_icon').animate({top: "0"}, 1000);
-    });*/
-    
-    
-    
 });

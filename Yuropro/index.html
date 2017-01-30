@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="fonts/font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="assets/preloader/royal_preloader.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/adaptiv.css">
     
@@ -381,13 +382,36 @@
         </div>
     </footer>
     
+    <div id="royal_preloader"></div>
+    
     <script src="scripts/jquery.min.js"></script>
+    <script src="assets/preloader/royal_preloader.js"></script>
+    
+    <script type="text/javascript">
+        Royal_Preloader.config({
+            mode           : "progress",
+            background     : "#ffffff",
+            timeout        : 10,
+            cookie         : false,
+            showProgress   : true,
+            showPercentage : true,
+            text           : "Loading...",
+            text_colour    : "#333333",
+            logo           : "http://www.melonhtml5.com/logo.png",
+            logo_size      : [100, 100],
+            images         : []
+        });
+    </script>
+    
+    
     <script src="bootstrap/js/bootstrap.js"></script>
     <script src="scripts/main.js"></script>
     
     <script src="scripts/wow.min.js"></script>
     <script>
-        new WOW().init();
+        if($(document).width() > 799) {
+            new WOW().init();
+        }     
     </script>
     
     

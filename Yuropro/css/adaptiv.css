@@ -160,6 +160,15 @@
     
 }
 
+
+@media (max-width: 1024px) {
+    .services_list .container {
+        padding: 53px 0 45px 0;
+        width: 100%;
+    }
+}
+
+
 @media (min-width: 992px) and (max-width: 1013px) {
     .container > .row {
         margin-left: 0;
@@ -238,6 +247,13 @@
     }
     .services_block_content_item {
         padding: 20px 90px 0 20px;
+    }
+    .services_block_type, 
+    .services_block_type:hover, 
+    .services_block_type:active, 
+    .services_block_type:visited, 
+    .services_block_type:focus {
+        display: block;
     }
 
     
