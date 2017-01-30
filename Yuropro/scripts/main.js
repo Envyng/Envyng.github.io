@@ -65,10 +65,10 @@ $(document).ready(function() {
     $(".services_block_item").hover(
         function() {
             $(this).children('.services_block_icon, .services_block_item_title').animate({top: "-200px"}, 0);
-            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 800);
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 500);
     },
         function() {
-            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "-200px"}, 800);
+            $(this).children('.services_block_icon, .services_block_item_title').animate({top: "-200px"}, 500);
             $(this).children('.services_block_icon, .services_block_item_title').animate({top: "0"}, 0);
 
     });
