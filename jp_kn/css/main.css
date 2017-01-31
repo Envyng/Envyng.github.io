@@ -121,11 +121,17 @@ body {
     height: 21px;
     background-image: url(../images/header_phone.png);
 }
-.heder_phone {
+.heder_phone,
+.heder_phone:hover,
+.heder_phone:active, 
+.heder_phone:visited, 
+.heder_phone:focus {
+    display: block;
     font-family: 'proxima_nova_bold';
     line-height: 30px;
     font-size: 30px;
     color: #ff0000;
+    text-decoration: none;
 }
 
 
@@ -496,10 +502,20 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-.call_wrap .call_phone {
+.call_wrap .call_phone,
+.call_wrap .call_phone:hover,
+.call_wrap .call_phone:active,
+.call_wrap .call_phone:visited,
+.call_wrap .call_phone:focus {
+    display: block;
     margin-bottom: 0;
     line-height: 35px;
     font-size: 35px;
+    text-decoration: none;
+    font-family: 'proxima_nova_bold', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
@@ -964,13 +980,19 @@ body {
     font-size: 25px;
     color: #ff0000;
 }
-.contacts_item_description {
+.contacts_item_description,
+.contacts_item_description:hover,
+.contacts_item_description:active,
+.contacts_item_description:visited,
+.contacts_item_description:focus {
+    display: block;
     margin-bottom: 34px;
     padding-left: 145px;
     line-height: 22px;
     font-family: 'proxima_nova_bold', sans-serif;
     font-size: 22px;
     color: #393939;
+    text-decoration: none;
 }
 .contacts form {
     padding-left: 37px;
@@ -1071,10 +1093,18 @@ body {
     font-family: 'proxima_nova_bold', sans-serif;
     font-size: 13px;
 }
-.footer strong {
+.footer strong,
+.footer .footer_tel,
+.footer .footer_tel:hover,
+.footer .footer_tel:active,
+.footer .footer_tel:visited,
+.footer .footer_tel:focus {
+    display: inline;
     font-family: 'proxima_nova_extrabold';
     font-weight: normal;
     font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
 }
 .footer .contact {
     text-align: right;

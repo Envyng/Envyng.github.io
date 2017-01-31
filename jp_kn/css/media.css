@@ -183,7 +183,11 @@
     .contacts_item_title {
         padding-left: 0;
     }
-    .contacts_item_description {
+    .contacts_item_description,
+    .contacts_item_description:hover,
+    .contacts_item_description:active,
+    .contacts_item_description:visited,
+    .contacts_item_description:focus {
         padding-left: 0;
         font-size: 19px;
     }
@@ -316,7 +320,11 @@
     .contacts_item_title {
         padding-left: 130px;
     }
-    .contacts_item_description {
+    .contacts_item_description,
+    .contacts_item_description:hover,
+    .contacts_item_description:active,
+    .contacts_item_description:visited,
+    .contacts_item_description:focus {
         padding-left: 130px;
         font-size: 19px;
     }
@@ -475,7 +483,11 @@
         padding-left: 15px;
     }
     .contacts_item_title,
-    .contacts_item_description {
+    .contacts_item_description,
+    .contacts_item_description:hover,
+    .contacts_item_description:active,
+    .contacts_item_description:visited,
+    .contacts_item_description:focus {
         padding-left: 0;
         text-align: center;
     }
