@@ -1,4 +1,4 @@
-@media (min-width: 1445px) {
+@media (max-width: 1445px) {
     .page_up {
         right: -5px;
     }
@@ -109,7 +109,11 @@
     .news_block_content {
         padding: 25px 50px 20px 35px;
     }
-    .news_item_title {
+    .news_item_title, 
+    .news_item_title:hover, 
+    .news_item_title:active, 
+    .news_item_title:visited, 
+    .news_item_title:focus {
         line-height: 28px;
     }
     .news_date {
