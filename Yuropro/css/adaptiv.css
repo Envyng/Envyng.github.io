@@ -446,17 +446,14 @@
     }  
     
     /*services_block*/
-    .services_block_item:nth-child(1),
     .services_block_item:nth-child(2),
-    .services_block_item:nth-child(3),
-    .services_block_item:nth-child(4),
-    .services_block_item:nth-child(5),
-    .services_block_item:nth-child(6) {
+    .services_block_item:nth-child(4) {
         border-right: none;
     }
     .services_block_item:nth-child(5) {
-        border-bottom: 1px solid #e6e6e6;;
+        border-bottom: none;
     }
+
     
     /*.feedback*/
     .feedback_left,
@@ -594,6 +591,26 @@
     .services_block_right {
         width: 100%;
     }
+    .services_block_item {
+        width: 33.333333%;
+    }
+    .services_block_item:nth-child(1),
+    .services_block_item:nth-child(2) {
+        border-right: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .services_block_item:nth-child(3) {
+        border-right: none;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .services_block_item:nth-child(4),
+    .services_block_item:nth-child(5) {
+        border-right: 1px solid #e6e6e6;
+        border-bottom: none;
+    }
+    .services_block_item:nth-child(6) {
+        border: none;
+    }
     
     .feedback textarea {
         margin-right: 0;
@@ -611,6 +628,20 @@
 
 }
 
+
+@media (max-width: 555px) {
+    .services_block_item {
+        width: 50%;
+    }
+    .services_block_item:nth-child(3) {
+        border-right: 1px solid #e6e6e6;
+    }
+    .services_block_item:nth-child(4) {
+        border-right: none;
+        border-bottom: 1px solid #e6e6e6;
+    } 
+}
+    
 
 @media (max-width: 479px) {
     .header_phone {
@@ -670,5 +701,19 @@
     }
     .news_content_wrap {
         padding: 0 3px;
+    }
+}
+
+@media (max-width: 365px) {
+    .services_block_item {
+        width: 100%;
+    }
+    .services_block_item:nth-child(1),
+    .services_block_item:nth-child(2),
+    .services_block_item:nth-child(3),
+    .services_block_item:nth-child(4),
+    .services_block_item:nth-child(5) {
+        border-bottom: 1px solid #e6e6e6;
+        border-right: none;
     }
 }
