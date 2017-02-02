@@ -61,6 +61,16 @@
     .copyright_info {
         font-size: 13px;
     }
+    
+    
+    /*announcement*/
+    .announcement_hours_wrap {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .announcement_hours td:first-child {
+        padding-right: 5px;
+    }
 }
 
 
@@ -173,6 +183,45 @@
     .footer_phone {
         font-size: 15px;
     }
+    
+    
+    /*questions*/
+    .questions_head_left {
+        width: 75%;
+    }
+    .specialist_questions {
+        margin-top: 15px;
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+    .specialist_reception, 
+    .specialist_reception:hover,
+    .specialist_reception:active,
+    .specialist_reception:visited,
+    .specialist_reception:focus,
+    .specialist_ask, 
+    .specialist_ask:hover, 
+    .specialist_ask:active,
+    .specialist_ask:visited, 
+    .specialist_ask:focus {
+        margin-right: 10px;
+        display: inline-block;
+        width: 160px;
+    }
+    
+    
+    /*services*/
+    .services_line_left a,
+    .services_line_left a:hover,
+    .services_line_left a:active,
+    .services_line_left a:visited, 
+    .services_line_left a:focus {
+        font-size: 14px;
+    }
+    .services_line_right p {
+        font-size: 12px;
+    }
 }
 
 
@@ -274,46 +323,62 @@
         font-size: 20px;
     }
     
-    /*main_offers*/
-    
-    
-    /*main_content*/
-    
-    
-    /*main_article*/
-    
-    
-    /*small_article*/
-    
     
     /*region*/
     .main_sidebar {
         max-width: 390px;
     }
-    
-    /*banner*/
-    
-    
-    /*discount*/
-    
-    
-    /*learn_diseases*/
-    
-    
-    /*learn_technology*/
-    
-    
-    /*quiz*/
-    
-    
-    /*aside_news*/
-    
+
     
     /*main footer*/
     .footer_column {
         width: 100%;
     }
+    
+    
+    .announcement_entry, 
+    .announcement_entry:hover,
+    .announcement_entry:active,
+    .announcement_entry:visited, 
+    .announcement_entry:focus {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .announcement_head_content .announcement_title {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .announcement_head_content .announcement_title,
+    .announcement_head_content .row {
+        margin-left: 0;
+        margin-right: 0;
+       
+    }
+    .services h2 {
+        font-size: 20px;
+    }
 }
+
+
+@media (max-width: 550px) {
+    .announcement_head .col-xs-3,
+    .announcement_head_content .col-xs-6 {
+        width: 100%;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .services h3 {
+        text-align: center;
+    }
+    .services_line_left,
+    .services_line_right {
+        float: none;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+}
+
 
 
 @media (max-width: 460px) {
@@ -323,5 +388,26 @@
     }
     .small_article_img {
         display: none;
+    }
+    
+    
+}
+
+@media (max-width: 392px) {
+    .questions_head_left {
+        width: 100%;
+    }
+    .questions_head_right,
+    .announcement_recomend_wrap {
+        display: none;
+    }
+    .announcement_reviews .col-xs-8 {
+        width: 100%;
+    }
+    .announcement_year {
+        display: none;
+    }
+    .announcement_price_title {
+        width: 175px;
     }
 }
