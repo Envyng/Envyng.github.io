@@ -71,6 +71,21 @@
     .announcement_hours td:first-child {
         padding-right: 5px;
     }
+    
+    /*specialist*/
+    .specialist_description {
+        max-width: 210px;
+    }
+    
+    
+    /*offers*/
+    .offers_more, 
+    .offers_more:hover,
+    .offers_more:active, 
+    .offers_more:visited,
+    .offers_more:focus {
+        width: 110px;
+    }
 }
 
 
@@ -221,6 +236,25 @@
     }
     .services_line_right p {
         font-size: 12px;
+    }
+    
+    
+    /*specialist*/
+    .specialist_description {
+        max-width: 270px;
+    }
+    .specialist_footer_left a,
+    .specialist_footer_left a:hover, 
+    .specialist_footer_left a:active, 
+    .specialist_footer_left a:visited, 
+    .specialist_footer_left a:focus {
+        display: block;
+    }
+    
+    /*offers*/
+    
+    .offers_item {
+        margin-bottom: 15px;
     }
 }
 
@@ -380,6 +414,14 @@
 }
 
 
+@media (max-width: 640px) {
+    .offers_item {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 
 @media (max-width: 460px) {
     .news_row {
@@ -388,10 +430,21 @@
     }
     .small_article_img {
         display: none;
-    }
-    
-    
+    }   
 }
+
+
+@media (max-width: 435px) {
+    .specialist_footer_left,
+    .specialist_footer_right a, 
+    .specialist_footer_right a:hover,
+    .specialist_footer_right a:active, 
+    .specialist_footer_right a:visited, 
+    .specialist_footer_right a:focus {
+        float: none;   
+    }
+}
+
 
 @media (max-width: 392px) {
     .questions_head_left {
@@ -409,5 +462,21 @@
     }
     .announcement_price_title {
         width: 175px;
+    }
+}
+
+@media (max-width: 340px) {
+    .offers_date {
+        display: none;
+    }
+    .offers_more, 
+    .offers_more:hover,
+    .offers_more:active,
+    .offers_more:visited,
+    .offers_more:focus {
+        width: 100px;
+    }
+    .offers_price{
+        margin-top: 5px;
     }
 }
