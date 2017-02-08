@@ -22,28 +22,8 @@
     
     /*main_article*/
     .main_article {
-        min-height: 460px;
+        min-height: 438px;
     }
-    
-    /*small_article*/
-    
-    
-    /*region*/
-    
-    
-    /*banner*/
-    
-    
-    /*discount*/
-    
-    
-    /*learn_diseases*/
-    
-    
-    /*learn_technology*/
-    
-    
-    /*quiz*/
     
     
     /*aside_news*/
@@ -122,6 +102,7 @@
     
     /*small_article*/
     .main_article {
+        margin-bottom: 15px;
         min-height: auto;
     }
     
@@ -446,6 +427,9 @@
     .small_article_img {
         display: none;
     }   
+    .small_article_description {
+        margin-bottom: 0;
+    }
 }
 
 

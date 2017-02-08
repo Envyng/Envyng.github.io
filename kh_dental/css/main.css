@@ -333,7 +333,7 @@ body {
 /*main_article*/
 .main_article {
     background: #edf9f9;
-    min-height: 550px;
+    min-height: 503px;
 }
 .main_article_img {
     position: relative;
@@ -468,14 +468,22 @@ body {
 }/*/
 .small_article_description {
     position: relative;
+    margin-top: -22px;
     padding: 10px;
     font-size: 15px;
     line-height: 17px;
-    background-color: #daf0ef;
-    border: 2px solid #daf0ef;
+    border-left: 2px solid #daf0ef;
+    border-right: 2px solid #daf0ef;
+    border-bottom: 2px solid #daf0ef;
     z-index: 1;
+    
+    background: -moz-linear-gradient(top, rgba(218,240,239,0.7) 0%, rgba(218,240,239,0.97) 18%, rgba(218,240,239,1) 20%);
+    background: -webkit-linear-gradient(top, rgba(218,240,239,0.7) 0%,rgba(218,240,239,0.97) 18%,rgba(218,240,239,1) 20%);
+    background: linear-gradient(to bottom, rgba(218,240,239,0.7) 0%,rgba(218,240,239,0.97) 18%,rgba(218,240,239,1) 20%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3ffffff', endColorstr='#ffffff',GradientType=0 );
 }
 .small_article_description:hover {
+    padding-top: 8px;
     border: 2px solid #0db5ae;
 }
 .news_row {
@@ -494,6 +502,7 @@ body {
 }
 .small_article_description.imgless {
     position: relative;
+    margin-top: 0;
     margin-bottom: 17px;
 }
 .smal_article_title,
@@ -503,12 +512,13 @@ body {
 .smal_article_title:focus {
     display: block;
     margin-bottom: 10px;
-    min-height: 50px;
+    height: 50px;
     color: #000000;
     line-height: 16px;
     font-size: 14px;
     text-decoration: none;
     font-weight: 700;
+    overflow: hidden;
 }
 .main_article_tag,
 .main_article_tag:hover,
@@ -960,9 +970,10 @@ body {
 
 /*main footer*/
 .main_footer {
-    background-color: #09a099;
-    border-bottom: 3px solid #ffffff;
     color: #ffffff;
+}
+.main_footer .container {
+    background-color: #09a099;
 }
 .footer_row {
     margin-bottom: 20px;
@@ -1735,6 +1746,10 @@ body {
 }
 .portfolio_img img {
     width: 100%;
+    -webkit-transition: .25s ease-out;
+    -moz-transition: .25s ease-out;
+    -o-transition: .25s ease-out;
+    transition: .25s ease-out;
 }
 .img_before {
     float: left;
@@ -1754,6 +1769,15 @@ body {
     text-transform: uppercase;
     text-align: center;
     background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+.img_before:hover img {
+    -webkit-filter: contrast(80%) brightness(80%) saturate(30%);
+    -moz-filter: contrast(80%) brightness(80%) saturate(30%);
+    -ms-filter: contrast(80%) brightness(80%) saturate(30%);
+    -o-filter: contrast(80%) brightness(80%) saturate(30%);
+    filter: contrast(80%) brightness(80%) saturate(30%);
+    transition-delay: 0;
 }
 .img_after {
     float: right;
