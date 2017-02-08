@@ -86,6 +86,10 @@
     .offers_more:focus {
         width: 110px;
     }
+    
+    .portfolio_controls {
+        font-size: 11px;
+    }
 }
 
 
@@ -114,15 +118,7 @@
         bottom: 0;
         top: 0;
     }
-    
-    /*main_offers*/
-    
-    
-    /*main_content*/
-    
-    
-    /*main_article*/
-    
+
     
     /*small_article*/
     .main_article {
@@ -154,9 +150,7 @@
     .discount_block a:focus {
         font-size: 13px;
     }
-    
-    /*learn_diseases*/
-    
+
     
     /*learn_technology*/
     .learn_technology_title {
@@ -255,6 +249,15 @@
     
     .offers_item {
         margin-bottom: 15px;
+    }
+    
+    
+    /*portfolio*/
+    .portfolio_item {
+        margin-bottom: 15px;
+    }
+    .portfolio_controls {
+        font-size: 12px;
     }
 }
 
@@ -391,6 +394,11 @@
     .services h2 {
         font-size: 20px;
     }
+    
+    /*portfolio*/
+    .portfolio_controls {
+        font-size: 11px;
+    }
 }
 
 
@@ -416,6 +424,13 @@
 
 @media (max-width: 640px) {
     .offers_item {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    /*portfolio*/
+    .portfolio_item {
         width: 100%;
         padding-left: 0;
         padding-right: 0;

@@ -1592,7 +1592,7 @@ body {
     font-size: 11px;
     line-height: 24px;
     text-align: center;
-    background-color: #00c5af;
+    background-color: #04b2ab;
     text-decoration: none;
     border-radius: 2px;
 }
@@ -1601,9 +1601,6 @@ body {
 /*offers*/
 .offers {
     margin-bottom: 30px;
-}
-.offers_item {
-    
 }
 .offers_wrap {
     position: relative;
@@ -1691,9 +1688,6 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
-.offers_price_wrap {
-    
-}
 .offers_price {
     float: left;
     margin-top: 8px;
@@ -1723,13 +1717,99 @@ body {
 }
 
 
-
-
-
-
-
-
-
+/*portfolio*/
+.portfolio {
+    margin-bottom: 30px;
+}
+.portfolio_wrap {
+    padding: 10px 15px;
+    background-color: #effbfb;
+    border: 1px solid #04b2ab;
+}
+.portfolio_img {
+    margin-bottom: 10px;
+}
+.portfolio_img div {
+    position: relative;
+    width: 50%;
+}
+.portfolio_img img {
+    width: 100%;
+}
+.img_before {
+    float: left;
+    padding-right: 7px;
+}
+.img_before:before {
+    content: 'до';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 7px;
+    width: 58px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+}
+.img_after {
+    float: right;
+    padding-left: 7px;
+}
+.img_after:before {
+    content: 'после';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 7px;
+    width: 58px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+}
+.portfolio_title,
+.portfolio_title:hover,
+.portfolio_title:active,
+.portfolio_title:visited,
+.portfolio_title:focus {
+    display: block;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+}
+.portfolio_org,
+.portfolio_org:hover,
+.portfolio_org:active,
+.portfolio_org:visited,
+.portfolio_org:focus {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #04b2ab;
+    text-decoration: underline;
+}
+.portfolio_controls {
+    font-size: 12px;
+    line-height: 12px;
+    height: 12px;
+    text-transform: uppercase;
+}
+.portfolio_date {
+    float: left;
+}
+.portfolio_type {
+    float: right;
+}
 
 
 
