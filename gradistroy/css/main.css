@@ -2327,6 +2327,7 @@ body {
 /*accessories*/
 .accessories {
     text-align: right;
+    position: relative;
     height: 694px;
     background: url(../images/windows/accessories_bg.png) repeat-x;
 }
@@ -2345,9 +2346,11 @@ body {
     margin-bottom: 15px;
 }
 .design_img_big {
+    display: block;
     float: left;
     margin-top: -47px;
-    width: 380px;
+    width: 100%;
+    max-width: 380px;
     height: 297px;
     overflow: hidden;
 }
@@ -2586,6 +2589,7 @@ body {
 }
 .note2 .note_description {
     float: left;
+    margin-bottom: 0;
     padding: 18px 0;
     width: 620px;
     font-size: 20px;
@@ -2751,6 +2755,15 @@ body {
 .w_gallery {
     position: relative;
 }
+.w_gallery_rombs {
+    position: absolute;
+    top: -82px;
+    left: 0;
+    width: 111px;
+    height: 395px;
+    background: url(../images/rombs.png) bottom right no-repeat;
+    z-index: 1;
+}
 .w_gallery_container {
     width: 1118px;
     overflow: hidden;
@@ -2886,6 +2899,7 @@ body {
 .sidebar_question .questions_vk {
     padding: 15px 5px 11px 11px;
     width: 100%;
+    max-width: 214px;
 }
 .sidebar_question .questions_vk p {
     font-size: 18px;

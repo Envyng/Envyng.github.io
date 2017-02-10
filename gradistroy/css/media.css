@@ -1,3 +1,184 @@
+@media (max-width: 1399px) {
+    
+    /*windows*/
+    
+    
+    /*standart*/
+    .standart_menu li a, 
+    .standart_menu li a:hover, 
+    .standart_menu li a:active, 
+    .standart_menu li a:visited, 
+    .standart_menu li a:focus {
+        padding: 12px 0 0 19px;
+        width: 190px;
+        height: 53px;
+        background: url(../images/windows/windows_sprite.png) 0 -209px no-repeat;
+        background-size: 118%px;
+    }
+    .standart_menu li .stnd_a, .standart_menu li .stnd_a:hover, .standart_menu li .stnd_a:active, .standart_menu li .stnd_a:visited, .standart_menu li .stnd_a:focus, .standart_menu li.active .stnd_a, .standart_menu li.active .stnd_a:hover, .standart_menu li.active .stnd_a:active, .standart_menu li.active .stnd_a:visited, .standart_menu li.active .stnd_a:focus,
+    .standart_menu li .comfort_a, .standart_menu li .comfort_a:hover, .standart_menu li .comfort_a:active, .standart_menu li .comfort_a:visited, .standart_menu li .comfort_a:focus, .standart_menu li.active .comfort_a, .standart_menu li.active .comfort_a:hover, .standart_menu li.active .comfort_a:active, .standart_menu li.active .comfort_a:visited, .standart_menu li.active .comfort_a:focus,
+    .standart_menu li .premium_a, .standart_menu li .premium_a:hover, .standart_menu li .premium_a:active, .standart_menu li .premium_a:visited, .standart_menu li .premium_a:focus, .standart_menu li.active .premium_a, .standart_menu li.active .premium_a:hover, .standart_menu li.active .premium_a:active, .standart_menu li.active .premium_a:visited, .standart_menu li.active .premium_a:focus,
+    .standart_menu li .elit_a, .standart_menu li .elit_a:hover, .standart_menu li .elit_a:active, .standart_menu li .elit_a:visited, .standart_menu li .elit_a:focus, .standart_menu li.active .elit_a, .standart_menu li.active .elit_a:hover, .standart_menu li.active .elit_a:active, .standart_menu li.active .elit_a:visited, .standart_menu li.active .elit_a:focus{
+    padding: 12px 0 0 19px;
+}
+    .standart_menu > li.active > a,
+    .standart_menu > li.active > a:hover, 
+    .standart_menu > li.active > a:active,
+    .standart_menu > li.active > a:visited, 
+    .standart_menu > li.active > a:focus {
+        background: url(../images/windows/windows_sprite.png) 0 -152px no-repeat;
+        background-size: 118%;
+    }
+    .standart_icon {
+        margin-right: 14px;
+    }
+    .stnd.standart_icon {
+        margin-right: 9px;
+    }
+    .comfort.standart_icon {
+        margin-right: 5px;
+    }
+    .premium.standart_icon {
+        margin-right: 7px;
+    }
+    .elit.standart_icon {
+        margin-right: 40px;
+    }
+    .standart_block_1 {
+        padding: 15px;
+    }
+    .standart_block_3 {
+        padding: 15px;
+        width: 310px;
+    }
+    .standart_tech_title,
+    .standart_block_3 ul {
+        padding-left: 15px;
+    }
+    .shield_wrap {
+        padding: 0;
+    }
+    .shield_item {
+        margin-right: 11px;
+    }
+    .shield_item:nth-child(2) {
+        margin-right: 11px;
+    }
+    .shield_item:nth-child(3) {
+        margin-right: 0;
+    }
+    
+    
+    /*note*/
+    .note_description {
+        float: left;
+        padding: 15px 15px 0 0;
+        width: 580px;
+        line-height: 26px;
+    }
+    
+    
+    /*standart2*/
+    .standart2_block_1 {
+        padding: 19px 0 0 15px;
+        width: 380px;
+    }
+    .standart2_block_2 {
+        padding: 24px 0 0 30px;
+        width: 280px;
+    }
+    .standart2_block_3 {
+        width: 230px;
+    }
+    
+    
+    /*measurement*/
+    .measurement_right p {
+        margin-bottom: 0;
+        width: 340px;
+        font-size: 13px;
+    }
+    
+    
+    /*.accessories*/
+    .accessories {
+        height: auto;
+    }
+    .accessories img {
+        width: 100%;
+    }
+    
+    
+    /*design*/
+    .design_content {
+        width: 430px;
+    }
+    .design_description {
+        margin-bottom: 30px;
+        padding: 11px 0 0 15px;
+    }
+    .design_price_wrap {
+        padding: 0 20px 0 15px;
+    }
+    .design_price_left {
+        width: 160px;
+    }
+    .design_line ul li a {
+        width: 130px;
+        height: 130px;
+    }
+    
+    
+    .cottage {
+        margin-bottom: 19px;
+        height: 397px;
+        background: url(../images/windows/cotage_bg.png) top right no-repeat;
+        background-size: contain;
+    }
+    .cotage_block {
+        width: 315px;
+    }
+    .cotage_head,
+    .cotage_text_title {
+        margin-bottom: 10px;
+    }
+    .cotage_text {
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 14px;
+    }
+    .cotage_order, .cotage_order:hover, .cotage_order:active, .cotage_order:visited, .cotage_order:focus {
+        margin: 15px auto 0;
+    }
+    
+    
+    /*note2*/
+    .note2 .note_description {
+        padding: 9px 0;
+        width: 465px;
+    }
+    
+    /*.quality*/
+    .quality_container {
+        padding: 27px 0 0 15px;
+    }
+    
+    
+    /*w_advantages*/
+    .w_advantages_container {
+        padding: 36px 0 85px 0;
+    }
+    .w_gallery_container {
+        width: 100%;
+        overflow: hidden;
+    }
+    .w_gallery_item {
+        width: 131px;
+        height: 131px;
+    }
+}
+
+
 @media (max-width: 1259px) {
     
     /*header*/
@@ -97,6 +278,234 @@
     .main_footer .main_menu li a:focus {
         padding: 0 12px;
         font-size: 15px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    /*windows*/
+    /*standart*/
+    .standart_menu {
+        padding-left: 27px;
+    }
+    .standart_menu li,
+    .standart_menu li:nth-child(4) {
+        margin-left: -15px;
+    }
+    .standart_menu li a, .standart_menu li a:hover, .standart_menu li a:active, .standart_menu li a:visited, .standart_menu li a:focus {
+        padding: 12px 0 0 19px;
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 30px;
+        background: url(../images/windows/windows_sprite.png) 0 -165px no-repeat;
+        background-size: 118%;
+    }
+    .standart_menu > li.active > a, .standart_menu > li.active > a:hover, .standart_menu > li.active > a:active, .standart_menu > li.active > a:visited, .standart_menu > li.active > a:focus {
+        background: url(../images/windows/windows_sprite.png) 0 -120px no-repeat;
+        background-size: 118%;
+    }
+    .standart_menu li a, .standart_menu li a:hover, .standart_menu li a:active, .standart_menu li a:visited, .standart_menu li a:focus {
+        padding: 8px 0 0 19px;
+    }
+    .standart_menu li .stnd_a, .standart_menu li .stnd_a:hover, .standart_menu li .stnd_a:active, .standart_menu li .stnd_a:visited, .standart_menu li .stnd_a:focus, .standart_menu li.active .stnd_a, .standart_menu li.active .stnd_a:hover, .standart_menu li.active .stnd_a:active, .standart_menu li.active .stnd_a:visited, .standart_menu li.active .stnd_a:focus, .standart_menu li .comfort_a, .standart_menu li .comfort_a:hover, .standart_menu li .comfort_a:active, .standart_menu li .comfort_a:visited, .standart_menu li .comfort_a:focus, .standart_menu li.active .comfort_a, .standart_menu li.active .comfort_a:hover, .standart_menu li.active .comfort_a:active, .standart_menu li.active .comfort_a:visited, .standart_menu li.active .comfort_a:focus, .standart_menu li .premium_a, .standart_menu li .premium_a:hover, .standart_menu li .premium_a:active, .standart_menu li .premium_a:visited, .standart_menu li .premium_a:focus, .standart_menu li.active .premium_a, .standart_menu li.active .premium_a:hover, .standart_menu li.active .premium_a:active, .standart_menu li.active .premium_a:visited, .standart_menu li.active .premium_a:focus, .standart_menu li .elit_a, .standart_menu li .elit_a:hover, .standart_menu li .elit_a:active, .standart_menu li .elit_a:visited, .standart_menu li .elit_a:focus, .standart_menu li.active .elit_a, .standart_menu li.active .elit_a:hover, .standart_menu li.active .elit_a:active, .standart_menu li.active .elit_a:visited, .standart_menu li.active .elit_a:focus {
+    padding: 8px 0 0 19px;
+}
+    .standart_icon {
+        display: inline-block;
+        margin-right: 0;
+        width: 30px;
+        height: 30px;
+        background-size: 216px auto;
+    }
+    .stnd.standart_icon {
+        margin-right: 0;
+        background-position: -34px 0;
+    }
+    .comfort.standart_icon {
+        margin-right: -3px;
+        background-position: -70px 0;
+    }
+    .premium.standart_icon {
+        margin-right: 0;
+        background-position: -104px 0;
+    }
+    .elit.standart_icon {
+        margin-right: 22px;
+        background-position: -137px 0;
+    }
+    .standart_block_1,
+    .standart_block_2 {
+        width: 50%;
+    }
+    .standart_block_3 {
+        width: 100%;
+    }
+    
+    
+    /*note*/
+    .note_name {
+        width: 300px;
+    }
+    .note_description {
+        width: 395px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    
+    /*standart2*/
+    .standart2_block_1,
+    .standart2_block_2 {
+        width: 50%;
+    }
+    .standart2_block_3 {
+        width: 100%;
+        padding: 15px 0 0 30px;
+    }
+    
+    
+    /*measurement*/
+    .measurement_icon {
+        top: -22px;
+        right: 197px;
+        width: 100px;
+        height: 100px;
+        background-image: url(../images/zam.png);
+        background-size: cover;
+    }
+    .measurement_right p {
+        width: 220px;
+        line-height: 16px;
+    }
+    
+    
+    /*design*/
+    .design_img_big {
+        width: 300px;
+    }
+    .design_content {
+        width: 310px;
+    }
+    .design_title_block {
+        padding: 10px 0 0 15px;
+        width: 315px;
+    }
+    .design_price_left,
+    .design_price_right {
+        float: none;
+        width: 100%;
+    }
+    .design_description {
+        margin-bottom: 10px;
+    }
+    .design_line ul li a {
+        width: 99px;
+        height: 99px;
+    }
+    
+    
+    /*cottage*/
+    .cottage {
+        height: auto;
+        background: url(../images/windows/cotage_bg2.png) no-repeat;
+        background-size: cover;
+    }
+    .cottage_img {
+        text-align: center;
+    }
+    .cottage_img img {
+        max-width: 100%;
+    }
+    .cotage_block {
+        float: none;
+        margin-bottom: 0;
+        padding-bottom: 15px;
+        width: 100%;
+        height: auto;
+        min-height: auto;
+    }
+    .cotage_head {
+        padding-left: 22px;
+    }
+    .cotage_head:before {
+        display: none;
+    }
+    .cotage_text_title,
+    .cotage_text {
+        font-size: 16px;
+        line-height: normal;
+    }
+    
+    
+    /*note2*/
+    .note_banner,
+    .note_icon {
+        margin-right: 20px;
+    }
+    .note2 .note_description {
+        width: 280px;
+        font-size: 16px;
+        line-height: 17px;
+    }
+    
+    
+    /*sertificat*/
+    .sertificat_item {
+        margin-bottom: 30px;
+    }
+    .sertificat_item:nth-child(1), 
+    .sertificat_item:nth-child(4) {
+        margin-right: 24px;
+    }
+    .sertificat_item:nth-child(3) {
+        margin-right: 0;
+    }
+    
+    
+    /*w_advantages*/
+    .w_advantages_container {
+        padding: 36px 0 50px 0;
+    }
+    .w_advantages_wrap {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+        -ms-text-align-last: justify;
+        text-align-last: justify;
+    }
+    .w_advantages_item {
+        width: 130px;
+    }
+    .w_advantages_item:nth-child(3) {
+        padding-left: 15px;
+    }
+    .w_advantages_item p {
+        font-size: 14px;
+        text-align: left;
+        -ms-text-align-last: left;
+        text-align-last: left;
+    }
+    .w_advantages_item a, .w_advantages_item a:hover, .w_advantages_item a:active, .w_advantages_item a:visited, .w_advantages_item a:focus {
+        width: 100%;
+        text-align: center;
+        -ms-text-align-last: center;
+        text-align-last: center;
+    }
+    
+    
+    /*w_gallery*/
+    .w_gallery_title {
+        margin-left: -15px;
+        height: 50px;
+    }
+    .w_gallery_item {
+        width: 101px;
+        height: 101px;
+    }
+    .w_gallery_title h2 {
+        line-height: 50px;
+        font-size: 26px;
     }
 }
 
@@ -301,6 +710,204 @@
     }
 }
 
+
+@media (max-width: 991px) {
+    /*windows*/
+    /*standart*/
+    .standart_menu {
+        padding-left: 15px;
+    }
+    .standart_menu li:nth-child(1),
+    .standart_menu li:nth-child(2),
+    .standart_menu li:nth-child(3),
+    .standart_menu li:nth-child(4),
+    .standart_menu li:nth-child(5) {
+        margin-left: -7px;
+    }
+    .standart_menu li a, .standart_menu li a:hover, .standart_menu li a:active, .standart_menu li a:visited, .standart_menu li a:focus {
+        padding: 0;
+        width: 107px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background: url(../images/windows/windows_sprite.png) 0 -118px no-repeat;
+        background-size: 118%;
+    }
+    .standart_menu > li.active > a, .standart_menu > li.active > a:hover, .standart_menu > li.active > a:active, .standart_menu > li.active > a:visited, .standart_menu > li.active > a:focus {
+        background: url(../images/windows/windows_sprite.png) 0 -86px no-repeat;
+        background-size: 118%;
+    }
+    .standart_menu li .stnd_a, .standart_menu li .stnd_a:hover, .standart_menu li .stnd_a:active, .standart_menu li .stnd_a:visited, .standart_menu li .stnd_a:focus, .standart_menu li.active .stnd_a, .standart_menu li.active .stnd_a:hover, .standart_menu li.active .stnd_a:active, .standart_menu li.active .stnd_a:visited, .standart_menu li.active .stnd_a:focus, .standart_menu li .comfort_a, .standart_menu li .comfort_a:hover, .standart_menu li .comfort_a:active, .standart_menu li .comfort_a:visited, .standart_menu li .comfort_a:focus, .standart_menu li.active .comfort_a, .standart_menu li.active .comfort_a:hover, .standart_menu li.active .comfort_a:active, .standart_menu li.active .comfort_a:visited, .standart_menu li.active .comfort_a:focus, .standart_menu li .premium_a, .standart_menu li .premium_a:hover, .standart_menu li .premium_a:active, .standart_menu li .premium_a:visited, .standart_menu li .premium_a:focus, .standart_menu li.active .premium_a, .standart_menu li.active .premium_a:hover, .standart_menu li.active .premium_a:active, .standart_menu li.active .premium_a:visited, .standart_menu li.active .premium_a:focus, .standart_menu li .elit_a, .standart_menu li .elit_a:hover, .standart_menu li .elit_a:active, .standart_menu li .elit_a:visited, .standart_menu li .elit_a:focus, .standart_menu li.active .elit_a, .standart_menu li.active .elit_a:hover, .standart_menu li.active .elit_a:active, .standart_menu li.active .elit_a:visited, .standart_menu li.active .elit_a:focus {
+        padding: 0;
+    }
+    
+    
+    /*note*/
+    .note_description {
+        width: 215px;
+        font-size: 12px;
+    }
+    
+    
+    /*standart2*/
+    .standart2_block_1, 
+    .standart2_block_2 {
+        width: 100%;
+    }
+    
+    
+    /*measurement*/
+    .measurement_right p {
+        width: 120px;
+        font-size: 16px;
+    }
+    
+    
+    /*design*/
+    .design {
+        background-size: cover;
+    }
+    .design_img_big {
+        float: none;
+        margin-top: 0;
+        width: 100%;
+    }
+    .design_content {
+        float: none;
+        width: 100%;
+    }
+    .design_title_block {
+        margin-top: 0;
+        width: 100%;
+        max-height: 399px;
+    }
+    .design_description {
+        padding-right: 15px;
+    }
+    .design_line ul li a {
+        margin-bottom: 4px;
+        width: 152px;
+        height: 152px;
+    }
+    
+    
+    /*note2*/
+    .note2 .note_description {
+        width: 175px;
+        padding: 0;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    
+    /*w_advantages*/
+    .w_advantages_item {
+        display: block;
+        float: left;
+        width: 20%;
+        word-wrap: break-word;
+    }
+    .w_advantages_item:nth-child(1),
+    .w_advantages_item:nth-child(2),
+    .w_advantages_item:nth-child(3),
+    .w_advantages_item:nth-child(4),
+    .w_advantages_item:nth-child(5) {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .w_advantages_item p {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .w_advantages_icon {
+        width: 80px;
+        height: 80px;
+        background-image: url(../images/windows/windows_sprite.png);
+        background-repeat: no-repeat;
+        background-size: 193px auto;
+    }
+    .w_advantages_icon.veka {
+        margin: 0 auto 15px;
+        background-position: 0 -265px;
+    }
+    .w_advantages_icon.production {
+        margin: 0 auto 15px;
+        background-position: -97px -266px;
+    }
+    .w_advantages_icon.warranty {
+        margin: 0 auto 15px;
+        background-position: 0 -354px;
+    }
+    .w_advantages_icon.benef {
+        margin: 0 auto 15px;
+        background-position: -97px -352px;
+    }
+    .w_advantages_icon.installation {
+        margin: 0 auto 15px;
+        background-position: 0 -440px;
+    }
+    
+    
+    /*w_gallery*/
+    .w_gallery_title {
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 890px) {
+    .w_gallery_item {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+
+@media (max-width: 845px) {
+    .design_line ul li a {
+        margin-bottom: 4px;
+        width: 138px;
+        height: 138px;
+    }
+}
+
+
+@media (max-width: 824px) {
+    .sertificat_item:nth-child(1), 
+    .sertificat_item:nth-child(2), 
+    .sertificat_item:nth-child(4) {
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 821px) {
+    .w_gallery_item {
+        width: 162px;
+        height: 162px;
+    }
+}
+
+
+@media (max-width: 795px) {
+    .sertificat_more,
+    .sertificat_item {
+        display: block;
+        margin-right: 0;
+        width: 20%;
+        height: auto;
+        float: left;
+    }
+    .sertificat_more img {
+        width: 100%;
+    }
+    .sertificat_item:nth-child(1), 
+    .sertificat_item:nth-child(2), 
+    .sertificat_item:nth-child(3), 
+    .sertificat_item:nth-child(4) {
+        margin-right: 0;
+    }
+}
 
 
 @media (max-width: 767px) {
@@ -596,9 +1203,6 @@
     
     
     /*main footer*/
-    .main_footer .container {
-        
-    }
     .footer_logo_wrap {
         height: 130px;
     }
@@ -633,6 +1237,119 @@
         width: 68px;
         height: 68px;
         background-image: url(../images/copiright_b.png);
+    }
+    
+    
+    /*windows*/
+    .standart_bage_wrap {
+        padding-left: 0;
+    }
+    
+    
+    /*standart2*/
+    .standart2_block_1,
+    .standart2_block_2,
+    .standart2_block_3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    
+    /*measurement*/
+    .measurement {
+        height: auto;
+    }
+    .measurement_left,
+    .measurement_right {
+        float: none;
+        width: 100%;
+        height: 88px;
+    }
+    .measurement_right p {
+        width: 70%;
+    }
+    
+    
+    /*design*/
+    .design {
+        padding: 15px;
+        min-height: 541px;
+        background: url(../images/windows/design_bg.png) top right no-repeat;
+    }
+    .design_line ul li {
+        display: inline-block;
+        margin-right: 0;
+        margin-bottom: 0;
+        float: left;
+        width: 33.3333%;
+    }
+    .design_line ul li a {
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    /*note2*/
+    .note2 .note_description {
+        width: 280px;
+        font-size: 17px;
+        line-height: 17px;
+    }
+    
+    
+    /*w_advantages*/
+    .w_advantages_container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .w_advantages_title,
+    .w_advantages_subtitle {
+        padding: 0;
+    }
+    
+    
+    /*w_gallery*/
+    .w_gallery_item {
+        width: 33.3333%;;
+        height: auto;
+    }
+    
+    
+    /*windows sidebar*/
+    .windows .main_sidebar {
+        width: 100%;
+        max-width: 100%;
+    }
+    .sidebar_promotions {
+        padding-left: 0;
+        margin-bottom: 39px;
+    }
+    .sidebar_question {
+        width: 50%;
+        float: right;
+        margin-bottom: 20px;
+        padding: 0 15px 35px 15px;
+    }
+    .sidebar_question_icon {
+        margin: 0 auto 5px;
+    }
+    .sidebar_question_title {
+        margin-bottom: 11px;
+        text-align: center;
+    }
+    .sidebar_articles {
+        clear: both;
+        padding: 0;    
+    }
+    .sidebar_articles .articles_item {
+        float: left;
+        margin: 0;
+        width: 50%;
+    }
+    .quality_mark {
+        padding-left: 60px;
+        text-align: left;
     }
 }
 
@@ -697,6 +1414,90 @@
     .header_phone_title {
         font-size: 13px;
     }
+    
+    
+    /*measurement*/
+    .measurement_right p {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 520px) {
+    /*windows*/
+    /*standart*/
+    .standart .tab-content {
+        box-shadow: none;
+    }
+    .standart_menu {
+        padding-left: 0;
+    }
+    .standart_menu li:nth-child(1), .standart_menu li:nth-child(2), .standart_menu li:nth-child(3), .standart_menu li:nth-child(4), .standart_menu li:nth-child(5) {
+        margin-left: 0;
+        width: 20%;
+        
+        border: 1px solid #e7e7e7;
+        border-right: none;
+    }
+    .standart_menu li:nth-child(5) {
+        border-right: 1px solid #e7e7e7;
+    }
+    .standart_menu li a, .standart_menu li a:hover, .standart_menu li a:active, .standart_menu li a:visited, .standart_menu li a:focus {
+        width: 100%;
+        background-color: #dae4e8;
+        background-image: none;
+        
+    }
+    .standart_menu > li.active > a, .standart_menu > li.active > a:hover, .standart_menu > li.active > a:active, .standart_menu > li.active > a:visited, .standart_menu > li.active > a:focus {
+        width: 100%;
+        background-color: #ffffff;
+        background-image: none;
+    }
+    .standart_block_1, .standart_block_2 {
+        width: 100%;
+    }
+    
+    
+    /*note*/
+    .note {
+        display: none;
+    }
+    
+    
+    /*standart2*/
+    .standart_img_gallery {
+        width: 100%;
+        height: auto;
+    }
+    .standart2_block_1 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .standart_img_gallery ul {
+        padding-left: 0;
+    }
+    .standart2_block_1 img {
+        max-width: 320px;
+    }
+    
+    
+    
+    /*design*/
+    .design_img_big img {
+        max-width: 100%;
+    }
+    
+    
+    /*w_advantages_item*/
+    .w_advantages_item {
+        margin-bottom: 10px;
+        width: 50%;
+        height: 170px;
+    }
+    .w_advantages_item p {
+        text-align: center;
+        text-align-last: center;
+    }
 }
 
 
@@ -731,10 +1532,8 @@
     .footer_right {
         padding-right: 85px;
     }
-}
 
-
-@media (max-width: 500px) {
+    
     /*top_block*/
     .header .container {
         overflow: hidden;
@@ -841,6 +1640,33 @@
     .map {
         height: 518px;
     }
+    
+    
+    
+    /*windows*/
+    .sertificat_more, .sertificat_item {
+        display: none;
+    }
+    
+    .sidebar_question {
+        width: 100%;
+    }
+    .questions_vk {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 460px) {
+    /*measurement*/
+    .measurement_right p {
+        width: 45%;
+    }
+    .measurement_right p span {
+        display: none;
+    }
 }
 
 
@@ -871,6 +1697,18 @@
         height: 30px;
         background-size: contain;
     }
+    
+    
+    /*windows*/
+    /*standart*/
+    .standart_menu li a, .standart_menu li a:hover, .standart_menu li a:active, .standart_menu li a:visited, .standart_menu li a:focus {
+        font-size: 12px;
+    }
+    
+    
+    .sidebar_articles .articles_item {
+        width: 100%;
+    }
 }
 
 
@@ -879,5 +1717,18 @@
     /*gallery*/
     .articles_img_content {
         padding: 25px 0 0 0;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .standart_img_gallery ul li,
+    .standart_img_gallery ul li:nth-child(2),
+    .standart_img_gallery ul li:nth-child(3) {
+        margin-right: 10px;
+    }
+    
+    .design_subtitle {
+        font-size: 20px;
     }
 }
