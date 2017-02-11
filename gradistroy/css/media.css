@@ -1,8 +1,6 @@
 @media (max-width: 1399px) {
     
     /*windows*/
-    
-    
     /*standart*/
     .standart_menu li a, 
     .standart_menu li a:hover, 
@@ -15,12 +13,48 @@
         background: url(../images/windows/windows_sprite.png) 0 -209px no-repeat;
         background-size: 118%px;
     }
-    .standart_menu li .stnd_a, .standart_menu li .stnd_a:hover, .standart_menu li .stnd_a:active, .standart_menu li .stnd_a:visited, .standart_menu li .stnd_a:focus, .standart_menu li.active .stnd_a, .standart_menu li.active .stnd_a:hover, .standart_menu li.active .stnd_a:active, .standart_menu li.active .stnd_a:visited, .standart_menu li.active .stnd_a:focus,
-    .standart_menu li .comfort_a, .standart_menu li .comfort_a:hover, .standart_menu li .comfort_a:active, .standart_menu li .comfort_a:visited, .standart_menu li .comfort_a:focus, .standart_menu li.active .comfort_a, .standart_menu li.active .comfort_a:hover, .standart_menu li.active .comfort_a:active, .standart_menu li.active .comfort_a:visited, .standart_menu li.active .comfort_a:focus,
-    .standart_menu li .premium_a, .standart_menu li .premium_a:hover, .standart_menu li .premium_a:active, .standart_menu li .premium_a:visited, .standart_menu li .premium_a:focus, .standart_menu li.active .premium_a, .standart_menu li.active .premium_a:hover, .standart_menu li.active .premium_a:active, .standart_menu li.active .premium_a:visited, .standart_menu li.active .premium_a:focus,
-    .standart_menu li .elit_a, .standart_menu li .elit_a:hover, .standart_menu li .elit_a:active, .standart_menu li .elit_a:visited, .standart_menu li .elit_a:focus, .standart_menu li.active .elit_a, .standart_menu li.active .elit_a:hover, .standart_menu li.active .elit_a:active, .standart_menu li.active .elit_a:visited, .standart_menu li.active .elit_a:focus{
-    padding: 12px 0 0 19px;
-}
+    .standart_menu li .stnd_a, 
+    .standart_menu li .stnd_a:hover,
+    .standart_menu li .stnd_a:active,
+    .standart_menu li .stnd_a:visited,
+    .standart_menu li .stnd_a:focus,
+    .standart_menu li.active .stnd_a,
+    .standart_menu li.active .stnd_a:hover, 
+    .standart_menu li.active .stnd_a:active,
+    .standart_menu li.active .stnd_a:visited, 
+    .standart_menu li.active .stnd_a:focus,
+    .standart_menu li .comfort_a,
+    .standart_menu li .comfort_a:hover,
+    .standart_menu li .comfort_a:active,
+    .standart_menu li .comfort_a:visited,
+    .standart_menu li .comfort_a:focus, 
+    .standart_menu li.active .comfort_a, 
+    .standart_menu li.active .comfort_a:hover,
+    .standart_menu li.active .comfort_a:active,
+    .standart_menu li.active .comfort_a:visited,
+    .standart_menu li.active .comfort_a:focus,
+    .standart_menu li .premium_a, 
+    .standart_menu li .premium_a:hover,
+    .standart_menu li .premium_a:active,
+    .standart_menu li .premium_a:visited,
+    .standart_menu li .premium_a:focus, 
+    .standart_menu li.active .premium_a,
+    .standart_menu li.active .premium_a:hover,
+    .standart_menu li.active .premium_a:active, 
+    .standart_menu li.active .premium_a:visited, 
+    .standart_menu li.active .premium_a:focus,
+    .standart_menu li .elit_a, 
+    .standart_menu li .elit_a:hover, 
+    .standart_menu li .elit_a:active,
+    .standart_menu li .elit_a:visited, 
+    .standart_menu li .elit_a:focus, 
+    .standart_menu li.active .elit_a,
+    .standart_menu li.active .elit_a:hover, 
+    .standart_menu li.active .elit_a:active, 
+    .standart_menu li.active .elit_a:visited, 
+    .standart_menu li.active .elit_a:focus{
+        padding: 12px 0 0 19px;
+    }
     .standart_menu > li.active > a,
     .standart_menu > li.active > a:hover, 
     .standart_menu > li.active > a:active,
@@ -129,6 +163,7 @@
     }
     
     
+    /*cottage*/
     .cottage {
         margin-bottom: 19px;
         height: 397px;
@@ -142,12 +177,19 @@
     .cotage_text_title {
         margin-bottom: 10px;
     }
+    .cotege_rombs {
+        display: none;    
+    }
     .cotage_text {
         padding-left: 15px;
         padding-right: 15px;
         line-height: 14px;
     }
-    .cotage_order, .cotage_order:hover, .cotage_order:active, .cotage_order:visited, .cotage_order:focus {
+    .cotage_order, 
+    .cotage_order:hover,
+    .cotage_order:active,
+    .cotage_order:visited,
+    .cotage_order:focus {
         margin: 15px auto 0;
     }
     
@@ -292,7 +334,11 @@
     .standart_menu li:nth-child(4) {
         margin-left: -15px;
     }
-    .standart_menu li a, .standart_menu li a:hover, .standart_menu li a:active, .standart_menu li a:visited, .standart_menu li a:focus {
+    .standart_menu li a, 
+    .standart_menu li a:hover, 
+    .standart_menu li a:active, 
+    .standart_menu li a:visited, 
+    .standart_menu li a:focus {
         padding: 12px 0 0 19px;
         width: 150px;
         height: 40px;
@@ -301,14 +347,61 @@
         background: url(../images/windows/windows_sprite.png) 0 -165px no-repeat;
         background-size: 118%;
     }
-    .standart_menu > li.active > a, .standart_menu > li.active > a:hover, .standart_menu > li.active > a:active, .standart_menu > li.active > a:visited, .standart_menu > li.active > a:focus {
+    .standart_menu > li.active > a, 
+    .standart_menu > li.active > a:hover, 
+    .standart_menu > li.active > a:active, 
+    .standart_menu > li.active > a:visited, 
+    .standart_menu > li.active > a:focus {
         background: url(../images/windows/windows_sprite.png) 0 -120px no-repeat;
         background-size: 118%;
     }
-    .standart_menu li a, .standart_menu li a:hover, .standart_menu li a:active, .standart_menu li a:visited, .standart_menu li a:focus {
+    .standart_menu li a,
+    .standart_menu li a:hover,
+    .standart_menu li a:active,
+    .standart_menu li a:visited,
+    .standart_menu li a:focus {
         padding: 8px 0 0 19px;
     }
-    .standart_menu li .stnd_a, .standart_menu li .stnd_a:hover, .standart_menu li .stnd_a:active, .standart_menu li .stnd_a:visited, .standart_menu li .stnd_a:focus, .standart_menu li.active .stnd_a, .standart_menu li.active .stnd_a:hover, .standart_menu li.active .stnd_a:active, .standart_menu li.active .stnd_a:visited, .standart_menu li.active .stnd_a:focus, .standart_menu li .comfort_a, .standart_menu li .comfort_a:hover, .standart_menu li .comfort_a:active, .standart_menu li .comfort_a:visited, .standart_menu li .comfort_a:focus, .standart_menu li.active .comfort_a, .standart_menu li.active .comfort_a:hover, .standart_menu li.active .comfort_a:active, .standart_menu li.active .comfort_a:visited, .standart_menu li.active .comfort_a:focus, .standart_menu li .premium_a, .standart_menu li .premium_a:hover, .standart_menu li .premium_a:active, .standart_menu li .premium_a:visited, .standart_menu li .premium_a:focus, .standart_menu li.active .premium_a, .standart_menu li.active .premium_a:hover, .standart_menu li.active .premium_a:active, .standart_menu li.active .premium_a:visited, .standart_menu li.active .premium_a:focus, .standart_menu li .elit_a, .standart_menu li .elit_a:hover, .standart_menu li .elit_a:active, .standart_menu li .elit_a:visited, .standart_menu li .elit_a:focus, .standart_menu li.active .elit_a, .standart_menu li.active .elit_a:hover, .standart_menu li.active .elit_a:active, .standart_menu li.active .elit_a:visited, .standart_menu li.active .elit_a:focus {
+    .standart_menu li .stnd_a, 
+    .standart_menu li .stnd_a:hover,
+    .standart_menu li .stnd_a:active, 
+    .standart_menu li .stnd_a:visited, 
+    .standart_menu li .stnd_a:focus, 
+    .standart_menu li.active .stnd_a,
+    .standart_menu li.active .stnd_a:hover,
+    .standart_menu li.active .stnd_a:active, 
+    .standart_menu li.active .stnd_a:visited,
+    .standart_menu li.active .stnd_a:focus, 
+    .standart_menu li .comfort_a, 
+    .standart_menu li .comfort_a:hover,
+    .standart_menu li .comfort_a:active,
+    .standart_menu li .comfort_a:visited,
+    .standart_menu li .comfort_a:focus, 
+    .standart_menu li.active .comfort_a, 
+    .standart_menu li.active .comfort_a:hover, 
+    .standart_menu li.active .comfort_a:active,
+    .standart_menu li.active .comfort_a:visited,
+    .standart_menu li.active .comfort_a:focus,
+    .standart_menu li .premium_a,
+    .standart_menu li .premium_a:hover, 
+    .standart_menu li .premium_a:active, 
+    .standart_menu li .premium_a:visited, 
+    .standart_menu li .premium_a:focus,
+    .standart_menu li.active .premium_a,
+    .standart_menu li.active .premium_a:hover,
+    .standart_menu li.active .premium_a:active, 
+    .standart_menu li.active .premium_a:visited, 
+    .standart_menu li.active .premium_a:focus, 
+    .standart_menu li .elit_a, 
+    .standart_menu li .elit_a:hover,
+    .standart_menu li .elit_a:active,
+    .standart_menu li .elit_a:visited,
+    .standart_menu li .elit_a:focus, 
+    .standart_menu li.active .elit_a,
+    .standart_menu li.active .elit_a:hover,
+    .standart_menu li.active .elit_a:active, 
+    .standart_menu li.active .elit_a:visited, 
+    .standart_menu li.active .elit_a:focus {
     padding: 8px 0 0 19px;
 }
     .standart_icon {
@@ -486,7 +579,11 @@
         -ms-text-align-last: left;
         text-align-last: left;
     }
-    .w_advantages_item a, .w_advantages_item a:hover, .w_advantages_item a:active, .w_advantages_item a:visited, .w_advantages_item a:focus {
+    .w_advantages_item a, 
+    .w_advantages_item a:hover,
+    .w_advantages_item a:active, 
+    .w_advantages_item a:visited, 
+    .w_advantages_item a:focus {
         width: 100%;
         text-align: center;
         -ms-text-align-last: center;
@@ -708,10 +805,8 @@
         padding: 0 5px;
         font-size: 12px;
     }
-}
-
-
-@media (max-width: 991px) {
+    
+    
     /*windows*/
     /*standart*/
     .standart_menu {
@@ -724,7 +819,11 @@
     .standart_menu li:nth-child(5) {
         margin-left: -7px;
     }
-    .standart_menu li a, .standart_menu li a:hover, .standart_menu li a:active, .standart_menu li a:visited, .standart_menu li a:focus {
+    .standart_menu li a, 
+    .standart_menu li a:hover,
+    .standart_menu li a:active, 
+    .standart_menu li a:visited, 
+    .standart_menu li a:focus {
         padding: 0;
         width: 107px;
         height: 30px;
@@ -733,11 +832,54 @@
         background: url(../images/windows/windows_sprite.png) 0 -118px no-repeat;
         background-size: 118%;
     }
-    .standart_menu > li.active > a, .standart_menu > li.active > a:hover, .standart_menu > li.active > a:active, .standart_menu > li.active > a:visited, .standart_menu > li.active > a:focus {
+    .standart_menu > li.active > a, 
+    .standart_menu > li.active > a:hover,
+    .standart_menu > li.active > a:active,
+    .standart_menu > li.active > a:visited, 
+    .standart_menu > li.active > a:focus {
         background: url(../images/windows/windows_sprite.png) 0 -86px no-repeat;
         background-size: 118%;
     }
-    .standart_menu li .stnd_a, .standart_menu li .stnd_a:hover, .standart_menu li .stnd_a:active, .standart_menu li .stnd_a:visited, .standart_menu li .stnd_a:focus, .standart_menu li.active .stnd_a, .standart_menu li.active .stnd_a:hover, .standart_menu li.active .stnd_a:active, .standart_menu li.active .stnd_a:visited, .standart_menu li.active .stnd_a:focus, .standart_menu li .comfort_a, .standart_menu li .comfort_a:hover, .standart_menu li .comfort_a:active, .standart_menu li .comfort_a:visited, .standart_menu li .comfort_a:focus, .standart_menu li.active .comfort_a, .standart_menu li.active .comfort_a:hover, .standart_menu li.active .comfort_a:active, .standart_menu li.active .comfort_a:visited, .standart_menu li.active .comfort_a:focus, .standart_menu li .premium_a, .standart_menu li .premium_a:hover, .standart_menu li .premium_a:active, .standart_menu li .premium_a:visited, .standart_menu li .premium_a:focus, .standart_menu li.active .premium_a, .standart_menu li.active .premium_a:hover, .standart_menu li.active .premium_a:active, .standart_menu li.active .premium_a:visited, .standart_menu li.active .premium_a:focus, .standart_menu li .elit_a, .standart_menu li .elit_a:hover, .standart_menu li .elit_a:active, .standart_menu li .elit_a:visited, .standart_menu li .elit_a:focus, .standart_menu li.active .elit_a, .standart_menu li.active .elit_a:hover, .standart_menu li.active .elit_a:active, .standart_menu li.active .elit_a:visited, .standart_menu li.active .elit_a:focus {
+    .standart_menu li .stnd_a, 
+    .standart_menu li .stnd_a:hover,
+    .standart_menu li .stnd_a:active,
+    .standart_menu li .stnd_a:visited, 
+    .standart_menu li .stnd_a:focus, 
+    .standart_menu li.active .stnd_a,
+    .standart_menu li.active .stnd_a:hover,
+    .standart_menu li.active .stnd_a:active, 
+    .standart_menu li.active .stnd_a:visited, 
+    .standart_menu li.active .stnd_a:focus, 
+    .standart_menu li .comfort_a, 
+    .standart_menu li .comfort_a:hover,
+    .standart_menu li .comfort_a:active,
+    .standart_menu li .comfort_a:visited,
+    .standart_menu li .comfort_a:focus,
+    .standart_menu li.active .comfort_a, 
+    .standart_menu li.active .comfort_a:hover,
+    .standart_menu li.active .comfort_a:active,
+    .standart_menu li.active .comfort_a:visited,
+    .standart_menu li.active .comfort_a:focus, 
+    .standart_menu li .premium_a,
+    .standart_menu li .premium_a:hover, 
+    .standart_menu li .premium_a:active, 
+    .standart_menu li .premium_a:visited,
+    .standart_menu li .premium_a:focus, 
+    .standart_menu li.active .premium_a,
+    .standart_menu li.active .premium_a:hover,
+    .standart_menu li.active .premium_a:active,
+    .standart_menu li.active .premium_a:visited,
+    .standart_menu li.active .premium_a:focus,
+    .standart_menu li .elit_a,
+    .standart_menu li .elit_a:hover, 
+    .standart_menu li .elit_a:active,
+    .standart_menu li .elit_a:visited,
+    .standart_menu li .elit_a:focus, 
+    .standart_menu li.active .elit_a, 
+    .standart_menu li.active .elit_a:hover,
+    .standart_menu li.active .elit_a:active,
+    .standart_menu li.active .elit_a:visited, 
+    .standart_menu li.active .elit_a:focus {
         padding: 0;
     }
     
@@ -889,7 +1031,43 @@
 }
 
 
-@media (max-width: 795px) {
+@media (max-width: 800px) {
+    /*windows*/
+    /*standart*/
+    .standart_menu li:nth-child(1), 
+    .standart_menu li:nth-child(2), 
+    .standart_menu li:nth-child(3), 
+    .standart_menu li:nth-child(4), 
+    .standart_menu li:nth-child(5) {
+        margin-left: -13px;
+    }
+    .standart_block_1,
+    .standart_block_2 {
+        width: 100%;
+    }
+    
+    
+    /*note*/
+    .note_description {
+        width: 180px;
+        line-height: 16px;
+    }
+    
+    
+    /*measurement*/
+    .measurement_right p {
+        width: 90px;
+    }
+    
+    
+    /*note2*/
+    .note2 .note_description {
+        width: 155px;
+        font-size: 13px;
+    }
+    
+    
+    /*sertificat*/
     .sertificat_more,
     .sertificat_item {
         display: block;
@@ -1309,6 +1487,12 @@
     }
     
     
+    /*quality*/
+    .quality_container {
+        padding-right: 15px;
+    }
+    
+    
     /*w_gallery*/
     .w_gallery_item {
         width: 33.3333%;;
@@ -1432,23 +1616,34 @@
     .standart_menu {
         padding-left: 0;
     }
-    .standart_menu li:nth-child(1), .standart_menu li:nth-child(2), .standart_menu li:nth-child(3), .standart_menu li:nth-child(4), .standart_menu li:nth-child(5) {
+    .standart_menu li:nth-child(1),
+    .standart_menu li:nth-child(2), 
+    .standart_menu li:nth-child(3),
+    .standart_menu li:nth-child(4),
+    .standart_menu li:nth-child(5) {
         margin-left: 0;
         width: 20%;
-        
         border: 1px solid #e7e7e7;
         border-right: none;
     }
     .standart_menu li:nth-child(5) {
         border-right: 1px solid #e7e7e7;
     }
-    .standart_menu li a, .standart_menu li a:hover, .standart_menu li a:active, .standart_menu li a:visited, .standart_menu li a:focus {
+    .standart_menu li a,
+    .standart_menu li a:hover, 
+    .standart_menu li a:active, 
+    .standart_menu li a:visited, 
+    .standart_menu li a:focus {
         width: 100%;
         background-color: #dae4e8;
         background-image: none;
         
     }
-    .standart_menu > li.active > a, .standart_menu > li.active > a:hover, .standart_menu > li.active > a:active, .standart_menu > li.active > a:visited, .standart_menu > li.active > a:focus {
+    .standart_menu > li.active > a, 
+    .standart_menu > li.active > a:hover,
+    .standart_menu > li.active > a:active, 
+    .standart_menu > li.active > a:visited,
+    .standart_menu > li.active > a:focus {
         width: 100%;
         background-color: #ffffff;
         background-image: none;
@@ -1456,7 +1651,56 @@
     .standart_block_1, .standart_block_2 {
         width: 100%;
     }
-    
+    .standart_block_1, 
+    .standart_block_2, 
+    .standart_block_3 {
+        float: none;
+    }
+    .standart_img,
+    .standart_price,
+    .standart_diagram,
+    .standart_block_3 ul,
+    .standart_img_gallery,
+    .standart2_block_2 ul,
+    .standart2_block_3 .calculation,
+    .standart2_block_3 .calculation:hover, 
+    .standart2_block_3 .calculation:active,
+    .standart2_block_3 .calculation:visited, 
+    .standart2_block_3 .calculation:focus {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .standar_underprice,
+    .standart_title,
+    .standart_tech_title,
+    .shield_wrap,
+    .standart2_subtitle,
+    .gift_img,
+    .gift_text1,
+    .gift_text2,
+    .measurement_left p.f_p,
+    .measurement_left p {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .standart_diagram,
+    .standart_img_gallery {
+        max-width: 320px;
+    }
+    .standart_block_3 ul,
+    .standart2_block_2 ul {
+        max-width: 345px;
+    }
+    .standart2_block_1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .standart2_title {
+        padding-left: 0;
+        text-align: center;
+    }
     
     /*note*/
     .note {
@@ -1479,7 +1723,11 @@
     .standart2_block_1 img {
         max-width: 320px;
     }
-    
+    .gift_img img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     
     /*design*/
@@ -1497,6 +1745,9 @@
     .w_advantages_item p {
         text-align: center;
         text-align-last: center;
+    }
+    .w_advantages_title {
+        font-size: 17px;
     }
 }
 
@@ -1644,8 +1895,15 @@
     
     
     /*windows*/
-    .sertificat_more, .sertificat_item {
-        display: none;
+    .sertificat_item:nth-child(1), 
+    .sertificat_item:nth-child(2),
+    .sertificat_item:nth-child(3), 
+    .sertificat_item:nth-child(4), 
+    .sertificat_more {
+        margin: 0 auto 10px auto;
+        float: none;
+        width: 157px;
+        height: 223px;
     }
     
     .sidebar_question {
@@ -1701,7 +1959,11 @@
     
     /*windows*/
     /*standart*/
-    .standart_menu li a, .standart_menu li a:hover, .standart_menu li a:active, .standart_menu li a:visited, .standart_menu li a:focus {
+    .standart_menu li a,
+    .standart_menu li a:hover, 
+    .standart_menu li a:active,
+    .standart_menu li a:visited, 
+    .standart_menu li a:focus {
         font-size: 12px;
     }
     
