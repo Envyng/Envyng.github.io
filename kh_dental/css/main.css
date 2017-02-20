@@ -2108,21 +2108,21 @@ body {
 }
 .warn:before {
     padding-top: 6px;
-    width: 43px;
+    width: 40px;
     content: '\f071';
     color: #f5d5be;
     font-size: 28px;
 }
 .help:before {
     padding-top: 6px;
-    width: 24px;
+    width: 40px;
     content: '\f129';
     color: #a4cbda;
     font-size: 28px;
 }
 .conclusion:before {
     padding-top: 3px;
-    width: 41px;
+    width: 40px;
     content: "\f064";
     font-size: 28px;
     color: #f3e5c2;
