@@ -3837,11 +3837,16 @@ body {
 .c_gallery_item:focus .img_wrap img {
     width: 100%;
 }
-.c_gallery_item .item_title {
+.c_gallery_menu li .c_gallery_item .item_title,
+.c_gallery_menu li .c_gallery_item:hover .item_title,
+.c_gallery_menu li .c_gallery_item:active .item_title,
+.c_gallery_menu li .c_gallery_item:visited .item_title,
+.c_gallery_menu li .c_gallery_item:focus .item_title {
     margin-bottom: 0;
     font-family: 'PFSquareSansPro-Medium';
     font-size: 15px;
     line-height: 45px;
+    color: #29478d;
     text-align: center;
     text-transform: uppercase;
 }
@@ -3894,7 +3899,7 @@ body {
     color: #ef8008;
 }
 .note5 {
-    margin-bottom: 55px;
+    margin-bottom: 35px;
     max-width: 502px;
     height: 192px;
     background: url(../images/ceiling/c_note_bg.png);
@@ -3916,9 +3921,6 @@ body {
     left: 3px;
     top: -105px;
 }
-.note5 .note_upic img {
-    
-}
 .note5 .note_description {
     margin-bottom: 0;
     padding: 19px 36px 0 0;
@@ -3928,6 +3930,7 @@ body {
     text-align: justify;
 }
 .c_client_wrap {
+    padding-top: 20px;
     max-width: 403px;
     overflow: hidden;
 }
@@ -3935,10 +3938,10 @@ body {
     width: 416px;
 }
 .c_client_wrap .sidebar_block > div {
-    max-width: 320px;
+    max-width: 338px;
 }
 .c_client_wrap .client .sidebar_block_top {
-    padding: 16px 6px 15px 0;
+    padding: 16px 24px 15px 0;
 }
 .c_client_wrap .client_descr {
     padding: 21px 0px 32px 59px;
@@ -3948,7 +3951,7 @@ body {
 .c_client_wrap .client .sidebar_button:active, 
 .c_client_wrap .client .sidebar_button:visited, 
 .c_client_wrap .client .sidebar_button:focus {
-    margin-right: 0;
+    margin-right: 18px;
     margin-left: auto;
 }
 .c_gallery .tab-content .block2 {
@@ -4090,19 +4093,15 @@ body {
 
 
 /*c_modal modal*/
-.c_modal {
-    
-}
 .c_modal .modal-dialog {
     width: 1055px;
-    background-color: #f0f0f0;
     z-index: 10000;
     border-radius: 4px 4px 0 0;
 }
 .c_modal .modal-dialog .modal-content {
     box-shadow: none;
     border: none;
-    
+    background-color: #f0f0f0;
 }
 .c_modal .modal-dialog .modal-content .modal-body {
     padding: 0;
