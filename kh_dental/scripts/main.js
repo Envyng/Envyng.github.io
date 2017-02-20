@@ -10,4 +10,5 @@ $(document).ready(function() {
             $(this).next('.mobile_footer_content').slideToggle();
         })
     }
+
 });
