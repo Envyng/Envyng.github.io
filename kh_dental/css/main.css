@@ -984,8 +984,9 @@ body {
     margin-bottom: 10px;
     width: 20%;
 }
-.footer_column h2 {
+.footer_column .title {
     margin-bottom: 10px;
+    margin-top: 10px;
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
@@ -2302,18 +2303,120 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*specialist_singly*/
+.specialist_singly {
+    
+}
+.specialist_singly_wrap {
+    border: 1px solid #04b2ab;
+}
+.specialist_singly .content {
+    position: relative;
+    padding: 25px 15px 15px 15px;
+    border-top: 1px solid #04b2ab;
+}
+.specialist_singly .controls {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    padding: 0 6px;
+    width: 235px;
+    height: 24px;
+    background-color: #effbfb;
+    text-align-last: justify;
+    text-align: justify;
+}
+.specialist_singly .controls a,
+.specialist_singly .controls a:hover,
+.specialist_singly .controls a:active,
+.specialist_singly .controls a:visited,
+.specialist_singly .controls a:focus {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 24px;
+    color: #04b2ab;
+    text-decoration: underline;
+    text-align-last: left;
+    text-align: left
+}
+.specialist_singly .controls .questionnaire:before {
+    content: '\f183';
+    display: inline-block;
+    margin-right: 5px;
+    font-family: "fontawesome";
+    color: #04b2ab;
+    font-size: 12px;
+    line-height: 24px;
+}
+.specialist_singly .controls .wrong_info:before {
+    content: '\f06a';
+    display: inline-block;
+    margin-right: 5px;
+    font-family: "fontawesome";
+    color: #04b2ab;
+    font-size: 12px;
+    line-height: 24px;
+}
+.specialist_singly .panel-group .panel + .panel {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+.specialist_singly .panel-group .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    border-width: 0 0 3px 0;
+    border-bottom-style: solid;
+    border-color: #9ae1d3;
+}
+.specialist_singly h3 {
+    margin: 0;
+    padding: 0;
+}
+.specialist_singly h3 a,
+.specialist_singly h3 a:hover,
+.specialist_singly h3 a:active,
+.specialist_singly h3 a:visited,
+.specialist_singly h3 a:focus {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.specialist_singly .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+    padding: 10px 0 0 0;
+    border: none;
+}
+.specialist_singly .panel-body p {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 23px;
+}
+.panel_procedures .col-lg-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.panel_procedures h4 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.panel_procedures ul {
+    margin-bottom: 25px;
+    padding-left: 10px;
+    list-style: none;
+}
+.panel_procedures ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    text-indent: -12px;
+}
+.panel_procedures ul li:before {
+    content: '\2014';
+    color: #04b2ab;
+}
 
 
 

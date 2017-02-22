@@ -32,7 +32,7 @@
     }
     
     /*main footer*/
-    .footer_column h2 {
+    .footer_column .title {
         font-size: 17px;
     }
     .footer_phone {
@@ -160,7 +160,7 @@
     }
 
     /*main footer*/
-	.footer_column h2 {
+	.footer_column .title {
         font-size: 13px;
     }
     .footer_column ul li a, 
@@ -364,7 +364,7 @@
         padding-left: 0;
         padding-right: 0;
     }
-    .footer_column h2 {
+    .footer_column .title {
         position: relative;
         margin: 0;
         padding-left: 15px;
@@ -373,7 +373,7 @@
         font-size: 16px;
         border-bottom: 1px solid rgba(255,255,255,.6);
     }
-    .footer_column h2:before {
+    .footer_column .title:before {
         position: absolute;
         top: 0;
         right: 25px;
@@ -383,11 +383,11 @@
         content: '\f107';
         font-family: 'fontawesome';
     }
-    .footer_column h2.active {
+    .footer_column .title.active {
         background-color: #08807a;
         border-bottom: 1px solid #08807a;
     }
-    .footer_column h2.active:before {
+    .footer_column .title.active:before {
         content: '\f106';
     }
     .footer_column {
@@ -448,6 +448,17 @@
     .portfolio_controls {
         font-size: 11px;
     }
+    
+    
+    /*specialist_singly*/
+    .specialist_singly .content {
+        padding-top: 40px;
+    }
+    .specialist_singly .controls {
+        left: 50%;
+        right: auto;
+        margin-left: -116px;
+    }
 }
 
 
@@ -483,6 +494,10 @@
         float: none;
         margin-bottom: 5px;
         text-align: center;
+    }
+    /*specialist_singly*/
+    .panel_procedures .col-xs-6 {
+        width: 100%;
     }
 }
 
