@@ -4465,26 +4465,199 @@ body {
 
 
 
+/*jalousie*/
+.jalousie {
+    color: #0b345d;
+}
+.jalousie .header_rombs {
+    width: 120px;
+    height: 189px;
+}
+.jalousie .top_block {
+    background-image: url(../images/jalousie/j_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
+/*j_standart*/
+.j_standart {
+    margin-bottom: 35px;
+}
+.j_standart .tab-content {
+    padding-bottom: 23px;
+    background-color: #ffffff;
+}
+.j_standart .standart_menu li a, 
+.j_standart .standart_menu li a:hover, 
+.j_standart .standart_menu li a:active, 
+.j_standart .standart_menu li a:visited, 
+.j_standart .standart_menu li a:focus {
+    padding: 11px 0 0 34px;
+    font-size: 16px;
+    line-height: 39px;
+    color: #6c8ca7;
+}
+.j_standart .standart_menu li:first-child a, 
+.j_standart .standart_menu li:first-child a:hover, 
+.j_standart .standart_menu li:first-child a:active, 
+.j_standart .standart_menu li:first-child a:visited, 
+.j_standart .standart_menu li:first-child a:focus {
+    padding: 11px 0 0 26px;
+}
+.j_standart .standart_menu li.active a, 
+.j_standart .standart_menu li.active a:hover, 
+.j_standart .standart_menu li.active a:active, 
+.j_standart .standart_menu li.active a:visited, 
+.j_standart .standart_menu li.active a:focus {
+    color: #0e83d1;
+}
+.j_standart .standart_icon {
+    background-image: url(../images/jalousie/j_sprite.png);
+}
+.standart_icon.horizontal {
+    margin-right: 8px;
+    background-position: 0 0;
+}
+.standart_icon.vertical {
+    margin-right: 10px;
+    background-position: -44px 0;
+}
+.standart_icon.roll {
+    margin-right: 10px;
+    background-position: -88px 0;
+}
+.standart_icon.plisse {
+    margin-right: 10px;
+    background-position: -132px 0;
+}
+.standart_icon.shutters {
+    margin-right: 10px;
+    background-position: -176px 0;
+}
+.j_standart .standart_icon {
+    background-image: url(../images/jalousie/j_sprite.png);
+}
+.standart_menu li.active .standart_icon.horizontal {
+    background-position: 0 -40px;
+}
+.standart_menu li.active .standart_icon.vertical {
+    background-position: -44px -40px;
+}
+.standart_menu li.active .standart_icon.roll {
+    background-position: -88px -40px;
+}
+.standart_menu li.active .standart_icon.plisse {
+    background-position: -132px -40px;
+}
+.standart_menu li.active .standart_icon.shutters {
+    background-position: -176px -40px;
+}
+.j_standart_header .left {
+    float: left;
+    padding: 30px 30px;
+    width: 520px;
+}
+.j_standart_header .large_img {
+    display: block;
+    height: 308px;
+    overflow: hidden;
+}
+.j_standart_header .large_img img {
+    width: 100%;
+}
+.j_standart_header .right {
+    float: right;
+    padding: 28px 22px 0 19px;
+    width: 597px;
+}
+.j_standart_header .right .content_wrap {
+    min-height: 213px;
+}
+.j_standart_header .right h2 {
+    margin-top: 0;
+    margin-bottom: 19px;
+    font-family: 'PFBeauSansPro-Light';
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.j_standart_header .right .description {
+    margin-bottom: 0;
+    font-family: 'PFBeauSansPro-Thin';
+    font-size: 14px;
+    line-height: 17px;
+    text-indent: 21px;
+    text-align: justify;
+}
+.j_standart .buttons {
+    padding: 0 0 0 0;
+}
+.j_standart .buttons .block1 {
+    padding: 20px 0 0 4px;
+}
+.j_standart .buttons .block2 {
+    padding: 0 3px 0 0;
+    text-align: right;
+}
+.j_standart .buttons .block2 > div {
+    text-align: center;
+}
+.j_standart .buttons .block2 .bage_sqr1 {
+    margin-right: 0;
+}
+.j_standart .buttons .block2 .bage_sqr2 {
+    margin-right: 9px;
+}
+.j_standart_footer {
+    padding: 0 0 0 30px;
+    font-size: 0;
+}
+.j_standart_footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.j_standart_footer ul li {
+    display: inline-block;
+    margin-right: 2px;
+    vertical-align: top;
+}
+.j_standart_footer ul li a {
+    display: block;
+    width: 168px;
+    height: 168px;
+    overflow: hidden;
+}
+.j_standart_footer ul li a img {
+    width: 100%;
+}
 
 
+/*questions*/
+.jalousie .questions {
+    background: none;
+}
+.jalousie .questions_left {
+    padding-left: 223px;
+}
+.jalousie .questions_right {
+    padding-left: 54px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*j_sidebar*/
+.j_sidebar {
+    padding: 16px 0 0 0;
+    width: 280px;
+    max-width: 280px;
+}
+.j_sidebar .sidebar_promotions {
+    margin-bottom: 34px;
+    margin-left: auto;
+    padding-left: 10px;
+    width: 215px;
+    background-color: #fff;
+}
+.j_sidebar  .sidebar_articles {
+    margin-bottom: 35px;
+}

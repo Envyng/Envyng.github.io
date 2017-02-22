@@ -113,10 +113,10 @@
                         <div role="tabpanel" class="tab-pane active clearfix" id="cold">
                             <div class="block1">
                                 <a href="" class="b_standart_img_big">
-                                    <img id="largeImg" src="images/balconies/glass/b_standart_01.jpg" alt="design_img">
+                                    <img id="largeImg1" src="images/balconies/glass/b_standart_01.jpg" alt="design_img">
                                 </a>
                                 <div class="b_standart_img_small">
-                                    <ul id="thumbs" class="clearfix">
+                                    <ul id="thumbs1" class="clearfix">
                                         <li>
                                             <a href="images/balconies/glass/1.jpg" title="image_1">
                                                 <img src="images/balconies/glass/1.jpg" alt="image_1">
@@ -1118,61 +1118,47 @@
     
     <script>
         (function() {
-            var largeImg = document.getElementById('largeImg');
+            var largeImg1 = document.getElementById('largeImg1');
             var largeImg2 = document.getElementById('largeImg2');
             var largeImg3 = document.getElementById('largeImg3');
 
-            document.getElementById('thumbs').onclick = function(e) {
-              var target = e.target;
+            document.getElementById('thumbs1').onclick = function(e) {
+                var target = e.target;
 
-              while (target != this) {
-                if (target.nodeName == 'A') {
-                  showThumbnail(target.href, target.title);
-                  return false;
+                while (target != this) {
+                    if (target.nodeName == 'A') {
+                        largeImg1.src = target.href;
+                        largeImg1.alt = target.title;
+                        return false;
+                    }
+                    target = target.parentNode;
                 }
-                target = target.parentNode;
-              }
             }
-            
-            function showThumbnail(href, title) {
-              largeImg.src = href;
-              largeImg.alt = title;
-            }
-            
             
             document.getElementById('thumbs2').onclick = function(e) {
-              var target = e.target;
+                var target = e.target;
 
-              while (target != this) {
-                if (target.nodeName == 'A') {
-                  showThumbnail2(target.href, target.title);
-                  return false;
+                while (target != this) {
+                    if (target.nodeName == 'A') {
+                        largeImg2.src = target.href;
+                        largeImg2.alt = target.title;
+                        return false;
+                    }
+                    target = target.parentNode;
                 }
-                target = target.parentNode;
-              }
             }
-            
-            function showThumbnail2(href, title) {
-              largeImg2.src = href;
-              largeImg2.alt = title;
-            }
-            
             
             document.getElementById('thumbs3').onclick = function(e) {
-              var target = e.target;
+                var target = e.target;
 
-              while (target != this) {
-                if (target.nodeName == 'A') {
-                  showThumbnail3(target.href, target.title);
-                  return false;
+                while (target != this) {
+                    if (target.nodeName == 'A') {
+                        largeImg3.src = target.href;
+                        largeImg3.alt = target.title;
+                        return false;
+                    }
+                    target = target.parentNode;
                 }
-                target = target.parentNode;
-              }
-            }
-
-            function showThumbnail3(href, title) {
-              largeImg3.src = href;
-              largeImg3.alt = title;
             }
         })();
         
