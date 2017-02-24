@@ -45,34 +45,67 @@ body {
     padding: 0 20px 15px 0;
     vertical-align: top;
 }
-.header_partners {
-    position: relative;
-    display: inline-block;
-    margin-right: 22px;
-    padding: 10px 12px;
-    border: 1px solid #b3e0dd;
-    vertical-align: top;
+.main_logo img {
+    width: 100%;
 }
-.partners_title {
-    position: absolute;
-    top: -9px;
-    left: 9px;
-    padding: 0 5px 0 3px;
-    color: #a3d4d0;
-    font-size: 12px;
-    background-color: #ffffff;
-    z-index: 1;
+.main_header .middle_block ul {
+    margin: 0 0 15px 0;
+    padding: 0 0 0 15px;
+    list-style: none;
 }
-.login_register,
-.login_register:hover,
-.login_register:active,
-.login_register:visited,
-.login_register:focus {
-    display: inline-block;
+.main_header .middle_block ul li {
+    margin-bottom: 3px;
+    font-size: 14px;
+    line-height: 14px;
+    text-indent: -15px;
+}
+.main_header .middle_block ul li:before {
+    content: '\2014';
     color: #04b2ab;
-    font-size: 16px;
+}
+.main_header .middle_block .controls {
+    text-align: right;
+}
+.main_header .middle_block .controls a {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #04b2ab;
     text-decoration: underline;
-    vertical-align: top;
+}
+.main_header .middle_block .controls .request:before {
+    content: '\f274';
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 17px;
+    color: #04b2ab;
+    font-family: "fontawesome";
+} 
+.main_header .middle_block .controls .call:before {
+    content: '\f098';
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 17px;
+    color: #04b2ab;
+    font-family: "fontawesome";
+} 
+.main_header .right_block .title {
+    margin-bottom: 0;
+    padding-left: 15px;
+    font-size: 12px;
+    line-height: 12px;
+}
+.main_header .right_block .title span {
+    color: #ca101e;
+}
+.header_phone {
+    margin-bottom: 0;
+    font-size: 22px;
+    line-height: 22px;
+}
+.header_phone span {
+    font-weight: 700;
 }
 
 
@@ -1468,7 +1501,8 @@ body {
 .specialist_head {
     padding: 15px 0;
 }
-.specialist .specialist_upic {
+.specialist .specialist_upic,
+.specialist_singly .specialist_upic {
     float: left;
     padding: 0 15px 0 0;
     width: 150px;
@@ -1590,7 +1624,7 @@ body {
     line-height: 24px;
 }
 .specialist_footer_right {
-    
+    float: right;
 }
 .specialist_footer_right a,
 .specialist_footer_right a:hover,
@@ -2304,8 +2338,60 @@ body {
 
 
 /*specialist_singly*/
-.specialist_singly {
+.specialist_phone {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.specialist_phone_all,
+.specialist_phone_all:hover,
+.specialist_phone_all:active,
+.specialist_phone_all:visited,
+.specialist_phone_all:focus {
+    display: block;
+    margin-top: -2px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8c8c8c;
+    text-decoration: none;
+}
+.specialist_controls {
     
+}
+.specialist_controls p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.specialist_controls p a {
+    color: #04b2ab;
+    text-decoration: underline;
+}
+.specialist_singly .specialist_footer_left {
+    line-height: 12px;
+}
+.specialist_singly .specialist_footer_left a, 
+.specialist_singly .specialist_footer_left a:hover, 
+.specialist_singly .specialist_footer_left a:active, 
+.specialist_singly .specialist_footer_left a:visited,
+.specialist_singly .specialist_footer_left a:focus {
+    font-size: 12px;
+    line-height: 12px;
+}
+.specialist_singly .specialist_footer_left span {
+    font-size: 11px;
+    line-height: 12px;
+    color: #8c8c8c;
+}
+.specialist_footer_item .cost {
+    float: left;
+    padding-left: 10px;
+    padding-right: 14px;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: #d9f3f0;
 }
 .specialist_singly_wrap {
     border: 1px solid #04b2ab;

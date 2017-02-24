@@ -78,17 +78,21 @@
 
     /*header*/
     .main_logo {
-        width: 280px;
-    }
-    .main_logo img {
         width: 100%;
+        padding: 0;
     }
-    .header_partners {
-        width: 360px;
+    .main_header .middle_block .controls a {
+        font-size: 12px;
     }
-    .header_partners img {
-        width: 49%;
+    .main_header .right_block .title {
+        padding-left: 5px;
+        font-size: 9px;
     }
+    .header_phone {
+        font-size: 17px;
+    }
+    
+
     
     /*main_menu*/
     .main_menu ul {
@@ -248,6 +252,19 @@
         width: 300px;
         margin: 0 0 10px 10px;
     }
+    
+    
+    /*specialist_singly*/
+    .specialist_singly .specialist_footer_left {
+        margin-bottom: 5px;
+        float: none;
+        width: 100%;
+        line-height: 0;
+    }
+    .specialist_footer_right {
+        float: none;
+        width: 100%;
+    }
 }
 
 
@@ -268,16 +285,12 @@
         padding: 0;
         width: 280px;
     }
-    .login_register, 
-    .login_register:hover, 
-    .login_register:active, 
-    .login_register:visited, 
-    .login_register:focus {
-        position: absolute;
-        bottom: -45px;
-        right: 15px;
-        color: #ffffff;
-        z-index: 1;
+    .main_header .middle_block .controls {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .main_header .middle_block ul {
+        text-align: left;
     }
     
     /*main_menu*/
@@ -541,6 +554,27 @@
     .specialist_footer_right a:visited, 
     .specialist_footer_right a:focus {
         float: none;   
+    }
+    
+    /*specialist_singly*/
+    .specialist_singly .specialist_footer_item {
+        text-align: center;
+    } 
+    .specialist_footer_item .cost {
+        float: none;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .specialist_singly .specialist_footer_left, 
+    .specialist_singly .specialist_footer_right a,
+    .specialist_singly .specialist_footer_right a:hover, 
+    .specialist_singly .specialist_footer_right a:active,
+    .specialist_singly .specialist_footer_right a:visited, 
+    .specialist_singly .specialist_footer_right a:focus {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
