@@ -515,18 +515,23 @@
 }
 
 
-@media (max-width: 460px) {
-    .news_row {
-        margin-bottom: 20px;
+@media (max-width: 485px) {
+    .main_page_row > div {
         width: 100%;
+    }
+    .small_article {
+        margin-bottom: 15px;
+    }
+    .small_article_description {
+        margin-top: 0;
     }
     .small_article_img {
         display: none;
-    }   
-    .small_article_description {
-        margin-bottom: 0;
     }
-    
+}
+
+
+@media (max-width: 460px) {
     
     /*article*/
     .article .small_article_img {
