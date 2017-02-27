@@ -4111,6 +4111,7 @@ body {
 
 /*questions*/
 .ceiling .questions {
+    margin-bottom: 25px;
     height: 148px;
 }
 
