@@ -4058,6 +4058,13 @@ body {
 .c_gallery_block .item_controls .right .button:hover {
     background-color: #fff;
 }
+.c_gallery .tab-content .block2 .title {
+    font-size: 28px;
+    line-height: 28px;
+}
+.c_gallery .tab-content .block2 p {
+    text-indent: 15px;
+}
 
 
 /*c_quality*/

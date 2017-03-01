@@ -11,6 +11,12 @@
     }
 }
 
+@media (max-width: 1698px) {
+    .x_large {
+        display: none;
+    }
+}
+
 @media (max-width: 1399px) {
     
     /*windows*/
