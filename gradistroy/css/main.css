@@ -4062,7 +4062,7 @@ body {
     font-size: 28px;
     line-height: 28px;
 }
-.c_gallery .tab-content .block2 p {
+.c_gallery .tab-content .block2 > p {
     text-indent: 15px;
 }
 
