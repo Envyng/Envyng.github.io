@@ -110,14 +110,14 @@
                         <li>
                             <a href="#plisse" class="plisse_a" role="tab" data-toggle="tab">
                                <span class="standart_icon hidden-xs hidden-sm plisse"></span>
-                               <span class="content">плиссе</span>
+                               <span class="content">День-Ночь</span>
                                 
                             </a>
                         </li>
                         <li>
                             <a href="#shutters" class="shutters_a" role="tab" data-toggle="tab">
                                 <span class="standart_icon hidden-xs hidden-sm shutters"></span>
-                                <span class="content">ролставни</span>
+                                <span class="content">рольставни</span>
                             </a>
                         </li>
                     </ul>
@@ -126,7 +126,7 @@
                         <div role="tabpanel" class="tab-pane active clearfix" id="horizontal">
                             <div class="j_standart_header clearfix">
                                 <div class="left">
-                                    <a href="" class="large_img">
+                                    <a id="largeImgWrap1" href="images/jalousie/foto/7.jpg" class="large_img fancyimage" data-fancybox-group="horizontal" rel="fancybox">
                                         <img id="largeImg1" src="images/jalousie/foto/7.jpg" alt="design_img">
                                     </a>
                                 </div>
@@ -171,32 +171,32 @@
                             <div class="j_standart_footer">
                                 <ul id="thumbs1" class="clearfix">
                                     <li>
-                                        <a href="images/jalousie/foto/1.jpg" title="image_1">
+                                        <a href="images/jalousie/foto/1.jpg" title="image_1" data-fancybox-group="horizontal">
                                             <img src="images/jalousie/foto/1.jpg" alt="image_1">
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="images/jalousie/foto/2.jpg" title="image_2">
+                                        <a href="images/jalousie/foto/2.jpg" title="image_2" data-fancybox-group="horizontal">
                                             <img src="images/jalousie/foto/2.jpg" alt="image_2">
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="images/jalousie/foto/3.jpg" title="image_3">
+                                        <a href="images/jalousie/foto/3.jpg" title="image_3" data-fancybox-group="horizontal">
                                             <img src="images/jalousie/foto/3.jpg" alt="image_3">
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="images/jalousie/foto/4.jpg" title="image_4">
+                                        <a href="images/jalousie/foto/4.jpg" title="image_4" data-fancybox-group="horizontal">
                                             <img src="images/jalousie/foto/4.jpg" alt="image_4">
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="images/jalousie/foto/5.jpg" title="image_5">
+                                        <a href="images/jalousie/foto/5.jpg" title="image_5" data-fancybox-group="horizontal">
                                             <img src="images/jalousie/foto/5.jpg" alt="image_5">
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="images/jalousie/foto/6.jpg" title="image_6">
+                                        <a href="images/jalousie/foto/6.jpg" title="image_6" data-fancybox-group="horizontal">
                                             <img src="images/jalousie/foto/6.jpg" alt="image_6">
                                         </a>
                                     </li>
@@ -208,7 +208,7 @@
                         <div role="tabpanel" class="tab-pane clearfix" id="vertical">
                             <div class="j_standart_header clearfix">
                                 <div class="left">
-                                    <a href="" class="large_img">
+                                    <a id="largeImgWrap2" href="images/jalousie/foto/7.jpg" class="large_img">
                                         <img id="largeImg2" src="images/jalousie/foto/7.jpg" alt="design_img">
                                     </a>
                                 </div>
@@ -290,7 +290,7 @@
                         <div role="tabpanel" class="tab-pane clearfix" id="roll">
                             <div class="j_standart_header clearfix">
                                 <div class="left">
-                                    <a href="" class="large_img">
+                                    <a id="largeImgWrap3" href="images/jalousie/foto/7.jpg" class="large_img">
                                         <img id="largeImg3" src="images/jalousie/foto/7.jpg" alt="design_img">
                                     </a>
                                 </div>
@@ -372,7 +372,7 @@
                         <div role="tabpanel" class="tab-pane clearfix" id="plisse">
                             <div class="j_standart_header clearfix">
                                 <div class="left">
-                                    <a href="" class="large_img">
+                                    <a id="largeImgWrap4" href="images/jalousie/foto/7.jpg" class="large_img">
                                         <img id="largeImg4" src="images/jalousie/foto/7.jpg" alt="design_img">
                                     </a>
                                 </div>
@@ -454,7 +454,7 @@
                         <div role="tabpanel" class="tab-pane clearfix" id="shutters">
                             <div class="j_standart_header clearfix">
                                 <div class="left">
-                                    <a href="" class="large_img">
+                                    <a id="largeImgWrap5" href="images/jalousie/foto/7.jpg" class="large_img">
                                         <img id="largeImg5" src="images/jalousie/foto/7.jpg" alt="design_img">
                                     </a>
                                 </div>
@@ -721,6 +721,12 @@
             var largeImg4 = document.getElementById('largeImg4');
             var largeImg5 = document.getElementById('largeImg5');
 
+            var largeImgWrap1 = document.getElementById('largeImgWrap1');
+            var largeImgWrap2 = document.getElementById('largeImgWrap2');
+            var largeImgWrap3 = document.getElementById('largeImgWrap3');
+            var largeImgWrap4 = document.getElementById('largeImgWrap4');
+            var largeImgWrap5 = document.getElementById('largeImgWrap5');
+            
             document.getElementById('thumbs1').onclick = function(e) {
                 var target = e.target;
 
@@ -728,6 +734,7 @@
                     if (target.nodeName == 'A') {
                         largeImg1.src = target.href;
                         largeImg1.alt = target.title;
+                        largeImgWrap1.href = target.href;
                         return false;
                     }
                     target = target.parentNode;
@@ -741,6 +748,7 @@
                     if (target.nodeName == 'A') {
                         largeImg2.src = target.href;
                         largeImg2.alt = target.title;
+                        largeImgWrap2.href = target.href;
                         return false;
                     }
                     target = target.parentNode;
@@ -754,6 +762,7 @@
                     if (target.nodeName == 'A') {
                         largeImg3.src = target.href;
                         largeImg3.alt = target.title;
+                        largeImgWrap3.href = target.href;
                         return false;
                     }
                     target = target.parentNode;
@@ -767,6 +776,7 @@
                     if (target.nodeName == 'A') {
                         largeImg4.src = target.href;
                         largeImg4.alt = target.title;
+                        largeImgWrap4.href = target.href;
                         return false;
                     }
                     target = target.parentNode;
@@ -780,6 +790,7 @@
                     if (target.nodeName == 'A') {
                         largeImg5.src = target.href;
                         largeImg5.alt = target.title;
+                        largeImgWrap5.href = target.href;
                         return false;
                     }
                     target = target.parentNode;

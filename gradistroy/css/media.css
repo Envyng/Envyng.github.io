@@ -17,6 +17,39 @@
     }
 }
 
+@media (min-width: 1600px) {
+    
+    /*balconies*/
+    .balconies_interior .content {
+        width: 585px;
+    }
+}
+
+@media (min-width: 1400px) {
+    /*windows*/
+    .cottage {
+            background: url(../images/windows/cotage_bg.png) top left no-repeat;
+    }
+    .cotage_block {
+        background-color: rgba(248,248,248,1);
+    }
+    
+    
+    /*ceiling*/
+    .ceiling .c_gallery_menu {
+        width: 100%;
+        text-align: justify;
+        text-align-last: justify;
+    }
+    .ceiling .c_gallery_menu > li {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        text-align: center;
+        text-align-last: center;
+    }
+}
+
 @media (max-width: 1399px) {
     
     /*windows*/
@@ -158,9 +191,12 @@
     /*.accessories*/
     .accessories {
         height: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
     }
     .accessories img {
-        width: 100%;
+        max-width: 100%;
     }
     
     
@@ -372,6 +408,9 @@
     
     /*celing*/
     /*c_gallery*/
+    .c_gallery_menu li {
+        margin-right: 5px;
+    }
     .c_gallery_menu li .c_gallery_item, 
     .c_gallery_menu li .c_gallery_item:hover,
     .c_gallery_menu li .c_gallery_item:active,

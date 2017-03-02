@@ -2358,10 +2358,26 @@ body {
 
 /*accessories*/
 .accessories {
-    text-align: right;
+    padding-top: 33px;
+    text-align: center;
     position: relative;
     height: 694px;
-    /*background: url(../images/windows/accessories_bg.png) repeat-x;*/
+    background: url(../images/windows/accessories_bg.png) no-repeat;
+    background-size: cover;
+}
+.accessories .title {
+    margin-bottom: 0;
+    font-size: 42px;
+    line-height: 42px;
+    font-family: 'PFBeauSansPro-SemiBold';
+    text-align: center;
+    text-transform: uppercase;
+}
+.accessories .subtitle {
+    margin-bottom: 29px;
+    font-family: 'PFBeauSansPro-Regular';
+    font-size: 28px;
+    text-align: center;
 }
 
 
@@ -2643,8 +2659,8 @@ body {
 /*quality*/
 .quality_container {
     margin: 0 auto;
-    padding: 27px 0 0 4px;
-    max-width: 930px;
+    padding: 27px 30px 0 30px;
+    /*max-width: 930px;*/
 }
 .quality_title {
     margin-bottom: 2px;
@@ -3405,6 +3421,7 @@ body {
     font-family: 'PFBeauSansPro-SemiBold';
     font-size: 36px;
     line-height: 36px;
+    color: #ffffff;
     text-transform: uppercase;
     text-align: center;
 }
@@ -3413,6 +3430,7 @@ body {
     font-family: 'PFBeauSansPro-Light';
     font-size: 30px;
     line-height: 30px;
+    color: #ffffff;
     text-transform: uppercase;
     text-align: center;
 }
@@ -3630,8 +3648,8 @@ body {
 .note4 {
     padding: 25px 28px 0 15px;
     height: 169px;
-    text-align: right;
-    background: url(../images/note4_bg.png) top right no-repeat;
+    text-align: center;
+    background: url(../images/note4_bg.png) top center no-repeat;
     box-shadow: none;
 }
 .note4 .block1 {
@@ -3819,7 +3837,7 @@ body {
 }
 .c_gallery_menu li {
     margin-bottom: 0;
-    margin-right: 5px;
+    margin-right: 0;
 }
 .c_gallery_menu li:last-child {
     margin-right: 0;
@@ -4072,8 +4090,9 @@ body {
     margin-bottom: 22px;
 }
 .c_quality_container {
-    padding: 0 0 0 0;
-    max-width: 1035px;
+    padding: 0 30px;
+    /*max-width: 1035px;*/
+    max-width: 100%;
 }
 .c_quality_container .quality_subtitle {
     margin-bottom: 16px;

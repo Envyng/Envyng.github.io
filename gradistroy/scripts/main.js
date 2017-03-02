@@ -10,5 +10,5 @@ $(document).ready(function() {
     $('.burger').on('click', function() {
         $('.header_right').slideToggle();
     })
-    
+
 });
