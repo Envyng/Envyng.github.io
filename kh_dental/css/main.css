@@ -1374,6 +1374,7 @@ body {
 .specialist_questions {
     float: right;
     width: 160px;
+    text-align: center;
 }
 .specialist_reception,
 .specialist_reception:hover,
@@ -1403,6 +1404,15 @@ body {
     text-decoration: none;
     background-color: #eefaf9;
     border: 1px solid #b7e8e6;
+}
+.number_of_persons,
+.number_of_persons:hover,
+.number_of_persons:active,
+.number_of_persons:visited,
+.number_of_persons:focus {
+    font-size: 10px;
+    color: #b3b3b3;
+    text-decoration: underline;
 }
 
 
@@ -2335,6 +2345,9 @@ body {
 
 
 /*specialist_singly*/
+.specialist_singly {
+    margin-bottom: 25px;
+}
 .specialist_phone {
     margin-bottom: 0;
     font-size: 20px;
@@ -2354,9 +2367,6 @@ body {
     line-height: 12px;
     color: #8c8c8c;
     text-decoration: none;
-}
-.specialist_controls {
-    
 }
 .specialist_controls p {
     margin-bottom: 0;
@@ -2440,19 +2450,21 @@ body {
     font-size: 12px;
     line-height: 24px;
 }
-.specialist_singly .panel-group .panel + .panel {
+.panel-group .panel + .panel {
     margin: 0;
     border: none;
     border-radius: 0;
 }
-.specialist_singly .panel-group .panel-heading {
+.panel-group .panel-heading {
     padding: 0;
     border-radius: 0;
     border-width: 0 0 3px 0;
     border-bottom-style: solid;
     border-color: #9ae1d3;
 }
-.specialist_singly h3 {
+.specialist_singly h,
+.clinic h3 {
+    float: left;
     margin: 0;
     padding: 0;
 }
@@ -2460,17 +2472,22 @@ body {
 .specialist_singly h3 a:hover,
 .specialist_singly h3 a:active,
 .specialist_singly h3 a:visited,
-.specialist_singly h3 a:focus {
+.specialist_singly h3 a:focus,
+.clinic h3 a,
+.clinic h3 a:hover,
+.clinic h3 a:active,
+.clinic h3 a:visited,
+.clinic h3 a:focus {
     font-size: 20px;
     line-height: 32px;
     font-weight: 700;
     text-decoration: none;
 }
-.specialist_singly .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
     padding: 10px 0 0 0;
     border: none;
 }
-.specialist_singly .panel-body p {
+.panel_about p {
     margin-bottom: 25px;
     font-size: 16px;
     line-height: 23px;
@@ -2500,6 +2517,564 @@ body {
     content: '\2014';
     color: #04b2ab;
 }
+
+
+/*clinic*/
+.clinic {
+    position: relative;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #04b2ab;
+}
+.clinic_year {
+    position: absolute;
+    top: -8px;
+    right: 20px;
+    display: block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 3px 0 4px;
+    font-size: 11px;
+    line-height: 10px;
+    color: #6acac6;
+    font-family: tahoma;
+    background-color: #fff;
+}
+.clinic_head {
+    margin-bottom: 15px;
+}
+.clinic_head .block1 {
+    float: left;
+    width: 120px;
+}
+.clinic_logo {
+    width: 120px;
+    height: 120px;
+    border: 5px solid #e5f3f3;
+    overflow: hidden;
+}
+.clinic_logo img {
+    width: 100%;
+}
+.clinic_head .block2 {
+    float: right;
+    padding-left: 15px;
+    width: 608px;
+}
+.clinic_head h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    text-transform: none;
+}
+.clinic_head .block2 p {
+    margin-bottom: 14px;
+}
+.clinic_head .block2 .data .days {
+    position: relative;
+    float: left;
+    padding-left: 25px;
+    width: 172px;
+}
+.clinic_head .block2 .data .days:before {
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: -1px;
+    content: '\f017';
+    width: 20px;
+    height: 21px;
+    font-size: 21px;
+    color: #04b2ab;
+    font-family: 'fontawesome';
+}
+.clinic_head .block2 table {
+    line-height: 18px;
+}
+.clinic_head .block2 table td:first-child {
+    width: 50px;
+    color: #04b2ab;
+}
+.clinic_head .phone_wrap {
+    position: relative;
+    float: left;
+    width: 235px;
+    padding-left: 34px;
+    padding-top: 5px;
+}
+.clinic_head .phone_wrap .phone {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    border-bottom: 1px dotted #8c8c8c;
+}
+.clinic_head .phone_wrap .phone_all {
+    margin-bottom: 0;
+    font-size: 10px;
+    line-height: 20px;
+    color: #8c8c8c;
+}
+.clinic_head .links {
+    float: left;
+    width: 150px;
+}
+.clinic_reception,
+.clinic_reception:hover,
+.clinic_reception:active,
+.clinic_reception:visited,
+.clinic_reception:focus {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #15b4ae;
+    text-decoration: none;
+}
+.clinic_head .callback,
+.clinic_head .callback:hover,
+.clinic_head .callback:active,
+.clinic_head .callback:visited,
+.clinic_head .callback:focus {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    border-bottom: 2px solid #d4d4d4;
+    text-decoration: none;
+}
+.clinic .license {
+    margin-bottom: 15px;
+    background-color: #f6fbf9;
+    border: 1px solid #c5e7e6;
+}
+.clinic .license .top {
+    padding: 10px 0;
+}
+.clinic .license .img_wrap {
+    float: left;
+    width: 85px;
+    text-align: center;
+}
+.clinic .license .right {
+    float: left;
+}
+.clinic .license_title {
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+.clinic .license_type table {
+    font-size: 12px;
+    line-height: 18px;
+    color: #04b2ab;
+}
+.clinic .license_type table .red {
+    color: #f00554;
+}
+.clinic .license_type table td:nth-child(odd) {
+    width: 195px;
+}
+.clinic .license_type table td:nth-child(2) {
+    width: 120px;
+}
+.clinic .license_type table a,
+.clinic .license_type table a:active,
+.clinic .license_type table a:visited,
+.clinic .license_type table a:hover,
+.clinic .license_type table a:focus {
+    color: #04b2ab;
+    text-decoration: underline;
+}
+.clinic .license_type table .gray a,
+.clinic .license_type table .gray a:hover,
+.clinic .license_type table .gray a:active,
+.clinic .license_type table .gray a:visited,
+.clinic .license_type table .gray a:focus {
+    color: #595f5f;
+}
+.clinic .license .bottom {
+    position: relative;
+    padding: 10px 30px 10px 40px;
+    font-size: 13px;
+    line-height: 14px;
+    background-color: #ebf4f3;
+}
+.clinic .license .bottom:before {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-family: "fontawesome";
+    content: '\f071';
+    color: #e50047;
+    font-size: 17px;
+}
+.clinic .license .bottom p {
+    margin-bottom: 0;
+}
+.clinic .license .bottom .violation,
+.clinic .license .bottom .violation:hover,
+.clinic .license .bottom .violation:active,
+.clinic .license .bottom .violation:visited,
+.clinic .license .bottom .violation:focus {
+    color: #04b2ab;
+    text-decoration: underline;
+}
+.clinic .gallery {
+    margin-bottom: 15px;
+}
+.clinic .gallery .row {
+    margin-right: -3px;
+    margin-left: -3px;
+}
+.clinic .gallery .item {
+    margin-bottom: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+    overflow: hidden;
+}
+.clinic .gallery .item_big {
+    height: 210px;
+}
+.clinic .gallery .item_small {
+    height: 103px;
+}
+.clinic .gallery .item img {
+    width: 100%;
+}
+.clinic .answer_specialist {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #8c8c8c;
+}
+.clinic .more,
+.clinic .more:hover,
+.clinic .more:active,
+.clinic .more:visited,
+.clinic .more:focus {
+    display: block;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 157px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #04b2ab;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #ffffff;
+    border: 1px solid #ceebe6;
+}
+.clinic .info {
+    float: right;
+    line-height: 32px;
+}
+.clinic .reviews_wrap {
+    padding: 18px 13px 20px;
+    background-color: #f4f4f4;
+}
+.clinic .reviews_wrap .head .top {
+    border-bottom: 1px solid #e4e4e4;
+}
+.clinic .reviews_wrap .head .top .left {
+    float: left;
+}
+.clinic .reviews_wrap .head {
+    margin-bottom: 13px;
+    padding: 5px 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+.clinic .reviews_wrap .head .name {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 700;
+    vertical-align: top;
+}
+.clinic .reviews_wrap .head .date {
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 40px;
+    color: #8c8c8c;
+    vertical-align: top;
+}
+.clinic .reviews_wrap .head .top .right {
+    float: right;
+    padding-top: 5px;
+}
+.clinic .reviews_wrap .recommend {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 11px;
+    line-height: 17px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #04b2ab;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+.clinic .reviews_wrap .recommend.not {
+    background-color: #ed2527;
+}
+.clinic .reviews_wrap .recommend_icon {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 28px;
+    line-height: 20px;
+    color: #04b2ab;
+    vertical-align: middle;
+}
+.clinic .reviews_wrap .recommend_icon.not {
+    color: #ed2527;
+}
+.clinic .reviews_wrap .head .middle {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.clinic .reviews_wrap .head .middle p {
+    margin-bottom: 0;
+}
+.clinic .reviews_wrap .head .bottom {
+    color: #8c8c8c;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+.clinic .reviews_wrap .head .bottom .yes {
+    color: #04b2ab;
+}
+.clinic .reviews_wrap .head .bottom .yes {
+    color: #ed2527;
+}
+.clinic .reviews_wrap .add_comment {
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.clinic .reviews_wrap .reiting .reiting_item {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 145px;
+    
+}
+.clinic .reviews_wrap .reiting .title {
+    margin-bottom: 0;
+    font-size: 11px;
+}
+.clinic .reviews_wrap .reiting .star {
+    width: 91px;
+    height: 22px;
+    background-color: #ffffff;
+    border: 1px solid #e4e4e4;
+}
+.clinic .reviews_wrap .comment_fields .left {
+    float: left;
+    width: 71%;
+}
+.clinic .reviews_wrap .comment_fields textarea {
+    padding: 5px;
+    width: 100%;
+    height: 187px;
+    border: 1px solid #a9a9a9;
+}
+.clinic .reviews_wrap .comment_fields .left .item {
+    display: inline-block;
+    width: 120px;
+    vertical-align: top;
+}
+.clinic .reviews_wrap .comment_fields .left .item label {
+    font-size: 12px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+.clinic .reviews_wrap .comment_fields .right {
+    float: right;
+    width: 27%;
+}
+.clinic .reviews_wrap .comment_fields input[type="text"] {
+    margin-bottom: 8px;
+    padding: 0 6px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #a9a9a9;
+}
+.clinic .reviews_wrap .comment_fields input[type="text"]::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #8c8c8c;
+    opacity: 1;
+}
+.clinic .reviews_wrap .comment_fields input[type="text"]::-moz-placeholder {
+    font-size: 14px;
+    color: #8c8c8c;
+    opacity: 1;
+}
+.clinic .reviews_wrap .comment_fields input[type="text"]:-moz-placeholder {
+    font-size: 14px;
+    color: #8c8c8c;
+    opacity: 1;
+}
+.clinic .reviews_wrap .comment_fields input[type="text"]:-ms-input-placeholder {
+    font-size: 14px;
+    color: #8c8c8c;
+    opacity: 1;
+}
+.clinic .reviews_wrap .comment_fields input[type="text"] input[placeholder] {
+    font-size: 14px;
+    color: #8c8c8c;
+    opacity: 1;
+}
+.clinic .reviews_wrap .comment_fields input[type="submit"] {
+    display: block;
+    float: right;
+    width: 100%;
+    line-height: 31px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #04b2ab;
+    border: none;
+}
+.clinic .panel_price {
+    
+}
+.clinic .panel_price table {
+    margin-bottom: 30px;
+    width: 100%;
+    line-height: 23px;
+}
+.clinic .panel_price table tr {
+    border-bottom: 1px solid #a9a9a9;
+}
+.clinic .panel_price table .strong {
+    font-weight: 700;
+    font-size: 16px;
+}
+.clinic .panel_price table td {
+    position: relative;
+    overflow: hidden;
+}
+.clinic .panel_price table td:last-child {
+    padding-right: 10px;
+    text-align: right;
+    min-width: 130px;
+}
+.clinic .panel_price table span {
+    display: inline-block;
+    padding-right: 3px;
+    z-index: 1;
+    background-color: #fff;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

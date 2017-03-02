@@ -70,6 +70,33 @@
     .portfolio_controls {
         font-size: 11px;
     }
+    
+    
+    /*clinic*/
+    .clinic .license .right {
+        padding-bottom: 10px;
+        overflow: scroll;
+    }
+    .clinic .license_type table {
+        width: 600px;
+    }
+    .clinic_head .block2 {
+        width: 465px;
+    }
+    .clinic_head .links {
+        padding-top: 15px;
+        float: none;
+        clear: both;
+    }
+    .clinic .reviews_wrap .head .name {
+        font-size: 14px;
+    }
+    .clinic .gallery .item_big {
+        height: 171px;
+    }
+    .clinic .gallery .item_small {
+        height: 83px;
+    }
 }
 
 
@@ -264,6 +291,41 @@
     .specialist_footer_right {
         float: none;
         width: 100%;
+    }
+    
+    
+    /*clinic*/
+    .clinic_head .block1,
+    .clinic_head .block2,
+    .clinic .license .img_wrap,
+    .clinic .license .right {
+        float: none;
+    }
+    .clinic_head .block2 {
+        padding-left: 0;
+        width: 100%;
+    }
+    .clinic .license .right  {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        overflow: scroll;
+    }
+    .clinic .gallery .item_big {
+        height: 129px;
+    }
+    .clinic .gallery .item_small {
+        height: 62px;
+    }
+    .clinic .reviews_wrap .head .top .left {
+        width: 250px;
+    }
+    .clinic .reviews_wrap .head .name {
+        display: block;
+        line-height: 20px;
+    }
+    .clinic .reviews_wrap .reiting .reiting_item {
+        width: 32%;
     }
 }
 
@@ -472,6 +534,27 @@
         right: auto;
         margin-left: -116px;
     }
+    
+    
+    /*clinic*/
+    .clinic_head .block1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clinic_head h2,
+    .clinic_head .block2 p {
+        text-align: center;
+    }
+    .clinic .gallery .item_big,
+    .clinic .gallery .item_small {
+        height: auto;
+    }
+    .specialist_singly h, 
+    .clinic h3,
+    .clinic .info {
+        float: none;
+        width: 100%;
+    }
 }
 
 
@@ -548,6 +631,38 @@
         margin-right: 0;
         width: 100%;
     }
+    
+    
+    /*clinic*/
+    .clinic_head .block2 .data .days,
+    .clinic_head .phone_wrap,
+    .clinic .reviews_wrap .comment_fields .left,
+    .clinic .reviews_wrap .comment_fields .right {
+        float: none;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+    .clinic_head .block2 .data .days {
+        padding-left: 30px;
+    }
+    .clinic_head .phone_wrap,
+    .clinic_head .links {
+        text-align: center;
+    }
+    .clinic .gallery .item_small {
+        width: 50%;
+    }
+    .clinic .reviews_wrap .reiting .reiting_item {
+        padding-left: 10px;
+        width: 49%;
+    }
+    .clinic_head .links {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 }
 
 
