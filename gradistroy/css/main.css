@@ -3998,6 +3998,8 @@ body {
 .c_gallery .tab-content .block2 {
     display: table-cell;
     padding: 0 0 0 16px;
+    text-align: justify;
+    text-align-last: justify;
 }
 .c_gallery_block {
     display: inline-block;
@@ -4037,6 +4039,8 @@ body {
     font-family: 'PFSquareSansPro-Medium';
     font-size: 13px;
     text-transform: uppercase;
+    text-align: left;
+    text-align-last: left;
 }
 .c_gallery_block .item_controls .left p:last-child {
     font-size: 15px;
@@ -4066,6 +4070,7 @@ body {
     font-size: 16px;
     color: #0869b7;
     text-align: center;
+    text-align-last: center;
     text-decoration: none;
     
 	-webkit-border-radius: 4px;
