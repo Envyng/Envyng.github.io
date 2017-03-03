@@ -74,11 +74,15 @@
     
     /*clinic*/
     .clinic .license .right {
-        padding-bottom: 10px;
-        overflow: scroll;
+        width: 500px;
     }
     .clinic .license_type table {
-        width: 600px;
+        vertical-align: top;
+    }
+    .clinic .license_type table td {
+        width: 50%;
+        height: 36px;
+        vertical-align: top;
     }
     .clinic_head .block2 {
         width: 465px;
@@ -309,7 +313,15 @@
         padding-left: 15px;
         padding-right: 15px;
         width: 100%;
-        overflow: scroll;
+    }
+    .clinic .license .right table {
+        width: 100%;
+    }
+    .clinic .license .right table td {
+        height: auto;
+    }
+    .clinic .license .right table td:last-child {
+        text-align: right;
     }
     .clinic .gallery .item_big {
         height: 129px;
@@ -570,6 +582,12 @@
         width: 100%;
         padding-left: 0;
         padding-right: 0;
+    }
+    
+    /*clinic*/
+    .clinic .panel_price table td:first-child span:before,
+    .clinic .panel_price table td:last-child span:before {
+        display: none;
     }
 }
 
