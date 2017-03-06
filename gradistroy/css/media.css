@@ -30,17 +30,10 @@
     .cotage_block {
         background-color: rgba(248,248,248,1);
     }
-    .standart2 .tab-pane {
-        text-align: justify;
-        text-align-last: justify;
-    }
     .standart2_block_1,
     .standart2_block_2,
     .standart2_block_3 {
-        float: none;
-        display: inline-block;
-        text-align: left;
-        text-align-last: left;
+        width: 33.3333%;
     }
     
     
