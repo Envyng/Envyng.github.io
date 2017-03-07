@@ -18,6 +18,18 @@
 }
 
 @media (min-width: 1600px) {
+    /*windows*/
+    .standart2_block_1 {
+        padding-left: 165px;
+        width: 530px;
+    }
+    .standart2_block_2 {
+        width: 400px;
+    }
+    .standart2_block_3 {
+        float: right;
+        width: 325px;
+    }
     
     /*balconies*/
     .balconies_interior .content {
@@ -30,11 +42,7 @@
     .cotage_block {
         background-color: rgba(248,248,248,1);
     }
-    .standart2_block_1,
-    .standart2_block_2,
-    .standart2_block_3 {
-        width: 33.3333%;
-    }
+    
     
     
     /*ceiling*/
