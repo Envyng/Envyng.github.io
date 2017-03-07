@@ -20,7 +20,7 @@
 @media (min-width: 1600px) {
     /*windows*/
     .standart2_block_1 {
-        padding-left: 165px;
+        padding-left: 95px;
         width: 530px;
     }
     .standart2_block_2 {
@@ -28,7 +28,7 @@
     }
     .standart2_block_3 {
         float: right;
-        width: 325px;
+        width: 370px;
     }
     
     /*balconies*/
