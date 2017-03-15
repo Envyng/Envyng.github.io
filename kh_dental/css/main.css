@@ -1,20 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic');
 
-@font-face { 
-    font-family: "RobotoLight"; 
-    src: url("../fonts/RobotoLight/RobotoLight.eot"); 
-    src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"), url("../fonts/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
-@font-face { 
-    font-family: "RobotoBold"; 
-    src: url("../fonts/RobotoBold/RobotoBold.eot"); 
-    src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
-}
 
 html {
     -webkit-box-sizing: border-box; 
@@ -70,6 +57,8 @@ body {
 }
 .main_header .middle_block ul li {
     margin-bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     line-height: 14px;
     text-indent: -15px;
@@ -84,6 +73,8 @@ body {
 .main_header .middle_block .controls a {
     display: inline-block;
     margin-left: 15px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #04b2ab;
@@ -116,10 +107,13 @@ body {
 }
 .header_phone {
     margin-bottom: 0;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
     font-size: 22px;
     line-height: 22px;
 }
 .header_phone span {
+    ont-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
 }
 
@@ -1230,13 +1224,21 @@ body {
     color: #6acac6;
     background-color: #ffffff;
 }
-.announcement_price table {
+.announcement_price ul {
+    display: table;
+    margin: 0;
+    padding: 0;
     width: 100%;
+    list-style: none;
 }
-.announcement_price tr {
+.announcement_price li {
+    display: table-row;
+}
+.announcement_price li > div {
+    display: table-cell;
     border-bottom: 1px dotted #e3e3e3;
 }
-.announcement_price td:last-child {
+.announcement_price div:last-child {
     text-align: right;
 }
 .announcement_reviews {
@@ -1381,7 +1383,8 @@ body {
 .questions_ask:visited,
 .questions_ask:focus {
     display: block;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
     font-size: 11px;
     line-height: 11px;
     color: #04b2ab;
@@ -1426,7 +1429,8 @@ body {
 .number_of_persons:active,
 .number_of_persons:visited,
 .number_of_persons:focus {
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 11px;
     color: #b3b3b3;
     text-decoration: underline;
@@ -1540,7 +1544,8 @@ body {
 }
 .specialist_post {
     margin-bottom: 0;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
     font-size: 12px;
 }
 .specialist_name,
@@ -1556,7 +1561,8 @@ body {
 }
 .specialist_experience {
     margin-bottom: 5px;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
     font-size: 12px;
 }
 .specialist_title {
@@ -2508,7 +2514,8 @@ body {
 }
 .panel_about p {
     margin-bottom: 25px;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
     font-size: 16px;
     line-height: 23px;
 }
@@ -2591,7 +2598,8 @@ body {
 }
 .clinic_head .block2 p {
     margin-bottom: 14px;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
 }
 .clinic_head .block2 .data .days {
     position: relative;
@@ -2612,7 +2620,8 @@ body {
     font-family: 'fontawesome';
 }
 .clinic_head .block2 table {
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
     line-height: 18px;
 }
 .clinic_head .block2 table td:first-child {
@@ -2664,7 +2673,8 @@ body {
 .clinic_head .callback:visited,
 .clinic_head .callback:focus {
     display: inline-block;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
     font-size: 12px;
     line-height: 12px;
     color: #000000;
@@ -2690,13 +2700,14 @@ body {
 }
 .clinic .license_title {
     margin-bottom: 3px;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 
     font-size: 18px;
 }
 .clinic .license_title strong {
-    font-family: "RobotoBold";
-    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 .clinic .license_type {
     width: 100%;
@@ -2704,7 +2715,8 @@ body {
 .clinic .license_type table {
     display: inline-table;
     width: 49%;
-    font-family: "RobotoLight";
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
     font-size: 12px;
     line-height: 18px;
     color: #04b2ab;
@@ -2720,7 +2732,8 @@ body {
 .clinic .license_type table a:visited,
 .clinic .license_type table a:hover,
 .clinic .license_type table a:focus {
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: #04b2ab;
     text-decoration: underline;
 }
@@ -2749,11 +2762,12 @@ body {
 }
 .clinic .license .bottom p {
     margin-bottom: 0;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 .clinic .license .bottom p strong {
-    font-family: "RobotoBold";
-    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 .clinic .license .bottom .violation,
 .clinic .license .bottom .violation:hover,
@@ -2797,12 +2811,13 @@ body {
     left: 50%;
     margin-top: -21px;
     margin-left: -63px;
-	width: 126px;
+	width: 100%;
+	max-width: 126px;
 	height: 42px;
     line-height: 40px;
     
-    font-family: "RobotoBold";
-    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 18px;
     color: #ffffff;
     text-align: center;
@@ -2823,7 +2838,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 157px;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     line-height: 26px;
     color: #04b2ab;
@@ -2834,7 +2850,8 @@ body {
 }
 .clinic .info {
     float: right;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     line-height: 32px;
 }
 .clinic .reviews_wrap {
@@ -2850,7 +2867,8 @@ body {
 .clinic .reviews_wrap .head {
     margin-bottom: 13px;
     padding: 5px 20px;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     background-color: #ffffff;
     border: 1px solid #dddddd;
 }
@@ -2859,8 +2877,8 @@ body {
     margin-bottom: 0;
     font-size: 16px;
     line-height: 40px;
-    font-family: "RobotoBold";
-    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     vertical-align: top;
 }
 .clinic .reviews_wrap .head .date {
@@ -2927,7 +2945,8 @@ body {
     display: inline-block;
     margin-bottom: 20px;
     width: 145px;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 .clinic .reviews_wrap .reiting .title {
     margin-bottom: 0;
@@ -3012,7 +3031,8 @@ body {
 .clinic .panel_price table {
     margin-bottom: 30px;
     width: 100%;
-    font-family: "RobotoLight"; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     line-height: 23px;
     vertical-align: bottom;
 }
@@ -3020,8 +3040,8 @@ body {
     border-bottom: 1px solid #a9a9a9;
 }
 .clinic .panel_price table .strong {
-    font-family: "RobotoBold";
-    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 16px;
 }
 .clinic .panel_price table td {
@@ -3059,4 +3079,122 @@ body {
     right: 100%;
     width: 1000px;
     border-top: 1px dotted #8c8c8c;
+}
+.aaa {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.bbb {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+/*portfolio_page*/
+.portfolio_page {
+    margin-bottom: 20px;
+}
+.portfolio_page h2 {
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: none;
+}
+.portfolio_page .big_item {
+    margin-bottom: 15px;
+}
+.portfolio_page .big_item img {
+    width: 100%;
+}
+.portfolio_page .big_item p {
+    margin-bottom: 0;
+    padding: 15px;
+    min-height: 115px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #020a21;
+    font-weight: 300;
+}
+.portfolio_page .big_item.before p {
+    background-color: #f9f9f9;
+}
+.portfolio_page .big_item.after p {
+    background-color: #e5f3f3;
+}
+.portfolio_page .description {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f6fbf9;
+}
+.portfolio_page .description p {
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #020a21;
+}
+.portfolio_page .description p .bold {
+    font-weight: 700;
+}
+.portfolio_page .description p a,
+.portfolio_page .description p a:hover,
+.portfolio_page .description p a:active,
+.portfolio_page .description p a:visited,
+.portfolio_page .description p a:focus {
+    color: #020a21;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.portfolio_page .answer_specialist {
+    border-top: 4px solid #15b4ae;
+    border-bottom: 4px solid #15b4ae;
+}
+.portfolio_page .process h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.portfolio_page .small_item .content_wrap {
+    padding: 10px;
+    background-color: #e5f3f3;
+}
+.portfolio_page .small_item img {
+    width: 100%;
+}
+.portfolio_page .small_item .text {
+    padding: 5px 5px 0 5px;
+    height: 58px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+    overflow: hidden;
+}
+.portfolio_page .small_item .bage_wrap {
+    text-align: right;
+    height: 36px;
+}
+.portfolio_page .small_item  .bage {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    background-color: #15b4ae;
+    border-radius: 50%;
 }

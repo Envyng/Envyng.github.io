@@ -339,6 +339,16 @@
     .clinic .reviews_wrap .reiting .reiting_item {
         width: 32%;
     }
+    
+    
+    /*portfolio_page*/
+    .portfolio_page .big_item p {
+        min-height: 150px;
+    }
+    .portfolio_page .small_item .text {
+        height: 90px;
+        font-size: 12px;
+    }
 }
 
 
@@ -567,6 +577,13 @@
         float: none;
         width: 100%;
     }
+    
+    
+    /*portfolio_page*/
+    .portfolio_page .small_item .text {
+        height: 58px;
+        font-size: 12px;
+    }
 }
 
 
@@ -588,6 +605,12 @@
     .clinic .panel_price table td:first-child span:before,
     .clinic .panel_price table td:last-child span:before {
         display: none;
+    }
+    
+    /*portfolio_page*/
+    .portfolio_page .small_item .text {
+        height: 90px;
+        font-size: 12px;
     }
 }
 
@@ -628,6 +651,18 @@
     }
     .small_article_img {
         display: none;
+    }
+    
+    
+    /*portfolio_page*/
+    .portfolio_page .big_item,
+    .portfolio_page .small_item {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .portfolio_page .small_item .text {
+        height: auto;
+        font-size: 14px;
     }
 }
 
@@ -714,6 +749,20 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
+    
+    .specialist_reception, 
+    .specialist_reception:hover,
+    .specialist_reception:active,
+    .specialist_reception:visited,
+    .specialist_reception:focus, 
+    .specialist_ask, 
+    .specialist_ask:hover,
+    .specialist_ask:active,
+    .specialist_ask:visited,
+    .specialist_ask:focus {
+        margin-right: 0;
+    }
 }
 
 
@@ -749,5 +798,14 @@
     }
     .offers_price{
         margin-top: 5px;
+    }
+    
+    .clinic .gallery .item_small a, 
+    .clinic .gallery .item_small a:hover,
+    .clinic .gallery .item_small a:active, 
+    .clinic .gallery .item_small a:visited, 
+    .clinic .gallery .item_small a:focus {
+        margin-left: -55px;
+        max-width: 110px;
     }
 }
