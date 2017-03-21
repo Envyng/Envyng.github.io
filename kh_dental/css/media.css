@@ -636,6 +636,17 @@
     .panel_procedures .col-xs-6 {
         width: 100%;
     }
+    
+    /*alphabet*/
+    .alfabetical-main-wrapper .alfabetical-wrapper.alfabetical-all {
+        float: none;
+        margin-top: 10px;
+    }
+    .alfabetical-main-wrapper .alfabetical-wrapper.alfabetical-all a {
+        float: none;
+        margin: 0 auto;
+        width: 121px;
+    }
 }
 
 
